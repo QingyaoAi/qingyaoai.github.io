@@ -1,0 +1,713 @@
+- id: b0685010f4c051dd4da8db01ab6aa359
+  title: Marginal-Certainty-aware Fair Ranking Algorithm
+  authors:
+  - Tao Yang
+  - Zhichao Xu
+  - Zhenduo Wang
+  - Anh Tran
+  - Qingyao Ai
+  publisher: In the Proceedings of the 16th ACM International Conference on Web Search and Data Mining (WSDM'23)
+  date: '2023-12-31'
+- id: 4d05de783b2e0bd4d2c345f31786903d
+  title: Model-based Unbiased Learning to Rank
+  authors:
+  - Dan Luo
+  - Lixin Zou
+  - Qingyao Ai
+  - Zhiyu Chen
+  - Dawei Yin
+  - Brian Davison
+  publisher: In the Proceedings of the 16th ACM International Conference on Web Search and Data Mining (WSDM'23)*
+  date: '2023-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2207.11785&sa=D&sntz=1&usg=AOvVaw2gUuZgUwjy1t9BQZuDRXrv
+- id: ebae4e175490118fcf7c13b5fa7178b1
+  title: Hard Negatives or False Negatives: Correcting Pooling Bias in Training Neural Ranking Models
+  authors:
+  - Yinqiong Cai
+  - Jiafeng Guo
+  - Yixing Fan
+  - Qingyao Ai
+  - Ruqing Zhang
+  - Xueqi Cheng
+  publisher: In Proceedings of the 3*1st ACM International Conference on Information and Knowledge Management (CIKM’22)
+  date: '2022-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2209.05072.pdf&sa=D&sntz=1&usg=AOvVaw394uNc7IXI9HqzwI5IVitB
+- id: 99cacdaeac625390d450057a8d157360
+  title: Incorporating Retrieval Information into the Truncation of Ranking Lists in the Legal Domain
+  authors:
+  - Yixiao Ma
+  - Qingyao Ai
+  - Yueyue Wu
+  - Yunqiu Shao
+  - Yiqun Liu
+  - Min Zhang
+  - Shaoping Ma
+  publisher: In the Proceedings of the 45th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’22)
+  date: '2022-12-31'
+- id: e3dd3d5432e7c000236b527e3b392d46
+  title: Can clicks be both labels and features? Unbiased Behavior Feature Collection and Uncertainty-aware Learning to Rank
+  authors:
+  - Tao Yang
+  - Chen Luo
+  - Hanqing Lu
+  - Parth Gupta
+  - Bing Yin
+  - Qingyao Ai
+  publisher: In the Proceedings of the 4*5*th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’22)
+  date: '2022-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fassets.amazon.science%2Fd5%2F30%2Fa5b6d425416c91f99ea56d59db4b%2Fcan-clicks-be-both-labels-and-features-unbiased-behavior-feature-collection-and-uncertainty-aware-learning-to-rank.pdf&sa=D&sntz=1&usg=AOvVaw2yklJQXmyYXilAZItZcNHZ
+    - type: video
+      link: https://youtu.be/faVVQpVt6kY
+- id: 0ac2c793c4c9376ab91dd107160f770d
+  title: Overview of the NTCIR-16 Unbiased Learning to Rank Evaluation (ULTRE) Task
+  authors:
+  - Yurou Zhao
+  - Zechun Niu
+  - Feng Wang
+  - Jiaxin Mao
+  - Qingyao Ai
+  - Tao Yang
+  - Junqi Zhang
+  - Yiqun Liu
+  publisher: In the Proceedings of the NTCIR-16 Conference on Evaluation of Information Access Technologies
+  date: '2022-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fresearch.nii.ac.jp%2Fntcir%2Fworkshop%2FOnlineProceedings16%2Fpdf%2Fntcir%2F01-NTCIR16-OV-ULTRE-ZhaoY.pdf&sa=D&sntz=1&usg=AOvVaw1OalJqA6lhGeaNL1hIHohK
+- id: c96d86a830bd8a3feab2c5f68eebe15a
+  title: Simulating and Modeling the Risk of Conversational Search
+  authors:
+  - Zhenduo Wang
+  - Qingyao Ai
+  publisher: ACM Transactions on Information Systems (TOIS)
+  date: '2022-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2201.00235&sa=D&sntz=1&usg=AOvVaw1-TJkPCzOLnZc7k2RVx1C4
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fzhenduow%2FconversationalQA&sa=D&sntz=1&usg=AOvVaw13uPoocjNW5Y9KqABqPSDX
+    - type: data
+      link: https://drive.google.com/drive/u/2/folders/1k6podDEmIY5x2NYpmgg48M6zKYCSUYyt
+- id: 3635be7112e9007f84f9826897f0ae8c
+  title: ULTRA: An Unbiased Learning To Rank Algorithm Toolbox
+  authors:
+  - Anh Tran
+  - Tao Yang
+  - Qingyao Ai
+  publisher: In Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM’21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2108.05073&sa=D&sntz=1&usg=AOvVaw2F6G0HmDkXS8BQcNW7L6TB
+    - type: video
+      link: https://www.youtube.com/watch?v=LdWNemWsBS8
+    - type: PyTorch
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FULTR-Community%2FULTRA_pytorch&sa=D&sntz=1&usg=AOvVaw1_MnxkPXftWvcUaQCGxNBS
+    - type: Tensorflow
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FULTR-Community%2FULTRA&sa=D&sntz=1&usg=AOvVaw2kL2SLYFm1rbIlpI1lWv3I
+- id: 862b3b0048218cf440824cbaef9579d7
+  title: Model-agnostic vs Model-intrinsic Interpretability for Explainable Product Search
+  authors:
+  - Qingyao Ai
+  - Lakshmi Narayanan R
+  publisher: In Proceedings of the 30*th ACM International Conference on Information and Knowledge Management (CIKM’21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2108.05317&sa=D&sntz=1&usg=AOvVaw2sJkc5tzGgvY3g5cfRAdRp
+    - type: video
+      link: https://www.youtube.com/watch?v=r-bh0Cj5A6w
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FutahIRlab%2Fdrem-attention&sa=D&sntz=1&usg=AOvVaw2djeGoS72gRDlKWkjlzhqX
+    - type: data
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FutahIRlab%2FAMTurk-Product-Search-Explanation-Evaluation&sa=D&sntz=1&usg=AOvVaw3GyAbr26-QCD9af8bgrhSD
+- id: 6306939062c8f464a82aeacb5a5b0f78
+  title: Understanding the Effectiveness of Reviews in E-commerce Top-N Recommendation
+  authors:
+  - Zhichao Xu
+  - Hansi Zeng
+  - Qingyao Ai
+  publisher: In Proceedings of the 7th ACM International Conference on the Theory of Information Retrieval (ICTIR'21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2106.09665&sa=D&sntz=1&usg=AOvVaw0FErcxeF_h380mS4Or5u8v
+    - type: video
+      link: https://www.youtube.com/watch?v=kmPV7i83yJQ
+- id: 1564828fe97af35e221304fde8460468
+  title: Asking Clarifying Questions Based on Negative Feedback in Conversational Search
+  authors:
+  - Keping Bi
+  - Qingyao Ai
+  - W Bruce Croft
+  publisher: In Proceedings of the 7th ACM International Conference on the Theory of Information Retrieval (ICTIR'21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2107.05760&sa=D&sntz=1&usg=AOvVaw0pavh_lDyQ3b-jHq6CyDtG
+- id: 2047443d9593eb2a3e7ed6b985dd9387
+  title: ULTRE framework: a framework for Unbiased Learning to Rank Evaluation based on simulation of user behavior
+  authors:
+  - Yurou Zhao
+  - Jiaxin Mao
+  - Qingyao Ai
+  publisher: In Workshop on Simulation within Information Retrieval with SIGIR 2021 (Sim4IR-SIGIR'21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://drive.google.com/file/d/1jPlZa6n5C0cEtHZ0HCjamgdy2lbL9M4u/view?usp=sharing
+- id: b69ca53b1906cdfefdf0c3dd972c8e81
+  title: A Review-based Transformer Model for Personalized Product Search
+  authors:
+  - Keping Bi
+  - Qingyao Ai
+  - W Bruce Croft
+  publisher: In the Proceedings of the 44th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2004.09424&sa=D&sntz=1&usg=AOvVaw06rT_ldHfrW_xxYEw_6NHO
+- id: d759e0c394f41dc606aa97e73eebc5bf
+  title: Controlling the Risk of Conversational Search via Reinforcement Learning
+  authors:
+  - Zhenduo Wang
+  - Qingyao Ai
+  publisher: In Proceedings of the 30th International Conference on World Wide Web (WWW '21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2101.06327&sa=D&sntz=1&usg=AOvVaw16oJPiJUYl2kMc-b5px3DC
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fzhenduow%2FconversationalQA&sa=D&sntz=1&usg=AOvVaw13uPoocjNW5Y9KqABqPSDX
+    - type: video
+      link: https://www.youtube.com/watch?v=mDTuzQSIVoQ&list=PLVl52W5IyZ4MFQf3uPy8-2b9wF-Ogrodb&index=3
+- id: 1a5d38b482598373f1307233194cefba
+  title: Maximizing Marginal Fairness for Dynamic Learning to Rank
+  authors:
+  - Tao Yang
+  - Qingyao Ai
+  publisher: In Proceedings of the 30th International Conference on World Wide Web (WWW '21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2102.09670.pdf&sa=D&sntz=1&usg=AOvVaw1tQXRJGXUoUgW2saVHML7S
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FTaosheng-ty%2FDynamic-Fairness&sa=D&sntz=1&usg=AOvVaw0kQlGDbXkrPm9UR24MqDT5
+    - type: video
+      link: https://www.youtube.com/watch?v=j7uv72UTe5Y&list=PLVl52W5IyZ4MFQf3uPy8-2b9wF-Ogrodb&index=2
+- id: b8a69de98812e4c2544f8c42ee29db11
+  title: A Zero Attentative Relevance Matching Network for Review Modeling in Recommender System
+  authors:
+  - Hansi Zeng
+  - Zhichao Xu
+  - Qingyao Ai
+  publisher: In Proceedings of the 43rd European Conference on Information Retrieval (ECIR‘21)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F2101.06387.pdf&sa=D&sntz=1&usg=AOvVaw3A5lpSwmlpNURPpP0MQlNi
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FHansiZeng%2FZARM&sa=D&sntz=1&usg=AOvVaw3oaOHHW_Fvlm-7nG7I8QGD
+    - type: video
+      link: https://www.youtube.com/watch?v=Zj1HXbRcmBo&list=PLVl52W5IyZ4MFQf3uPy8-2b9wF-Ogrodb&index=5
+- id: 5b9b119171e06623e021d7f29bc0bfd9
+  title: Unbiased Learning to Rank: Online or Offline?
+  authors:
+  - Qingyao Ai
+  - Tao Yang
+  - Huazheng Wang
+  - Jiaxin Mao
+  publisher: ACM Transactions on Information Systems (TOIS)
+  date: '2021-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2004.13574&sa=D&sntz=1&usg=AOvVaw3y3JXxQwZdEFfYUiwDw5BZ
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FULTR-Community%2FULTRA&sa=D&sntz=1&usg=AOvVaw2kL2SLYFm1rbIlpI1lWv3I
+    - type: video
+      link: https://www.youtube.com/watch?v=WWd6txl135A
+- id: 0589e000017358505ce7e37a276a3c22
+  title: E-commerce Recommendation with Weighted Expected Utility
+  authors:
+  - Zhichao Xu
+  - Yi Han
+  - Yongfeng Zhang
+  - Qingyao Ai
+  publisher: In Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM’20)
+  date: '2020-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2008.08302&sa=D&sntz=1&usg=AOvVaw0q0bun46Mq4iBG0Yf-AUAd
+    - type: video
+      link: https://www.youtube.com/watch?v=RovegrrCvc4&list=PLVl52W5IyZ4MFQf3uPy8-2b9wF-Ogrodb&index=4
+- id: 6cc0df520144fd6c22b7bc2d9c4bc7c6
+  title: Analysis of Multivariate Scoring Functions for Automatic Unbiased Learning to Rank
+  authors:
+  - Tao Yang
+  - Shikai Fang
+  - Shibo Li
+  - Yulan Wang
+  - Qingyao Ai
+  publisher: In Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM’20)
+  date: '2020-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2008.09061&sa=D&sntz=1&usg=AOvVaw2oJeXcoohEd3Hjo46jR4jq
+    - type: video
+      link: https://www.youtube.com/watch?v=ZDV7ttC3Uqc&list=PLVl52W5IyZ4MFQf3uPy8-2b9wF-Ogrodb&index=1&t=1s
+- id: 8d40424da3816667a1c6d2b01b7b3794
+  title: Review Regularized Neural Collaborative Filtering
+  authors:
+  - Zhimeng Pan
+  - Wenzheng Tao
+  - Qingyao Ai
+  publisher: In Proceedings of the 2nd International Workshop on Deep Learning Practice for High-Dimensional Sparse Data with KDD 2020 (DLP-KDD’20)
+  date: '2020-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2008.13527&sa=D&sntz=1&usg=AOvVaw0jDHPXviY43Ie994bsSJVW
+- id: 5a52c333502b10b1e1483b01925a4018
+  title: Setrank: Learning a permutation-invariant ranking model for information retrieval
+  authors:
+  - Liang Pang
+  - Jun Xu
+  - Qingyao Ai
+  - Yanyan Lan
+  - Xueqi Cheng
+  - Jirong Wen
+  publisher: In the Proceedings of the 43rd International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’20)
+  date: '2020-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1912.05891&sa=D&sntz=1&usg=AOvVaw3fbGCywQ18mfeAN4lCzkVn
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FULTR-Community%2FULTRA%2Ftree%2Fmaster%2Fultra%2Franking_model&sa=D&sntz=1&usg=AOvVaw17QyTM_ZcZ1UZRSen6BlqD
+- id: 878112529a07265cfea8db1462d86f18
+  title: A Transformer-based Embedding Model for Personalized Product Search
+  authors:
+  - Keping Bi
+  - Qingyao Ai
+  - W Bruce Croft
+  publisher: In the Proceedings of the 43rd International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’20)
+  date: '2020-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2005.08936&sa=D&sntz=1&usg=AOvVaw1HSu_n_zReMmVM5iXEb_47
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fkepingbi%2FProdSearch&sa=D&sntz=1&usg=AOvVaw27RXr3fgZURinMmrAnEn37
+- id: a6507480b209dbf780dd2ac56788fabc
+  title: Explainable Product Search with a Dynamic Relation Embedding Model
+  authors:
+  - Qingyao Ai
+  - Yongfeng Zhang
+  - Keping Bi
+  - W Bruce Croft
+  publisher: ACM Transactions on Information Systems (TOIS) 38
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1909.07212&sa=D&sntz=1&usg=AOvVaw165a7YMbO0EYhDJaoR_OYy
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FExplainable-Product-Search-with-a-Dynamic-Relation-Embedding-Model&sa=D&sntz=1&usg=AOvVaw0TxVORXYcEPqoqeNmKpg6F
+- id: 2c95929dad019aa2cc1efd61ca7d04c6
+  title: Conversational Product Search Based on Negative Feedback
+  authors:
+  - Keping Bi
+  - Qingyao Ai
+  - Yongfeng Zhang
+  - W Bruce Croft
+  publisher: In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM’19)
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1909.02071&sa=D&sntz=1&usg=AOvVaw0OTg_E76w4fnCMe8HEv59y
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fkepingbi%2FConvProductSearchNF&sa=D&sntz=1&usg=AOvVaw12ElA21Nm0BEl3lri_XsJq
+- id: 38303e63afe34dfc93bca675a731fbb5
+  title: A Zero Attention Model for Personalized Product Search
+  authors:
+  - Qingyao Ai
+  - Daniel Hill
+  - Vishy Vishwanathan
+  - W Bruce Croft
+  publisher: In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM’19)
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1908.11322&sa=D&sntz=1&usg=AOvVaw2IgcYopbrPSnab7mCebA8l
+- id: aade54ee536ac9759c4e8fcd00becf54
+  title: Improving Web Image Search with Contextual Information
+  authors:
+  - Xiaohui Xie
+  - Jiaxin Mao
+  - Yiqun Liu
+  - Maarten de Rijke
+  - Qingyao Ai
+  - Yufei Huang
+  - Min Zhang
+  - Shaoping Ma
+  publisher: In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM’19)
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: http://www.google.com/url?q=http%3A%2F%2Fwww.thuir.cn%2Fgroup%2F~YQLiu%2Fpublications%2FCIKM2019XiaohuiXie.pdf&sa=D&sntz=1&usg=AOvVaw2J---KskFZQCDP8OJF68eA
+- id: 2cfe0eadc67b3bec4a9ffbc0163917c0
+  title: Correcting for Recency Bias in Job Recommendation
+  authors:
+  - Ruey-Cheng Chen
+  - Qingyao Ai
+  - Gaya Jayasinghe
+  - W Bruce Croft
+  publisher: In Proceedings of the 28th ACM International Conference on Information and Knowledge Management (CIKM’19)
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: http://www.google.com/url?q=http%3A%2F%2Frueycheng.com%2Fpaper%2Frecency-bias.pdf&sa=D&sntz=1&usg=AOvVaw2TEyE-vPhrFIePfkxWKtU6
+- id: 459fb2a73e2b6d97db6176ef5dfb1b75
+  title: Learning Groupwise Multivariate Scoring Functions Using Deep Neural Networks
+  authors:
+  - Qingyao Ai
+  - Xuanhui Wang
+  - Sebastian Bruch
+  - Nadav Golbandi
+  - Michael Bendersky
+  - Marc Najork
+  publisher: In Proceedings of the 5th ACM International Conference on the Theory of Information Retrieval (ICTIR'19)
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1811.04415&sa=D&sntz=1&usg=AOvVaw2VY-M7CtjtSdiFJJqk9I2L
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Ftensorflow%2Franking&sa=D&sntz=1&usg=AOvVaw1X9gkpJXlmtND-KQyA02Z5
+    - type: video
+      link: https://www.youtube.com/watch?v=_2ulb59gbMY
+- id: 6e8ee42dfc6e6efcc3065019cd929d89
+  title: A Deep Look into Neural Ranking Models for Information Retrieval
+  authors:
+  - Jiafeng Guo
+  - Yixing Fan
+  - Liang Pang
+  - Liu Yang
+  - Qingyao Ai
+  - Hamed Zamani
+  - Chen Wu
+  - W Bruce Croft, Xueqi Cheng
+  publisher: In Information Processing and Management
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1903.06902&sa=D&sntz=1&usg=AOvVaw1rST89h6-SHzcpBFD_ZJoz
+- id: 78b86da6b518b6fc41e8b0922278708e
+  title: Investigating Weak Supervision in Deep Ranking
+  authors:
+  - Yukun Zheng
+  - Yiqun Liu
+  - Zhen Fan
+  - Cheng Luo
+  - Qingyao Ai
+  - Min Zhang
+  - Shaoping Ma
+  publisher: In Data and Information Management (DIM)
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fsciendo.com%2Farticle%2F10.2478%2Fdim-2019-0010&sa=D&sntz=1&usg=AOvVaw27DlvXRuebLkUvFKyADi1q
+- id: bc4c27cc4a72d0fb8d87bbafc53f4bd9
+  title: Iterative Relevance Feedback for Answer Passage Retrieval with Passage-level Semantic Match
+  authors:
+  - Keping Bi
+  - Qingyao Ai
+  - W Bruce Croft
+  publisher: In Proceedings of the 41st European Conference on Information Retrieval (ECIR‘19)
+  date: '2019-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fpdf%2F1812.08870.pdf&sa=D&sntz=1&usg=AOvVaw1G-G99q8UIcm9LD_hvxiMQ
+- id: fdb7a72b17f0204abe3533a4ca8ab73f
+  title: Towards Conversational Search and Recommendation: System Ask User Respond
+  authors:
+  - Yongfeng Zhang
+  - Xu Chen
+  - Qingyao Ai
+  - Liu Yang
+  - W Bruce Croft
+  publisher: In Proceedings of the 27th ACM International Conference on Information and Knowledge Management (CIKM’18)
+  date: '2018-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D3271776&sa=D&sntz=1&usg=AOvVaw3omoGils0pogVqDUlK28X4
+- id: 0e37cd7c3ad3ae38b27ee95cdf68b1f5
+  title: Learning Heterogeneous Knowledge Base Embeddings for Explainable Recommendation
+  authors:
+  - Qingyao Ai
+  - Vahid Azizi
+  - Xu Chen
+  - Yongfeng Zhang
+  publisher: In Algorithms
+  date: '2018-12-31'
+  extra-links:
+    - type: pdf
+      link: https://drive.google.com/file/d/1QSU3P_psJJ5QlsxTWRHVriKiU8WovTgT/view?usp=sharing
+- id: 32e90f21a1c4ab46b53f5b03b2501c39
+  title: Unbiased Learning to Rank with Unbiased Propensity Estimation
+  authors:
+  - Qingyao Ai
+  - Keping Bi
+  - Cheng Luo
+  - Jiafeng Guo
+  - W Bruce Croft
+  publisher: In Proceedings of the 41th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’18)
+  date: '2018-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1804.05938&sa=D&sntz=1&usg=AOvVaw3a6RFuwxmxnrwvqU0JCI43
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FDual-Learning-Algorithm-for-Unbiased-Learning-to-Rank&sa=D&sntz=1&usg=AOvVaw3EmGNEva1NFw3ce5P-T0ae
+    - type: slides
+      link: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxxaW5neWFvYWl8Z3g6NGRlOGE3NmJkMmNkNWI3OQ
+- id: 76ad748852878b01e94a4e85761cea4e
+  title: Learning a Deep Listwise Context Model for Ranking Refinement
+  authors:
+  - Qingyao Ai
+  - Keping Bi
+  - Jiafeng Guo
+  - W Bruce Croft
+  publisher: In Proceedings of the 41th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’18)
+  date: '2018-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1804.05936&sa=D&sntz=1&usg=AOvVaw2Cx6hu2TCq1YrohQHvDh6R
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FDeep-Listwise-Context-Model-for-Ranking-Refinement&sa=D&sntz=1&usg=AOvVaw1y9JUiPUMqAP0RqLybVe0K
+    - type: slides
+      link: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxxaW5neWFvYWl8Z3g6NjA4MzgwYzE4ZWE4Mjg2ZQ
+- id: 1893cbc8dcb408f4f9e648940743b153
+  title: A Neural Passage Model for Ad-hoc Document Retrieval
+  authors:
+  - Qingyao Ai
+  - Brendan O'Connor
+  - W Bruce Croft
+  publisher: In Proceedings of 40th European Conference on Information Retrieval (ECIR 2018)
+  date: '2018-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2103.09306&sa=D&sntz=1&usg=AOvVaw3rrsGnw0PYguf_ZoyZ8ZvV
+- id: e5829056f40820cbc9676e3ef6ef3bda
+  title: Joint representation learning for top-n recommendation with heterogeneous information sources
+  authors:
+  - Yongfeng Zhang*
+  - Qingyao Ai*
+  - Xu Chen
+  - W Bruce Croft
+  publisher: In Proceedings of the 26th ACM International Conference on Information and Knowledge Management (CIKM’17)
+  date: '2017-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1262&sa=D&sntz=1&usg=AOvVaw2st1KzEpsLT1eZEu6Aa0e6
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FJoint-Representation-Learning-for-Top-N-Recommendation&sa=D&sntz=1&usg=AOvVaw1XmAthv80tddKxtT5xvI-c
+- id: 003318e5f39c4c9f698db0d2d5ab8346
+  title: UMass at TREC 2017 Common Core Track
+  authors:
+  - Qingyao Ai
+  - Hamed Zamani
+  - Stephen Harding
+  - Shahrzad Naseri
+  - James Allan
+  - W Bruce Croft
+  publisher: TREC'17
+  date: '2017-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fpdfs.semanticscholar.org%2F12f0%2Fcc539e4827670a889a22078012d6015b61b7.pdf&sa=D&sntz=1&usg=AOvVaw2VM_qy_OZTy3-npiix8igX
+- id: e347f041bde04fb498d57207bb5c35c5
+  title: Learning a Hierarchical Embedding Model for Personalized Product Search
+  authors:
+  - Qingyao Ai
+  - Yongfeng Zhang
+  - Keping Bi
+  - Xu Chen
+  - W Bruce Croft
+  publisher: In Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’17)
+  date: '2017-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1260&sa=D&sntz=1&usg=AOvVaw1AJFz5T1jc4BZqND7EXJ8S
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FHierarchical-Embedding-Model-for-Personalized-Product-Search&sa=D&sntz=1&usg=AOvVaw0Dc8-0uLAVKWohwI8Kcapr
+    - type: data
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FAmazon-Product-Search-Datasets&sa=D&sntz=1&usg=AOvVaw2VWNjahza1IhYTplRbnIos
+    - type: slides
+      link: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxxaW5neWFvYWl8Z3g6MjczZTRiZTk2NjFjODU3OA
+- id: 94e14731ba07e8023d276d94eafc0429
+  title: Personalized Key Frame Recommendation
+  authors:
+  - Xu Chen
+  - Yongfeng Zhang
+  - Qingyao Ai
+  - Hongteng Xu
+  - Junchi Yan
+  - Zheng Qin
+  publisher: In Proceedings of the 40th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’17)
+  date: '2017-12-31'
+  extra-links:
+    - type: pdf
+      link: http://www.google.com/url?q=http%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D3080776&sa=D&sntz=1&usg=AOvVaw1h64Fau1aqPMDRcRNKm60u
+- id: c3d5298896a2cde5fcab0c6a13d3d774
+  title: Characterizing Email Search using Large-scale Behavioral Logs and Surveys
+  authors:
+  - Qingyao Ai
+  - Susan T. Dumais
+  - Nick Craswell
+  - Dan Liebling
+  publisher: In Proceedings of the 26th International Conference on World Wide Web (WWW '17)
+  date: '2017-12-31'
+  extra-links:
+    - type: pdf
+      link: http://www.google.com/url?q=http%3A%2F%2Fpapers.www2017.com.au.s3-website-ap-southeast-2.amazonaws.com%2Fproceedings%2Fp1511.pdf&sa=D&sntz=1&usg=AOvVaw1lvO9TQhunzEUbhZsmVcYl
+- id: 51d7e1a7e54e15f83f0c36ba2ad08d82
+  title: Large-Scale Analysis of Email Search and Organizational Strategies
+  authors:
+  - Kanika Narang
+  - Susan T. Dumais
+  - Nick Craswell
+  - Dan Liebling
+  - Qingyao Ai
+  publisher: In Proceedings of the 2017 Conference on Conference Human Information Interaction and Retrieval (CHIIR 2017)
+  date: '2017-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fdl.acm.org%2Fcitation.cfm%3Fid%3D3020175&sa=D&sntz=1&usg=AOvVaw3UTezdoNe2ruHSKYYQ3URt
+- id: ba0940692bf7f5fcdf2da8f685216ff2
+  title: Enhancing click models with mouse movement information
+  authors:
+  - Zeyang Liu
+  - Jiaxin Mao
+  - Chao Wang
+  - Qingyao Ai
+  - Yiqun Liu
+  - Jian-Yun Nie
+  publisher: Information Retrieval Journal
+  date: '2017-12-31'
+  extra-links:
+    - type: pdf
+      link: http://www.google.com/url?q=http%3A%2F%2Fdx.doi.org%2F10.1007%2Fs10791-016-9292-4&sa=D&sntz=1&usg=AOvVaw07Uwuk6MEvPuDs7dETOsUw
+- id: b51ccc1da16130b425a756f21d1c9d58
+  title: A Deep Relevance Matching Model for Ad-hoc Retrieval
+  authors:
+  - Jiafeng Guo
+  - Yixing Fan
+  - Qingyao Ai
+  - W Bruce Croft
+  publisher: In Proceedings of the 25th ACM International Conference on Information and Knowledge Management (CIKM 2016)
+  date: '2016-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1247&sa=D&sntz=1&usg=AOvVaw2BERiZy4pCrnkwylVyyvv1
+    - type: code
+      link: http://www.google.com/url?q=http%3A%2F%2Fwww.bigdatalab.ac.cn%2Fbenchmark%2Fbm%2Fbd%3Fcode%3DDRMM%28LCH-IDF%29&sa=D&sntz=1&usg=AOvVaw38LyRafRo3DOuqMAQX0ETn
+- id: f561d3f063418669df9a4f6b56788291
+  title: Semantic Matching by Non-Linear Word Transportation for Information Retrieval
+  authors:
+  - Jiafeng Guo
+  - Yixing Fan
+  - Qingyao Ai
+  - W Bruce Croft
+  publisher: In Proceedings of the 25th ACM International Conference on Information and Knowledge Management (CIKM 2016)
+  date: '2016-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1248&sa=D&sntz=1&usg=AOvVaw2pdUbusuRS6GEzrR8F_dXm
+    - type: code
+      link: http://www.google.com/url?q=http%3A%2F%2Fwww.bigdatalab.ac.cn%2Fbenchmark%2Fbm%2Fbd%3Fcode%3DNWT&sa=D&sntz=1&usg=AOvVaw0jbzxu9zvZwLcIQKx_ZkBj
+- id: 3d8c3c65f33f2de4b8c23c6bf9df76b8
+  title: aNMM: Ranking Short Answer Texts with Attention-Based Neural Matching Model
+  authors:
+  - Liu Yang
+  - Qingyao Ai
+  - Jiafeng Guo
+  - W Bruce Croft
+  publisher: In Proceedings of the 25th ACM International Conference on Information and Knowledge Management (CIKM 2016)
+  date: '2016-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1240&sa=D&sntz=1&usg=AOvVaw1AsOY8w3Se0YLWyvwBfFFk
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Ffaneshion%2FMatchZoo&sa=D&sntz=1&usg=AOvVaw0fzezz_O8AOhyImYulPWpR
+- id: e40fa2294d0f56eeaecea8d3aa17852a
+  title: Analysis of the Paragraph Vector Model for Information Retrieval
+  authors:
+  - Qingyao Ai
+  - Liu Yang
+  - Jiafeng Guo
+  - W Bruce Croft
+  publisher: In Proceedings of the 2nd ACM International Conference on the Theory of Information Retrieval (ICTIR 16)
+  date: '2016-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1242&sa=D&sntz=1&usg=AOvVaw2U25BlETIa_9_RYgTvjKuv
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FEnhanced-Paragraph-Vector-Model-for-Ad-hoc-Retrieval&sa=D&sntz=1&usg=AOvVaw1nJ6rniIKhdMcYjJpk9-1u
+    - type: slides
+      link: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxxaW5neWFvYWl8Z3g6MjEzNjI5ZGUxNjliMmI5Yg
+- id: ec7e6e749851018e569eb28bb6ac9dab
+  title: Adaptability of Neural Networks on Varying Granularity IR Tasks
+  authors:
+  - Daniel Cohen
+  - Qingyao Ai
+  - W Bruce Croft
+  publisher: In Proceedings of The International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR’16)
+  date: '2016-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1238&sa=D&sntz=1&usg=AOvVaw0HRHzYXWRo_77nf91KFM6a
+- id: 98e4c9b24174f12f3c671fc5cb81e1fb
+  title: Improving Language Estimation with the Paragraph Vector Model for Ad-hoc Retrieval
+  authors:
+  - Qingyao Ai
+  - Liu Yang
+  - Jiafeng Guo
+  - W Bruce Croft
+  publisher: In Proceedings of the 39th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’16)
+  date: '2016-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1227&sa=D&sntz=1&usg=AOvVaw3Ug16JartgoUT3JExK8txF
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FQingyaoAi%2FEnhanced-Paragraph-Vector-Model-for-Ad-hoc-Retrieval&sa=D&sntz=1&usg=AOvVaw1nJ6rniIKhdMcYjJpk9-1u
+- id: 819bfcd8e1cddf80d3828f36671f91ba
+  title: Beyond Factoid QA: Effective Methods for Non-factoid Answer Sentence Retrieval
+  authors:
+  - Liu Yang
+  - Qingyao Ai
+  - Damiano Spina
+  - Ruey-Cheng Chen
+  - Liang Pang
+  - W Bruce Croft
+  - Jiafeng Guo
+  - Falk Scholer
+  publisher: In Proceedings of 38th European Conference on Information Retrieval (ECIR 2016)
+  date: '2016-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1195&sa=D&sntz=1&usg=AOvVaw3sGXNrq7ngyjtOVMcKMNNV
+- id: 211a5e9e4d2fe01f5dade48547df4751
+  title: An Optimization Framework for Merging Multiple Result Lists
+  authors:
+  - Lee Chia-Jung*
+  - Qingyao Ai*
+  - W Bruce Croft
+  - Daniel Sheldon
+  publisher: In Proceedings of the 24th ACM International on Conference on Information and Knowledge Management (CIKM 2015)
+  date: '2015-12-31'
+  extra-links:
+    - type: pdf
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir-publications.cs.umass.edu%2Fpub%2Fweb%2Fgetpdf.php%3Fid%3D1192&sa=D&sntz=1&usg=AOvVaw1hAFIOGthZ1WWxKU_6RwZF
+    - type: code
+      link: https://www.google.com/url?q=https%3A%2F%2Fciir.cs.umass.edu%2Fdownloads%2FDeepMerge%2F&sa=D&sntz=1&usg=AOvVaw0cZkexxHpU3lvQWK8BBtXR

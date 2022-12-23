@@ -92,6 +92,7 @@ youtube:
   tooltip: YouTube
   link: https://youtube.com/$LINK
 
+
 linkedin:
   icon: fab fa-linkedin
   text: LinkedIn
@@ -99,6 +100,12 @@ linkedin:
   link: https://www.linkedin.com/in/$LINK
 
 # publications
+
+video:
+  icon: fab fa-youtube
+  text: YouTube
+  tooltip: YouTube
+  link: https://youtube.com/$LINK
 
 journal:
   icon: far fa-newspaper
@@ -112,6 +119,12 @@ preprint:
   tooltip: Preprint
   link: $LINK
 
+slides:
+  icon: far fa-presentation
+  text: Slides
+  tooltip: PDF Slides
+  link: $LINK
+
 manubot:
   icon: manubot-logo.svg
   text: Manubot
@@ -119,6 +132,11 @@ manubot:
   link: $LINK
 
 # software
+pdf:
+  icon: fas fa-book
+  text: PDF
+  tooltip: PDF File
+  link: $LINK
 
 docs:
   icon: fas fa-book
