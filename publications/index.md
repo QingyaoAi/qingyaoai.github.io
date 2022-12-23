@@ -11,8 +11,14 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-11">{% include list.html data="citations" component="citation" style="rich" %}</div>
+  </div>
+</div>
+
 
 {% include section.html %}
 
-Special thanks to [Yi Ren](/members/2_stu_2022_renyi.html) and [Zhefan Wang]() for the initial construction of this page.
+"∗" means equal contribution
