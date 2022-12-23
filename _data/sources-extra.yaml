@@ -1,0 +1,5 @@
+- id: doi:10.1145/3331184.3331192
+  extra-links:
+    - type: source
+      link: https://github.com/chenchongthu/enmf
+  _title: "An Efficient Adaptive Transfer Neural Network for Social-aware Recommendation"

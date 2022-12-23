@@ -2,102 +2,87 @@
 title: Home
 ---
 
-# Your Lab Slogan
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
-Spend less time reinventing the wheel, and more time running your lab.
+{% capture left_panel %}
+![Qingyao Ai](/images/profile.jpg)
+# Qingyao Ai<br/>艾清遥
 
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="See the template on GitHub"
-  link="greenelab/lab-website-template"
-  style="button"
-%}
-{%
-  include link.html
-  type="docs"
-  icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
-  style="button"
-%}
-{:.center}
+<p class="center">
 
-{% include section.html full=true %}
 
-{% include banner.html image="images/banner.jpg" %}
+Assistant Professor<br/>
+Dept. of CS&T<br/>
+Tsinghua University<br/>
+Beijing, 100084<br/>
 
-{% include section.html %}
+Office: FIT-1-506<br/>
+Lab: FIT-1-506<br/>
 
-# Highlights
+{%- include link.html type="google-scholar" icon="" text=" " tooltip="" link="UKqaI5IAAAAJ" -%}
+{%- include link.html type="github" icon="" text=" " tooltip="" link="QingyaoAi" -%}
+{%- include link.html type="twitter" icon="" text=" " tooltip="" link="QingyaoAi" -%}
+{%- include link.html type="linkedin" icon="" text=" " tooltip="" link="qingyao-ai-4ab8306a" -%}
+{%- include link.html type="email" icon="" text=" " tooltip="" link="aiqy@tsinghua.edu.cn" -%}
 
-{% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<br/>
+{%- include twitter_timeline.html account="QingyaoAi" -%}
 
-{%
-  include link.html
-  link="research"
-  text="See what we've published"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
+</p>
+
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+{% capture main_panel %}
 
-{% capture text %}
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-{%
-  include link.html
-  link="tools"
-  text="Browse our tools"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
+**Qingyao Ai**, Assistant Professor at Department of Computer Science and Technology, Tsinghua University
+
+My research mainly focuses on Information Retrieval and Machine Learning related topics. Currently I'm working on applying machine learning techniques on IR problems including ranking optimization, document retrieval, conversational search, and more. 
+
+I got my MS/Ph.D degree from College of Information and Computer Sciences, University of Massachusetts Amherst, advised by Prof. [W. Bruce Croft](http://ciir.cs.umass.edu/croft) in the [Center for Intelligent Information Retrieval (CIIR)](http://ciir.cs.umass.edu/). And I got my bachelor degree from Dept. Computer Science & Technology, Tsinghua University. 
+
+
+
+**Experience**
+
+- Tsinghua University, Tenure-track Assistant Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Aug. 2022 - now
+- University of Utah, Tenure-track Assistant Professor. Salt Lake City, UT, USA, Aug. 2019 - Jun. 2022
+- University of Massachusetts, Amherst, Research Assistant in [CIIR](http://ciir.cs.umass.edu/), advised by Prof. [W. Bruce Croft](http://ciir.cs.umass.edu/croft). Amherst, MA, USA, Sept. 2014 - Jul. 2019
+- Amazon Search, Data scientist Intern, mentored by [Danial Hill](http://www.danielnhill.com/) and [S. V. N. Vishwanathan](https://www.stat.purdue.edu/~vishy/main.html), Palo Alto, CA, USA, May 2018 - Aug. 2018
+- Google Research, Ph.D. Intern, mentored by [Xuanhui Wang](https://research.google/people/XuanhuiWang/), [Nadav Golbandi](https://research.google/people/105605/) and [Michael Bendersky](http://bendersky.github.io/), CA, USA, Jun. 2017 - Sept. 2017
+- Microsoft Research, Research Intern in CLUES, mentored by [Susan Dumais](http://susandumais.com/) and [Nick Craswell](https://www.microsoft.com/en-us/research/people/nickcr/). Redmond, WA, USA,  Jun. 2015 - Sept. 2015
+- Tsinghua University, undergraduate thesis project in [THUIR](http://ai.thuir.cn/), advised by Prof. [Yiqun Liu](http://www.thuir.cn/group/~YQLiu/). Beijing, China, Sept. 2012 - Jun. 2014
+
+
+
+**Achievements**
+
+- [Google Research Scholar Award](https://ai.googleblog.com/2021/04/announcing-2021-research-scholar.html)
+- PI, [NSF IIS-2007907](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007398&HistoricalAwards=false)
+- Research Gift from Amazon A9, 2017
+- UMass CICS Accomplishments in Search & Mining Awards, 2017
+- Ph.D. Qualifying Exam (Portfolio) passed with distinction, 2016
+- Outstanding Bachelor Graduate of Beijing (top 1%), 2014
+- Outstanding Bachelor Graduate of Tsinghua (top 10%), 2014
+- Excellent Undergraduate Thesis Award (top 4), 2014
+- Tsinghua Laboratory Contribution Award, Third Prize, 2014
+- Tsinghua Zhong Shi-Mo Scholarship (the highest award for students in Dept. CS&T, top 1), 2012
+
+
+
+**Services**
+
+- Area Chair
+  - NAACL-HLT 2021
+- Senior PC Member:
+  - CIKM 2020/2021
+- Session Chair
+  - CIKM 2019
+  - ICTIR 2021
+- PC Member: 
+  - SIGIR, WWW, CIKM, ACL, AAAI, EMNLP, ECIR, AIRS, CCL
+- Journal Review: 
+  - TOIS, TPAMI, JMLR, TKDE, TOIT, IPM, IRJ, KAIS, JASIST
+
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="resources"
-  title="Our Resources"
-  flip=true
-  text=text
-%}
-
-{% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include link.html
-  link="team"
-  text="Meet our team"
-  icon="fas fa-arrow-right"
-  flip=true
-%}
-{:.center}
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% include two-col.html leftcol=left_panel rightcol=main_panel left=3 right=9 %}

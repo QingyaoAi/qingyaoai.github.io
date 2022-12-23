@@ -23,14 +23,32 @@
 
   {%- assign flip = include.flip | default: false -%}
 
-  <a class="link" href="{{ link | relative_url }}" {% if tooltip %}data-tooltip="{{ tooltip }}"{% endif %} {% if icon %}data-icon="true"{% endif %} {% if text %}data-text="true"{% endif %} {% if flip %}data-flip="true"{% endif %} data-style="{{ include.style | default: '' }}">
-    {%- if icon contains "fa-" -%}
-      <i class="{{ icon }} fa-lg {% if text == nil %}fa-fw{% endif %}"></i>
-    {%- elsif icon -%}
-      {% include {{ icon }} %}
+  {%- assign dropdown = include.dropdown -%}
+  {%- assign children = include.children -%}
+  {%- if dropdown == "true" -%}
+    <div class="mydropdown" data-style="{{ include.style | default: '' }}">
+      <a class="link" href="{{ link | relative_url }}">
+        <span>{{ text }}</span>
+      </a>
+      {%- if children -%}
+        <div class="mydropdown-content">
+          {%- for subpage in children -%}
+            {%- assign sublink = link | append: subpage -%}
+            <a href="{{ sublink | relative_url }}">{{ subpage }}</a>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div> 
+  {%- else -%}
+    <a class="link" href="{{ link | relative_url }}" {% if tooltip %}data-tooltip="{{ tooltip }}"{% endif %} {% if icon %}data-icon="true"{% endif %} {% if text %}data-text="true"{% endif %} {% if flip %}data-flip="true"{% endif %} data-style="{{ include.style | default: '' }}">
+      {%- if icon contains "fa-" -%}
+        <i class="{{ icon }} fa-lg {% if text == nil %}fa-fw{% endif %}"></i>
+      {%- elsif icon -%}
+        {% include {{ icon }} %}
+      {%- endif -%}
+      {%- if text -%}
+        <span>{{ text }}</span>
+      {%- endif -%}
+    </a>
     {%- endif -%}
-    {%- if text -%}
-      <span>{{ text }}</span>
-    {%- endif -%}
-  </a>
 {%- endif -%}
