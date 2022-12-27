@@ -1,18 +1,14 @@
 ---
-title: Patents
+title: Workshop
 nav:
   order: 4
-  tooltip: 专利申报
+  # tooltip: 专利申报
 ---
 
-# <i class="fas fa-book"></i>Patents 专利
+# <i class="fas fa-chart-bar"></i>Workshops
 
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include list.html data="patents" component="patents" style="rich" %}
-
-{% include section.html %}
-
-Special thanks to [Zhiyu He](/lab-website-template/members/2_stu_2022_hezhiyu.html) for the initial construction of this page.
+{% include list.html data="workshops" component="projects" style="rich" split_by_year="false" %}

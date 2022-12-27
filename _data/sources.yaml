@@ -17,7 +17,7 @@
   - Zhiyu Chen
   - Dawei Yin
   - Brian Davison
-  publisher: In the Proceedings of the 16th ACM International Conference on Web Search and Data Mining (WSDM'23)*
+  publisher: In the Proceedings of the 16th ACM International Conference on Web Search and Data Mining (WSDM'23)
   date: '2023-12-31'
   extra-links:
     - type: pdf
@@ -31,7 +31,7 @@
   - Qingyao Ai
   - Ruqing Zhang
   - Xueqi Cheng
-  publisher: In Proceedings of the 3*1st ACM International Conference on Information and Knowledge Management (CIKM’22)
+  publisher: In Proceedings of the 31st ACM International Conference on Information and Knowledge Management (CIKM’22)
   date: '2022-12-31'
   extra-links:
     - type: pdf
@@ -57,7 +57,7 @@
   - Parth Gupta
   - Bing Yin
   - Qingyao Ai
-  publisher: In the Proceedings of the 4*5*th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’22)
+  publisher: In the Proceedings of the 45th International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR’22)
   date: '2022-12-31'
   extra-links:
     - type: pdf
@@ -96,6 +96,7 @@
       link: https://drive.google.com/drive/u/2/folders/1k6podDEmIY5x2NYpmgg48M6zKYCSUYyt
 - id: 3635be7112e9007f84f9826897f0ae8c
   title: "ULTRA: An Unbiased Learning To Rank Algorithm Toolbox"
+  image: "images/publications/ULTRA.jpg"
   authors:
   - Anh Tran
   - Tao Yang
@@ -116,7 +117,7 @@
   authors:
   - Qingyao Ai*
   - Lakshmi Narayanan R*
-  publisher: In Proceedings of the 30*th ACM International Conference on Information and Knowledge Management (CIKM’21)
+  publisher: In Proceedings of the 30th ACM International Conference on Information and Knowledge Management (CIKM’21)
   date: '2021-12-31'
   extra-links:
     - type: pdf

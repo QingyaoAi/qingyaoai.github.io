@@ -1,36 +1,20 @@
 ---
-title: Opensource
+title: Projects
 nav:
   order: 6
-  tooltip: 开源项目与数据
+  # tooltip: 开源项目与数据
 ---
 
-# <i class="fas fa-code-branch"></i>Opensource 开源项目与数据
+# <i class="fas fa-code-branch"></i>Projects
 
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="Follow us on GitHub"
-  link="THUIR"
-  style="button"
-%}
-{:.center}
+## Current
 
-{% include search-info.html %}
+{% include list.html component="datasets" data="projects" filters="group: current" style="rich" %}
 
 {% include section.html %}
 
-## Toolkits
+## Former
 
-{% include list.html component="card" data="tools" filters="group: toolkit" style="large"%}
-
-{% include section.html %}
-
-## Datasets
-
-{% include list.html component="datasets" data="tools" filters="group: dataset" style="rich" %}
+{% include list.html component="datasets" data="projects" filters="group: former" style="rich" %}
 
 {% include section.html %}
-
-Special thanks to [Shuqi Zhu](/lab-website-template/members/2_stu_2022_zhushuqi.html) for the initial construction of this page.

@@ -150,6 +150,18 @@ code:
   tooltip: Source code
   link: $LINK
 
+PyTorch:
+  icon: fas fa-code
+  text: PyTorch
+  tooltip: PyTorch code
+  link: $LINK
+
+Tensorflow:
+  icon: fas fa-code
+  text: Tensorflow
+  tooltip: Tensorflow code
+  link: $LINK
+
 source:
   icon: fas fa-code
   text: Source

@@ -31,7 +31,8 @@
 
 {%- assign items = year.items -%}
 
-{%- if years.size > 1 -%}
+{%- assign split_by_year = include.split_by_year | default: "true" -%}
+{%- if years.size > 1 and split_by_year == "true" -%}
   <h3 id="{{ year.name }}">{{ year.name }}</h3>
   {%- assign items = items | sort: "date" | reverse -%}
 {%- endif -%}
@@ -50,6 +51,8 @@
     caption=d.caption
     content=d.content
     date=d.date
+    location=d.location
+    venue=d.venue
     description=d.description
     paper=d.paper
     extra-links=d.extra-links

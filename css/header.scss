@@ -11,11 +11,21 @@ header {
   align-items: top;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 30px;
+  padding: 20px;
   color: $white;
-  background: $blue-800;
   box-shadow: $shadow;
   z-index: 99;
+
+  
+  &[data-dark="false"] {
+    background: $gray-100;
+    color: $black;
+  }
+
+  &[data-dark="true"] {
+    background: $gray-900;
+    color: $white;
+  }
 
   & * {
     font-family: $sans;
