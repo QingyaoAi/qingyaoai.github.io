@@ -16,6 +16,7 @@ footer {
   background: $gray-800;
   text-align: center;
   box-shadow: $shadow;
+  position: relative;
 
   & * {
     font-family: $sans;

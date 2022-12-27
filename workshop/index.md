@@ -5,7 +5,7 @@ nav:
   # tooltip: 专利申报
 ---
 
-# <i class="fas fa-chart-bar"></i>Workshops
+# <i class="fas fa-book-reader"></i>Workshops
 
 {% include search-box.html %}
 

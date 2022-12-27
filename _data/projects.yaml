@@ -1,6 +1,6 @@
 - title: Google Research Scholar Award
   group: current
-  image: images/opensource/ReChorus.jpg
+  image: images/project/GRSA.jpg
   link: https://ai.googleblog.com/2021/04/announcing-2021-research-scholar.html
   description: Metric-agnostic Ranking Optimization
   tags:
@@ -9,7 +9,7 @@
   
 - title: NSF-CISE-IIS 2007398
   group: former
-  image: images/opensource/ReChorus.jpg
+  image: images/project/nsf.jpg
   link: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007398&HistoricalAwards=false
   description: Scrutable and Explainable Information Retrieval with Model Intrinsic and Agnostic Approaches
   tags:
@@ -17,7 +17,7 @@
 
 - title: NTCIR-16
   group: former
-  image: images/opensource/ULTRA.jpg
+  image: images/project/ntcir.png
   link: http://research.nii.ac.jp/ntcir/ntcir-16/tasks.html
   description: Unbiased Learning to Ranking Evaluation Task (ULTRE)
   tags:

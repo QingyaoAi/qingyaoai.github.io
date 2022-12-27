@@ -1,6 +1,6 @@
 - title: "SIGIR'21 - Tutorial on Beyond Probability Ranking Principle: Modeling the Dependencies among Documents"
   group: tutorial
-  image: images/funds/nsfc.jpg
+  image: images/tutorial/sigir21.jpg
   authors:
   - Liang Pang
   - Qingyao Ai
@@ -15,7 +15,7 @@
 
 - title: "WSDM'21 - Tutorial on Beyond Probability Ranking Principle: Modeling the Dependencies among Documents"
   group: tutorial
-  image: images/funds/nsfc.jpg
+  image: images/tutorial/wsdm21.jpg
   authors:
   - Liang Pang
   - Qingyao Ai
@@ -30,7 +30,7 @@
 
 - title: "ICTIR'19 - Tutorial on Explainable Recommendation and Search"
   group: tutorial
-  image: images/funds/nsfc.jpg
+  image: images/tutorial/ictir19.jpg
   authors:
   - Yongfeng Zhang
   - Jiaxin Mao
@@ -47,7 +47,7 @@
 
 - title: "SIGIR'19 - Tutorial on Explainable Recommendation and Search"
   group: tutorial
-  image: images/funds/nsfc.jpg
+  image: images/tutorial/sigir19.jpg
   authors:
   - Yongfeng Zhang
   - Jiaxin Mao
@@ -64,7 +64,7 @@
 
 - title: "WWW'19 - Tutorial on Explainable Recommendation and Search"
   group: tutorial
-  image: images/funds/nsfc.jpg
+  image: images/tutorial/www19.jpg
   authors:
   - Yongfeng Zhang
   - Jiaxin Mao
@@ -81,7 +81,7 @@
 
 - title: "CIKM'18 - Unbiased Learning to Rank: Theory and Practice"
   group: tutorial
-  image: images/funds/nsfc.jpg
+  image: images/tutorial/cikm18.jpg
   authors:
   - Qingyao Ai
   - Jiaxin Mao
@@ -99,7 +99,7 @@
 
 - title: "ICTIR'18 - Unbiased Learning to Rank: Theory and Practice"
   group: tutorial
-  image: images/funds/nsfc.jpg
+  image: images/tutorial/ictir18.jpg
   authors:
   - Qingyao Ai
   - Jiaxin Mao

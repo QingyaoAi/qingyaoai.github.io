@@ -1,6 +1,6 @@
 - title: "KDD'21 - DLP-KDD: The 3rd International Workshop on Deep Learning Practice for High-Dimensional Sparse Data with KDD 2021"
   group: workshop
-  image: images/funds/nsfc.jpg
+  image: images/workshop/kdd21.jpg
   authors:
   - Xiaoqiang Zhu
   - Kuang-chih Lee
@@ -18,7 +18,7 @@
   
 - title: "KDD'20 - DLP-KDD: The 2nd International Workshop on Deep Learning Practice for High-Dimensional Sparse Data with KDD 2020"
   group: workshop
-  image: images/funds/nsfc.jpg
+  image: images/workshop/kdd20.jpg
   authors:
   - Xiaoqiang Zhu
   - Kuang-chih Lee
@@ -40,7 +40,7 @@
 
 - title: "WSDM'19 - DAPA: The WSDM 2019 Workshop on Deep mAtching in Practical Applications"
   group: workshop
-  image: images/funds/nsfc.jpg
+  image: images/workshop/wsdm19.jpg
   authors:
   - Yixing Fan
   - Qingyao Ai

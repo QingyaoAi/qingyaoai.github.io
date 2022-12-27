@@ -5,7 +5,7 @@ title: Qingyao Ai
 description: Qingyao Ai
 logo: images/logo.png
 header: images/background.jpg
-#footer: images/background.jpg
+footer: images/background.jpg
 baseurl: ""
 
 # site social media and other links

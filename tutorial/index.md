@@ -5,7 +5,7 @@ nav:
 #  tooltip: 项目与基金
 ---
 
-# <i class="fas fa-chart-bar"></i>Tutorials
+# <i class="fas fa-chalkboard-teacher"></i>Tutorials
 
 {% include search-box.html %}
 
