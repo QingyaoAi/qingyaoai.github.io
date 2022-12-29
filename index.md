@@ -6,7 +6,7 @@ nav:
 
 
 {% capture left_panel %}
-![Qingyao Ai](/images/profile.jpg)
+![Qingyao Ai]({{ relative_url }}/images/profile.jpg)
 # Qingyao Ai<br/>艾清遥
 
 <p class="center">
