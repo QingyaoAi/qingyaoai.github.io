@@ -6,7 +6,9 @@ nav:
 
 
 {% capture left_panel %}
-![Qingyao Ai]({{ relative_url }}/images/profile.jpg)
+
+{%- assign image = "/images/profile.jpg" | default: "" -%}
+![Qingyao Ai]({{ image | relative_url }})
 # Qingyao Ai<br/>艾清遥
 
 <p class="center">
