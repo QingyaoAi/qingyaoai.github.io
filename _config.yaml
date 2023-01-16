@@ -2,11 +2,11 @@
 
 # site properties and page defaults
 title: Qingyao Ai
-description: Qingyao Ai
+description: Assistant Professor at Department of Computer Science and Technology, Tsinghua University
 logo: images/logo.png
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: ""
+baseurl: "/group/~aiqy"
 
 # site social media and other links
 links:
