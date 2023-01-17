@@ -5,6 +5,7 @@ nav:
 ---
 
 
+
 {% capture left_panel %}
 
 {%- assign image = "/images/profile.jpg" | default: "" -%}

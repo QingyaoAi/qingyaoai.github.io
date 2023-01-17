@@ -165,8 +165,6 @@ header {
   // adjust based on width of your lab name and nav bar
   @media (max-width: $tablet) {
     .logo_row {
-      flex-direction: column;
-
       .logo_text {
         text-align: center;
         align-items: center;
@@ -176,10 +174,10 @@ header {
     .nav_row {
       flex-direction: column;
       justify-content: center;
-
       .link {
         width: 100%;
       }
+      display: none;
       .mydropdown {float: none;}
       .mydropdown-content {position: relative;}
       .mydropdown .dropbtn {
@@ -203,5 +201,65 @@ header {
   padding-top: 102px;
 }
 
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.1s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  background-color: hsla(100, 100, 100, 0.1);;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  display: none;
+  visibility: hidden;
+  height: 0px;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: $tablet) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+  .openbtn {
+    display: flex;
+    visibility: visible;
+  }
+  .nav_row {
+    display: none;
+  }
+}
 
