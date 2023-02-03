@@ -156,10 +156,10 @@ header {
 
   // screen width where nav bar wraps to under logo
   // adjust based on width of your lab name and nav bar
-  @media (max-width: $page) {
-    flex-direction: column;
-    align-items: stretch;
-  }
+  //@media (max-width: $page) {
+  //  flex-direction: column;
+  //  align-items: stretch;
+  //}
 
   // screen width where logo and nav bar go from horizontal to vertical
   // adjust based on width of your lab name and nav bar
@@ -192,13 +192,13 @@ header {
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
-  top: 0;
+  top: 500;
   width: 100%
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
+.sticky + main {
+  padding-top: 90px;
 }
 
 .sidebar {
