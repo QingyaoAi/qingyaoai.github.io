@@ -1,27 +1,11 @@
 - id: arxiv:2301.12660
 
-- title: "Marginal-Certainty-aware Fair Ranking Algorithm"
-  authors:
-  - Tao Yang
-  - Zhichao Xu
-  - Zhenduo Wang
-  - Anh Tran
-  - Qingyao Ai
-  publisher: In the Proceedings of the 16th ACM International Conference on Web Search and Data Mining (WSDM'23)
-  date: '2023-12-31'
-- title: "Model-based Unbiased Learning to Rank"
-  authors:
-  - Dan Luo
-  - Lixin Zou
-  - Qingyao Ai
-  - Zhiyu Chen
-  - Dawei Yin
-  - Brian Davison
-  publisher: In the Proceedings of the 16th ACM International Conference on Web Search and Data Mining (WSDM'23)
-  date: '2023-12-31'
+- id: doi:10.1145/3539597.3570474
+  
+- id: doi:10.1145/3539597.3570395
   extra-links:
     - type: pdf
-      link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2207.11785&sa=D&sntz=1&usg=AOvVaw2gUuZgUwjy1t9BQZuDRXrv
+      link: https://arxiv.org/abs/2207.11785
 - title: "Hard Negatives or False Negatives: Correcting Pooling Bias in Training Neural Ranking Models"
   authors:
   - Yinqiong Cai
