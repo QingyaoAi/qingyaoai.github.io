@@ -14,32 +14,36 @@
   date: '2023-01-31'
   link: https://arxiv.org/abs/2301.12660
   _cache: 43bcc383e96923a506dedfe5c39732b8f1f296e8df2d6c182c93de0101f8edff
-- title: Marginal-Certainty-aware Fair Ranking Algorithm
+- id: doi:10.1145/3539597.3570474
+  title: Marginal-Certainty-Aware Fair Ranking Algorithm
   authors:
   - Tao Yang
   - Zhichao Xu
   - Zhenduo Wang
   - Anh Tran
   - Qingyao Ai
-  publisher: In the Proceedings of the 16th ACM International Conference on Web Search
-    and Data Mining (WSDM'23)
-  date: '2023-12-31'
-  _cache: 1be39de2e37bd287d100ffcd7aecb859a751a653fd7176d11ca724349b2a5491
-- title: Model-based Unbiased Learning to Rank
+  publisher: Proceedings of the Sixteenth ACM International Conference on Web Search
+    and Data Mining
+  date: '2023-02-27'
+  link: https://doi.org/grvbgc
+  _cache: 1def96116820a72d761bac847470fe5ef0902a477fae7c110c8349e79d631e97
+- id: doi:10.1145/3539597.3570395
+  title: Model-based Unbiased Learning to Rank
   authors:
   - Dan Luo
   - Lixin Zou
   - Qingyao Ai
   - Zhiyu Chen
   - Dawei Yin
-  - Brian Davison
-  publisher: In the Proceedings of the 16th ACM International Conference on Web Search
-    and Data Mining (WSDM'23)
-  date: '2023-12-31'
+  - Brian D. Davison
+  publisher: Proceedings of the Sixteenth ACM International Conference on Web Search
+    and Data Mining
+  date: '2023-02-27'
+  link: https://doi.org/grvbgd
   extra-links:
   - type: pdf
-    link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F2207.11785&sa=D&sntz=1&usg=AOvVaw2gUuZgUwjy1t9BQZuDRXrv
-  _cache: 9578b94bde4154b3d9d06a4358eac9490c3d3c80076f55ef91e5f47b56157bbf
+    link: https://arxiv.org/abs/2207.11785
+  _cache: 448829b6ef790cc9e3e5e59fa0663bc21f0d4d5847ace0a0f57d1b3541f579b9
 - title: 'Hard Negatives or False Negatives: Correcting Pooling Bias in Training Neural
     Ranking Models'
   authors:
