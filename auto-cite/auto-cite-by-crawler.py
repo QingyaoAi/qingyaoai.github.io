@@ -47,7 +47,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 def setup_webdriver():
     # setup webdriver
-    chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install())
+    chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM, driver_version="118.0.5993.0").install())
 
     chrome_options = Options()
     options = [
@@ -67,7 +67,7 @@ def setup_webdriver():
 
 wd = setup_webdriver()
 publications={}
-supervisors = ['https://scholar.google.com/citations?user=NJOnxh4AAAAJ&hl=en','https://scholar.google.com/citations?user=0HtCYQEAAAAJ&hl=en','https://scholar.google.com/citations?user=UKqaI5IAAAAJ&hl=en']
+supervisors = ['https://scholar.google.com/citations?user=UKqaI5IAAAAJ&hl=en']
 for supervisor in supervisors:
     depth = config.get("depth", 10)
     wd.get(supervisor)
