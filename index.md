@@ -75,14 +75,15 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 **Services**
-
+- SIGIR-AP 2023 General Chair
+- SIGIR Student Affairs Chair
 - Area Chair
-  - NAACL-HLT 2021
+  - NAACL-HLT, LREC-COLING 
 - Senior PC Member:
-  - CIKM 2020/2021
+  - CIKM
 - Session Chair
-  - CIKM 2019
-  - ICTIR 2021
+  - CIKM
+  - ICTIR
 - PC Member: 
   - SIGIR, WWW, CIKM, ACL, AAAI, EMNLP, ECIR, AIRS, CCL
 - Journal Review: 
