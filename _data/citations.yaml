@@ -1,0 +1,146 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
+# See https://github.com/greenelab/lab-website-template/wiki/Citations
+
+- id: 'lecardv2: a large-scale chinese legal case retrieval dataset'
+  title: 'LeCaRDv2: A Large-Scale Chinese Legal Case Retrieval Dataset'
+  authors:
+  - Haitao Li
+  - Yunqiu Shao
+  - Yueyue Wu
+  - Qingyao Ai
+  - Yixiao Ma
+  - Yiqun Liu
+  publisher: arXiv preprint arXiv:2310.17609
+  date: '2023-10-26'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=12204807192754161757&btnI=1&hl=en
+- id: leveraging event schema to ask clarifying questions for conversational legal
+    case retrieval
+  title: Leveraging Event Schema to Ask Clarifying Questions for Conversational Legal
+    Case Retrieval
+  authors:
+  - Bulou Liu
+  - Yiran Hu
+  - Qingyao Ai
+  - Yiqun Liu
+  - Yueyue Wu
+  - Chenliang Li
+  - Weixing Shen
+  publisher: Proceedings of the 32nd ACM International Conference on Information and
+    Knowledge Management
+  date: '2023-10-21'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=4864844902848063396&btnI=1&hl=en
+- id: investigating the influence of legal case retrieval systems on users' decision
+    process
+  title: Investigating the Influence of Legal Case Retrieval Systems on Users' Decision
+    Process
+  authors:
+  - Beining Wang
+  - Ruizhe Zhang
+  - Yueyue Wu
+  - Qingyao Ai
+  - Min Zhang
+  - Yiqun Liu
+  publisher: arXiv preprint arXiv:2310.04735
+  date: '2023-10-07'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=16912688003502688892&btnI=1&hl=en
+- id: aligning the capabilities of large language models with the context of information
+    retrieval via contrastive feedback
+  title: Aligning the Capabilities of Large Language Models with the Context of Information
+    Retrieval via Contrastive Feedback
+  authors:
+  - Qian Dong
+  - Yiding Liu
+  - Qingyao Ai
+  - Zhijing Wu
+  - Haitao Li
+  - Yiqun Liu
+  - Shuaiqiang Wang
+  - Dawei Yin
+  - Shaoping Ma
+  publisher: arXiv preprint arXiv:2309.17078
+  date: '2023-09-29'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=6722217361395516314&btnI=1&hl=en
+- id: 'gnn4eeg: a benchmark and toolkit for electroencephalography classification
+    with graph neural network'
+  title: 'GNN4EEG: A Benchmark and Toolkit for Electroencephalography Classification
+    with Graph Neural Network'
+  authors:
+  - Kaiyuan Zhang
+  - Ziyi Ye
+  - Qingyao Ai
+  - Xiaohui Xie
+  - Yiqun Liu
+  publisher: arXiv preprint arXiv:2309.15515
+  date: '2023-09-27'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=8846508013033347030&btnI=1&hl=en
+- id: an intent taxonomy of legal case retrieval
+  title: An intent taxonomy of legal case retrieval
+  authors:
+  - Yunqiu Shao
+  - Haitao Li
+  - Yueyue Wu
+  - Yiqun Liu
+  - Qingyao Ai
+  - Jiaxin Mao
+  - Yixiao Ma
+  - Shaoping Ma
+  publisher: ACM Transactions on Information Systems
+  date: '2023-07-25'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=1661965596312907709&btnI=1&hl=en
+- id: behavior modeling for point of interest search
+  title: Behavior Modeling for Point of Interest Search
+  authors:
+  - Haitian Chen
+  - Qingyao Ai
+  - Zhijing Wu
+  - Zhihong Wang
+  - Yiqun Liu
+  - Min Zhang
+  - Shaoping Ma
+  - Juan Hu
+  - Naiqiang Tan
+  - Hua Chai
+  publisher: Proceedings of the 46th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval
+  date: '2023-07-19'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=15188732889826155832&btnI=1&hl=en
+- id: 'i^ 3 retriever: incorporating implicit interaction in pre-trained language
+    models for passage retrieval'
+  title: 'I^ 3 Retriever: Incorporating Implicit Interaction in Pre-trained Language
+    Models for Passage Retrieval'
+  authors:
+  - Qian Dong
+  - Yiding Liu
+  - Qingyao Ai
+  - Haitao Li
+  - Shuaiqiang Wang
+  - Yiqun Liu
+  - Dawei Yin
+  - Shaoping Ma
+  publisher: arXiv preprint arXiv:2306.02371
+  date: '2023-06-04'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=8732947677751648217&btnI=1&hl=en
+- id: 'fara: future-aware ranking algorithm for fairness optimization'
+  title: 'FARA: Future-aware Ranking Algorithm for Fairness Optimization'
+  authors:
+  - Tao Yang
+  - Zhichao Xu
+  - Zhenduo Wang
+  - Qingyao Ai
+  publisher: arXiv preprint arXiv:2305.16637
+  date: '2023-05-26'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=13438123665277110405&btnI=1&hl=en
+- id: mitigating exploitation bias in learning to rank with an uncertainty-aware empirical
+    bayes approach
+  title: Mitigating Exploitation Bias in Learning to Rank with an Uncertainty-aware
+    Empirical Bayes Approach
+  authors:
+  - Tao Yang
+  - Cuize Han
+  - Chen Luo
+  - Parth Gupta
+  - Jeff M Phillips
+  - Qingyao Ai
+  publisher: arXiv preprint arXiv:2305.16606
+  date: '2023-05-26'
+  link: https://scholar.google.com/scholar?oi=bibs&cluster=8360800028327809085&btnI=1&hl=en
