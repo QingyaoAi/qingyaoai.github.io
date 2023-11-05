@@ -2,10 +2,7 @@ name: Auto Cite by Crawler
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "_config.yaml"
+  
   pull_request:
     paths:
       - "_config.yaml"
