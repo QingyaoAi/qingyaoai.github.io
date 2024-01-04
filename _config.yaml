@@ -24,7 +24,7 @@ auto-cite:
       input:
         - ../_data/sources.yaml
   output: ../_data/citations.yaml
-  depth: 50
+  depth: 20
 
 # default front matter parameters for markdown files
 defaults:

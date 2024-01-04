@@ -62,8 +62,6 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 **Achievements**
 
 - [Google Research Scholar Award](https://ai.googleblog.com/2021/04/announcing-2021-research-scholar.html)
-- PI, [NSF IIS-2007907](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2007398&HistoricalAwards=false)
-- Research Gift from Amazon A9, 2017
 - UMass CICS Accomplishments in Search & Mining Awards, 2017
 - Ph.D. Qualifying Exam (Portfolio) passed with distinction, 2016
 - Outstanding Bachelor Graduate of Beijing (top 1%), 2014
@@ -77,8 +75,9 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 **Services**
 - SIGIR-AP 2023 General Chair
 - SIGIR Student Affairs Chair
+- CCIR Student Affairs Chair
 - Area Chair
-  - NAACL-HLT, LREC-COLING 
+  - NAACL-HLT, EMNLP, LREC-COLING 
 - Senior PC Member:
   - CIKM
 - Session Chair

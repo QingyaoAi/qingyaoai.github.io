@@ -1,8 +1,8 @@
 ---
 name: Zhenduo Wang
 image: images/students/ZhenduoWang.jpg
-description: Ph.D. at University of Utah, 2018-
-group: current
+description: Ph.D. at University of Utah, 2018-2024
+group: former
 role: phd
 aliases:
   - Z. Wang

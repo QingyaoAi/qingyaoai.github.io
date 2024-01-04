@@ -7,6 +7,12 @@ nav:
 
 # <i class="fas fa-book"></i>Teaching
 
+* 人工智能导论（本科）
+  * 2024年春季
+
+* 搜索引擎技术基础（本科）
+  * 2023年春季
+  * 2024年春季
 
 ## Former courses in University of Utah
 

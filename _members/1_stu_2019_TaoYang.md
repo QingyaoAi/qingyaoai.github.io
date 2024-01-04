@@ -1,9 +1,9 @@
 ---
 name: Tao Yang
 image: images/students/TaoYang.jpg
-description: Ph.D. at University of Utah, 2019-
+description: Ph.D. at University of Utah, 2019-2024
 role: phd
-group: current
+group: former
 aliases:
   - T. Yang
   - Tao Yang
