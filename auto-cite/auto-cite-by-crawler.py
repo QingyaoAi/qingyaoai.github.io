@@ -1,7 +1,87 @@
 from util import *
 from importlib import import_module
-from dict_hash import sha256
-from datetime import datetime
+import urllib.request
+import re
+
+CCF_CPAPER_list = {
+    'A' : ['SIGIR', 'WWW', 'AAAI', 'KDD'],
+    'B' : ['CIKM','WSDM','EMNLP'],
+    'C' : ['ECIR']
+}
+
+CCF_JOUR_list = {
+    'A' : ['ACM Trans. Inf. Syst.'],
+    'B' : ['Inf. Process. Manag.', 'Conference on Information & Knowledge Management']
+}
+
+CCF_list = {
+    'CPAPER' : CCF_CPAPER_list,
+    'JOUR' : CCF_JOUR_list
+}
+
+CCF_reg_patterns = {
+    'CPAPER': [r' \d\d\d\d', r' \'\d\d'],
+    'JOUR': ['']
+}
+
+TI_avoid_start_list = ['Session details']
+
+def get_CCF_tag(venue_str):
+    for TY in CCF_list:
+        for key in CCF_list[TY]:
+            for v in CCF_list[TY][key]:
+                for pattern in CCF_reg_patterns[TY]:
+                    p = re.compile(v + pattern)
+                    if p.search(venue_str):
+                        return key
+    return None
+
+def format_author_first_last_name(raw_au):
+    arr = raw_au.strip().split(',')
+    return ' '.join([arr[1].strip(), arr[0].strip()])
+
+def load_publication_ris_from_dblp(url):
+    # Open the URL and read the data
+    with urllib.request.urlopen(url) as response:
+        data = response.read().decode('utf-8') # Assuming the data is in UTF-8 encoding
+
+    # Process the data as needed
+    publications = []
+    for pub in data.strip().split('\n\n')[1:]:
+        entry = {}
+        for line in pub.strip().split('\n'):
+            arr = line.split('  -')
+            key = arr[0].strip()
+            value = arr[1].strip()
+            if key not in entry:
+                entry[key] = value
+            elif not isinstance(entry[key], list):
+                entry[key] = [entry[key]]
+                entry[key].append(value)
+            else:
+                entry[key].append(value)
+        # format years
+        entry['PY'] = entry['PY'].replace('/','')
+        entry['TI'] = entry['TI'].replace('.','')
+        # Remove session chairs pub:
+        flag = False
+        for ts in TI_avoid_start_list:
+            if entry['TI'].startswith(ts):
+                flag = True
+        if flag:
+            continue
+        publications.append(entry)
+    
+    return publications
+
+def convert_to_datetime(time_string):
+    try:
+        return datetime.strptime(time_string, "%Y-%m-%d")
+    except:
+        try:
+            return datetime.strptime(time_string, "%Y-%m")
+        except:
+            return datetime.strptime(time_string, "%Y")
 
 # config info for input/output files and plugins
 config = {}
@@ -37,66 +117,9 @@ except Exception as e:
 will_exit = False
 
 # list of new citations to overwrite existing citations
-new_citations = []
-from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.core.os_manager import ChromeType
-from time import sleep
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-def setup_webdriver():
-    # setup webdriver
-    chrome_service = Service(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM, driver_version="118.0.5993.0").install())
+dblp_pubs = load_publication_ris_from_dblp(config["dblp-link"])
 
-    chrome_options = Options()
-    options = [
-        "--headless",
-        # "--disable-gpu",
-        # "--window-size=1920,1200",
-        # "--ignore-certificate-errors",
-        # "--disable-extensions",
-        # "--no-sandbox",
-        # "--disable-dev-shm-usage"
-    ]
-    for option in options:
-        chrome_options.add_argument(option)
-
-    driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
-    return driver
-
-wd = setup_webdriver()
-publications={}
-supervisors = ['https://scholar.google.com/citations?user=UKqaI5IAAAAJ&hl=en']
-for supervisor in supervisors:
-    depth = config.get("depth", 10)
-    wd.get(supervisor)
-    wd.find_element(By.XPATH, '//*[@id="gsc_a_ha"]/a').click()
-    for i in range(3):
-        wd.find_element(By.XPATH, '//*[@id="gsc_bpf_more"]/span/span[2]').click()
-        sleep(3)
-
-    for i in range(depth):
-        part = wd.find_element(By.XPATH, f'//*[@id="gsc_a_b"]/tr[{i+1}]/td[1]/a')
-        href = part.get_attribute('href')
-        sleep(1)
-        wd.execute_script(f"window.open('{href}', 'new_tab')")
-        wd.switch_to.window("new_tab")
-        title = wd.find_element(By.ID, 'gsc_oci_title').text
-        author = wd.find_element(By.CLASS_NAME, 'gsc_oci_value').text
-        date = wd.find_element(By.XPATH, '//*[@id="gsc_oci_table"]/div[2]/div[2]').text.replace('/','-')
-        pub = wd.find_element(By.XPATH, '//*[@id="gsc_oci_table"]/div[3]/div[2]').text
-        cnt = 4
-        while True:
-            try:
-                url = wd.find_element(By.XPATH, f'//*[@id="gsc_oci_table"]/div[{cnt}]/div[2]/div/div[1]/a').get_attribute("href")
-                break
-            except:
-                cnt+=1
-        publications[title.lower()] = {'title':title, 'authors':[a.strip() for a in author.split(",")], 'publisher':pub, 'date':date, 'link':url}
-        sleep(1)
-        wd.close()
-        wd.switch_to.window(wd.window_handles[0])
+publications = {}
         
 for pub in citations:
     title = pub["title"]
@@ -106,22 +129,32 @@ for pub in citations:
         pub.pop("_cache")
     publications[title.lower()] = pub
 
-def convert_to_datetime(time_string):
-    try:
-        return datetime.strptime(time_string, "%Y-%m-%d")
-    except:
-        try:
-            return datetime.strptime(time_string, "%Y-%m")
-        except:
-            return datetime.strptime(time_string, "%Y")
+for entry in dblp_pubs:
+    title = entry['TI'].strip()
+    id = title.lower()
+    new = True if id not in publications else True if publications[id]['publisher'] == 'CoRR' else False
+    if new:
+        publisher = entry['BT'] if entry['TY'] == 'CPAPER' else entry['JO']
+        link = entry['UR'] if 'UR' in entry else None
+        authors = []
+        if isinstance(entry['AU'], list):
+            for au in entry['AU']:
+                aname = format_author_first_last_name(au)
+                authors.append(aname)
+        else:
+            authors.append(format_author_first_last_name(entry['AU']))
+        publications[id] = {
+            'id': id,
+            'title': title,
+            'authors': authors,
+            'publisher': publisher,
+            'date': convert_to_datetime(entry['PY']).strftime("%Y")
+        }
+        if link:
+            publications[id]['link'] = link
 
-new_citations = []
-for id in publications:
-    date = publications[id]['date'].replace('/','-')
-    converted_date = convert_to_datetime(date)
-    date = converted_date.strftime("%Y-%m-%d")
-    new_citations.append({'id':id, 'title':publications[id]['title'], "authors":publications[id]['authors'], "publisher":publications[id]['publisher'], "date":date, "link":publications[id]['link']})
 
+new_citations = publications.values()
 new_citations.sort(key=lambda x:convert_to_datetime(x['date']),reverse=True)
 # exit at end of loop if error occurred
 if will_exit:

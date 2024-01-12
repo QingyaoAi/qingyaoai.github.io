@@ -23,8 +23,9 @@ auto-cite:
     - name: sources
       input:
         - ../_data/sources.yaml
+  dblp-link: https://dblp.uni-trier.de/pid/169/1808.ris
   output: ../_data/citations.yaml
-  depth: 20
+  depth: 100
 
 # default front matter parameters for markdown files
 defaults:
