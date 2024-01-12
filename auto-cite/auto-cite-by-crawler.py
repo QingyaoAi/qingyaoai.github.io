@@ -148,7 +148,7 @@ for entry in dblp_pubs:
             'title': title,
             'authors': authors,
             'publisher': publisher,
-            'date': convert_to_datetime(entry['PY']).strftime("%Y")
+            'date': entry['PY']
         }
         if link:
             publications[id]['link'] = link
