@@ -60,8 +60,6 @@ def load_publication_ris_from_dblp(url):
                 entry[key].append(value)
             else:
                 entry[key].append(value)
-        # format years
-        entry['PY'] = entry['PY'].replace('/','')
         entry['TI'] = entry['TI'].replace('.','')
         # Remove session chairs pub:
         flag = False
@@ -129,12 +127,13 @@ for pub in citations:
         pub.pop("_cache")
     publications[title.lower()] = pub
 
+new_citations = []
 for entry in dblp_pubs:
     title = entry['TI'].strip()
     id = title.lower()
     new = True if id not in publications else True if publications[id]['publisher'] == 'CoRR' else False
     if entry['TY'] not in set(['CPAPER', 'Informal or Other Publication', 'JOUR']):
-        new = False
+        continue
     if new:
         publisher = entry['BT'] if entry['TY'] == 'CPAPER' else entry['JO']
         link = entry['UR'] if 'UR' in entry else None
@@ -145,19 +144,25 @@ for entry in dblp_pubs:
                 authors.append(aname)
         else:
             authors.append(format_author_first_last_name(entry['AU']))
+        # format year
+        arr = entry['PY'].split('/')
+        year = arr[0]
+        month = '01' if len(arr[1])<1 else arr[1]
+        day = '01' if len(arr[2])<1 else arr[2]
+        date = '%s-%s-%s' % (year, month, day)
         publications[id] = {
             'id': id,
             'title': title,
             'authors': authors,
             'publisher': publisher,
-            'date': entry['PY']
+            'date': date
         }
         if link:
             publications[id]['link'] = link
+    new_citations.append(publications[id])
 
-
-new_citations = list(publications.values())
-new_citations.sort(key=lambda x:convert_to_datetime(x['date']),reverse=True)
+#new_citations = list(publications.values())
+#new_citations.sort(key=lambda x:convert_to_datetime(x['date']),reverse=True)
 # exit at end of loop if error occurred
 if will_exit:
     log("One or more sources failed to be cited", 3, "red")
