@@ -133,6 +133,8 @@ for entry in dblp_pubs:
     title = entry['TI'].strip()
     id = title.lower()
     new = True if id not in publications else True if publications[id]['publisher'] == 'CoRR' else False
+    if entry['TY'] not in set(['CPAPER', 'Informal or Other Publication', 'JOUR']):
+        new = False
     if new:
         publisher = entry['BT'] if entry['TY'] == 'CPAPER' else entry['JO']
         link = entry['UR'] if 'UR' in entry else None
