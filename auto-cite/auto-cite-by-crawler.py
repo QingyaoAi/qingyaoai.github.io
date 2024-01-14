@@ -156,7 +156,7 @@ for entry in dblp_pubs:
             publications[id]['link'] = link
 
 
-new_citations = publications.values()
+new_citations = list(publications.values())
 new_citations.sort(key=lambda x:convert_to_datetime(x['date']),reverse=True)
 # exit at end of loop if error occurred
 if will_exit:
