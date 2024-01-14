@@ -150,13 +150,18 @@ for entry in dblp_pubs:
         month = '01' if len(arr[1])<1 else arr[1]
         day = '01' if len(arr[2])<1 else arr[2]
         date = '%s-%s-%s' % (year, month, day)
-        publications[id] = {
-            'id': id,
-            'title': title,
-            'authors': authors,
-            'publisher': publisher,
-            'date': date
-        }
+        if id not in publications:
+            publications[id] = {
+                'id': id,
+                'title': title,
+                'authors': authors,
+                'publisher': publisher,
+                'date': date
+            }
+        else:
+            publications[id]['authors'] = authors
+            publications[id]['publisher'] = publisher
+            publications[id]['date'] = date
         if link:
             publications[id]['link'] = link
     new_citations.append(publications[id])
