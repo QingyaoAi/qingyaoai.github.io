@@ -158,7 +158,7 @@ for entry in dblp_pubs:
                 'publisher': publisher,
                 'date': date
             }
-        else:
+        elif entry['TY'] in set(['CPAPER', 'JOUR']):
             publications[id]['authors'] = authors
             publications[id]['publisher'] = publisher
             publications[id]['date'] = date
