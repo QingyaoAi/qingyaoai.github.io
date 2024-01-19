@@ -23,14 +23,12 @@ Beijing, 100084<br/>
 Office: FIT-1-506<br/>
 Lab: FIT-1-506<br/>
 
-{%- include link.html type="google-scholar" icon="" text=" " tooltip="" link="UKqaI5IAAAAJ" -%}
-{%- include link.html type="github" icon="" text=" " tooltip="" link="QingyaoAi" -%}
-{%- include link.html type="twitter" icon="" text=" " tooltip="" link="QingyaoAi" -%}
-{%- include link.html type="linkedin" icon="" text=" " tooltip="" link="qingyao-ai-4ab8306a" -%}
-{%- include link.html type="email" icon="" text=" " tooltip="" link="aiqy@tsinghua.edu.cn" -%}
-
 <br/>
-{%- include twitter_timeline.html account="QingyaoAi" -%}
+{%- include link.html type="google-scholar" icon="" text="Google Scholar" tooltip="" link="UKqaI5IAAAAJ" -%}<br/>
+{%- include link.html type="github" icon="" text="Github" tooltip="" link="QingyaoAi" -%}<br/>
+{%- include link.html type="twitter" icon="" text="Twitter" tooltip="" link="QingyaoAi" -%}<br/>
+{%- include link.html type="linkedin" icon="" text="Linkedin" tooltip="" link="qingyao-ai-4ab8306a" -%}<br/>
+{%- include link.html type="email" icon="" text="Email" tooltip="" link="aiqy@tsinghua.edu.cn" -%}<br/>
 
 </p>
 
@@ -76,13 +74,10 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 - SIGIR-AP 2023 General Chair
 - SIGIR Student Affairs Chair
 - CCIR Student Affairs Chair
-- Area Chair
-  - NAACL-HLT, EMNLP, LREC-COLING 
-- Senior PC Member:
-  - CIKM
-- Session Chair
-  - CIKM
-  - ICTIR
+- Area Chair/Senior PC Member
+  - SIGIR, CIKM, NAACL-HLT, EMNLP, LREC-COLING 
+- Guest Editor
+  - [TOIS Special Issue on Pre-trained Models for Search and Recommendation](https://dl.acm.org/journal/tois/calls-for-papers)
 - PC Member: 
   - SIGIR, WWW, CIKM, ACL, AAAI, EMNLP, ECIR, AIRS, CCL
 - Journal Review: 
