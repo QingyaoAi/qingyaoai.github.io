@@ -127,7 +127,9 @@ for pub in citations:
         pub.pop("_cache")
     publications[title.lower()] = pub
 
-new_citations = []
+cur_year = 0
+cur_month = 12
+cur_day = 31
 for entry in dblp_pubs:
     title = entry['TI'].strip()
     id = title.lower()
@@ -146,9 +148,17 @@ for entry in dblp_pubs:
             authors.append(format_author_first_last_name(entry['AU']))
         # format year
         arr = entry['PY'].split('/')
-        year = arr[0]
-        month = '01' if len(arr[1])<1 else arr[1]
-        day = '01' if len(arr[2])<1 else arr[2]
+        cur_year = int(arr[0])
+        cur_month = cur_month if len(arr[1])<1 else int(arr[1])
+        cur_day = cur_day-1 if len(arr[2])<1 else int(arr[2])
+        if cur_day<1:
+            cur_month = cur_month-1
+            cur_day = 31
+        year = str(cur_year)
+        #month = '01' if len(arr[1])<1 else arr[1]
+        #day = '01' if len(arr[2])<1 else arr[2]
+        month = str(cur_month)
+        day = str(cur_day)
         date = '%s-%s-%s' % (year, month, day)
         if id not in publications:
             publications[id] = {
@@ -164,7 +174,16 @@ for entry in dblp_pubs:
             publications[id]['date'] = date
         if link:
             publications[id]['link'] = link
-    new_citations.append(publications[id])
+
+new_citations = []
+unique_id_set = set()
+for entry in dblp_pubs:
+    title = entry['TI'].strip()
+    id = title.lower()
+    if id in publications and id not in unique_id_set:        
+        new_citations.append(publications[id])
+        unique_id_set.add(id)
+
 
 #new_citations = list(publications.values())
 #new_citations.sort(key=lambda x:convert_to_datetime(x['date']),reverse=True)
