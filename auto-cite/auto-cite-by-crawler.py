@@ -10,7 +10,7 @@ CCF_CPAPER_list = {
 }
 
 CCF_JOUR_list = {
-    'A' : ['ACM Trans. Inf. Syst.'],
+    'A' : ['Trans. Inf. Syst.'],
     'B' : ['Inf. Process. Manag.', 'Conference on Information & Knowledge Management']
 }
 

@@ -34,7 +34,10 @@
 {%- assign split_by_year = include.split_by_year | default: "true" -%}
 {%- if years.size > 1 and split_by_year == "true" -%}
   <h3 id="{{ year.name }}">{{ year.name }}</h3>
-  {%- assign items = items | sort: "date" | reverse -%}
+  {%- assign sort_by_date = include.sort_by_date | default: "true" -%}
+  {%- if sort_by_date -%}
+    {%- assign items = items | sort: "date" | reverse -%}
+  {%- endif -%}
 {%- endif -%}
 
 {%- for d in items -%}
