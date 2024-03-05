@@ -12,8 +12,7 @@
   publisher: ACM Trans. Inf. Syst.
   date: '2024-01-01'
   link: https://doi.org/10.1145/3605357
-- id: incorporating structural information into legal case retrieval
-  title: Incorporating Structural Information into Legal Case Retrieval
+- title: Incorporating Structural Information into Legal Case Retrieval
   authors:
   - Yixiao Ma
   - Yueyue Wu
@@ -38,6 +37,17 @@
   publisher: ACM Trans. Inf. Syst.
   date: 2024-3-29
   link: https://doi.org/10.1145/3626093
+- id: 'pre: a peer review based large language model evaluator'
+  title: 'PRE: A Peer Review Based Large Language Model Evaluator'
+  authors:
+  - Zhumin Chu
+  - Qingyao Ai
+  - Yiteng Tu
+  - Haitao Li
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2024-12-30'
+  link: https://doi.org/10.48550/arXiv.2401.15641
 - title: 'Information Retrieval Meets Large Language Models: A Strategic Report from
     Chinese IR Community'
   authors:
