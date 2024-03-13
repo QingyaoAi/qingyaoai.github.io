@@ -58,8 +58,8 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 **Achievements**
-
 - Beijing Science and Technology Award - First Prize, 2023
+- ACM SIGIR-AP 2023 Best Paper Honorable Mention, 2023
 - [Google Research Scholar Award](https://ai.googleblog.com/2021/04/announcing-2021-research-scholar.html), 2021
 - UMass CICS Accomplishments in Search & Mining Awards, 2017
 - Ph.D. Qualifying Exam (Portfolio) passed with distinction, 2016
