@@ -29,7 +29,7 @@ Lab: FIT-1-506<br/>
 {%- include link.html type="twitter" icon="" text="Twitter" tooltip="" link="QingyaoAi" -%}<br/>
 {%- include link.html type="linkedin" icon="" text="Linkedin" tooltip="" link="qingyao-ai-4ab8306a" -%}<br/>
 {%- include link.html type="email" icon="" text="Email" tooltip="" link="aiqy@tsinghua.edu.cn" -%}<br/>
-
+{%- include twitter_timeline.html -%}
 </p>
 
 {% endcapture %}
