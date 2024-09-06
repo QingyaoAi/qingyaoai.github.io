@@ -58,6 +58,8 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 **Achievements**
+- ACM SIGIR Early Career Researcher Award - 2024
+- ACM SIGIR 2024 Best Paper Award - 2024
 - Beijing Science and Technology Award - First Prize, 2023
 - ACM SIGIR-AP 2023 Best Paper Honorable Mention, 2023
 - [Google Research Scholar Award](https://ai.googleblog.com/2021/04/announcing-2021-research-scholar.html), 2021
