@@ -1,5 +1,13 @@
-- title: "CAIL 2023: 司法大模型 Legal Large Language Model Evaluation"
+- title: "Automatic Evaluation of LLMs (AEOLLM) Task" 
   group: current
+  image: images/project/ntcir.png
+  link: https://huggingface.co/spaces/THUIR/AEOLLM
+  description: The Automatic Evaluation of LLMs (AEOLLM) task is a new core task in NTCIR-18 to support in-depth research on large language models (LLMs) evaluation. As LLMs grow popular in both fields of academia and industry, how to effectively evaluate the capacity of LLMs becomes an increasingly critical but still challenging issue. Existing methods can be divided into two types manual evaluation, which is expensive, and automatic evaluation, which faces many limitations including the task format (the majority belong to multiple-choice questions) and evaluation criteria (occupied by reference-based metrics). To advance the innovation of automatic evaluation, we proposed the Automatic Evaluation of LLMs (AEOLLM) task which focuses on generative tasks and encourages reference-free methods. Besides, we set up diverse subtasks such as summary generation, non-factoid question answering, text expansion, and dialogue generation to comprehensively test different methods.
+  tags:
+    - NTCIR
+
+- title: "CAIL 2023: 司法大模型 Legal Large Language Model Evaluation"
+  group: former
   image: images/project/CAIL.jpg
   link: http://cail.cipsc.org.cn/task_summit.html?raceID=3&cail_tag=2023
   description: 大语言模型在司法领域的巨大潜力和风险引起了人们对其专业性能评估的迫切需求。为了准确评估大语言模型在司法领域的能力，促进司法大模型的研究，我们从法律认知分类的角度出发，以法律工作者处理、思考和解决法律问题为基准，构建了一个全面的司法领域大模型评估框架。该框架包含六个能力层次的多个任务，实现对大语言模型司法能力的初步评价。
@@ -7,7 +15,7 @@
     - CAIL
 
 - title: "CAIL 2023: 对话式类案检索 Conversational Legal Case Retrieval"
-  group: current
+  group: former
   image: images/project/CAIL.jpg
   link: http://cail.cipsc.org.cn/task_summit.html?raceID=2&cail_tag=2023
   description: 对话式类案检索任务旨在根据多轮自然语言对话的内容，检索到相关的司法文书，本任务是对话式司法系统的重要组成部分。
@@ -15,7 +23,7 @@
     - CAIL
 
 - title: "CAIL 2023: 类案检索 Legal Case Retrieval"
-  group: current
+  group: former
   image: images/project/CAIL.jpg
   link: http://cail.cipsc.org.cn/task_summit.html?raceID=3&cail_tag=2023
   description: 类案检索作为人工智能支持司法审判的重要内容，对于提升法院整体裁判水平、实现类案适法统一、促进司法公正有极其重要的积极意义。本赛道面向刑事类案搜索，具体任务为：给定若干查询案例，每一个查询案例要求从候选案例池中筛选出与查询案例相关的类案。每个查询案例最终的提交形式为TOP30候选案例的排序，类案相似程度划分为四级，越相似的案例应当排名越靠前。

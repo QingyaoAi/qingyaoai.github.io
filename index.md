@@ -58,6 +58,7 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 **Achievements**
+- Qian Weichang Chinese Information Processing Science and Technology Youth Innovation Award - 2024
 - ACM SIGIR Early Career Researcher Award - 2024
 - ACM SIGIR 2024 Best Paper Award - 2024
 - Beijing Science and Technology Award - First Prize, 2023
