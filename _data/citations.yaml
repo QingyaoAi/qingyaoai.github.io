@@ -1,5 +1,16 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM DBLP.
 
+- id: comparing point-wise and pair-wise relevance judgment with brain signals
+  title: Comparing point-wise and pair-wise relevance judgment with brain signals
+  authors:
+  - Shuqi Zhu
+  - Xiaohui Xie
+  - Ziyi Ye
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: J. Assoc. Inf. Sci. Technol.
+  date: 2024-9-30
+  link: https://doi.org/10.1002/asi.24936
 - title: A Reusable Model-agnostic Framework for Faithfully Explainable Recommendation
     and System Scrutability
   authors:
@@ -79,8 +90,7 @@
     EAAI 2014, February 20-27, 2024, Vancouver, Canada
   date: '2024-12-29'
   link: https://doi.org/10.1609/aaai.v38i17.29869
-- id: prompt refinement with image pivot for text-to-image generation
-  title: Prompt Refinement with Image Pivot for Text-to-Image Generation
+- title: Prompt Refinement with Image Pivot for Text-to-Image Generation
   authors:
   - Jingtao Zhan
   - Qingyao Ai
@@ -122,8 +132,49 @@
     Bangkok, Thailand and virtual meeting, August 11-16, 2024
   date: 2024-7-27
   link: https://aclanthology.org/2024.findings-acl.854
-- id: 'cfe2: counterfactual editing for search result explanation'
-  title: 'CFE2: Counterfactual Editing for Search Result Explanation'
+- id: automatic large language model evaluation via peer review
+  title: Automatic Large Language Model Evaluation via Peer Review
+  authors:
+  - Zhumin Chu
+  - Qingyao Ai
+  - Yiteng Tu
+  - Haitao Li
+  - Yiqun Liu
+  publisher: Proceedings of the 33rd ACM International Conference on Information and
+    Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25, 2024
+  date: 2024-9-29
+  link: https://doi.org/10.1145/3627673.3679677
+- id: 'ledqa: a chinese legal case document-based question answering dataset'
+  title: 'LeDQA: A Chinese Legal Case Document-based Question Answering Dataset'
+  authors:
+  - Bulou Liu
+  - Zhenhao Zhu
+  - Qingyao Ai
+  - Yiqun Liu
+  - Yueyue Wu
+  publisher: Proceedings of the 33rd ACM International Conference on Information and
+    Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25, 2024
+  date: 2024-9-28
+  link: https://doi.org/10.1145/3627673.3679154
+- id: 'stard: a chinese statute retrieval dataset derived from real-life queries by
+    non-professionals'
+  title: 'STARD: A Chinese Statute Retrieval Dataset Derived from Real-life Queries
+    by Non-professionals'
+  authors:
+  - Weihang Su
+  - Yiran Hu
+  - Anzhe Xie
+  - Qingyao Ai
+  - Quezi Bing
+  - Ning Zheng
+  - Yun Liu
+  - Weixing Shen
+  - Yiqun Liu
+  publisher: 'Findings of the Association for Computational Linguistics: EMNLP 2024,
+    Miami, Florida, USA, November 12-16, 2024'
+  date: 2024-9-27
+  link: https://aclanthology.org/2024.findings-emnlp.625
+- title: 'CFE2: Counterfactual Editing for Search Result Explanation'
   authors:
   - Zhichao Xu
   - Hemank Lamba
@@ -134,8 +185,7 @@
     of Information Retrieval, ICTIR 2024, Washington, DC, USA, 13 July 2024
   date: 2024-7-26
   link: https://doi.org/10.1145/3664190.3672508
-- id: towards an in-depth comprehension of case relevance for better legal retrieval
-  title: Towards an In-Depth Comprehension of Case Relevance for Better Legal Retrieval
+- title: Towards an In-Depth Comprehension of Case Relevance for Better Legal Retrieval
   authors:
   - Haitao Li
   - You Chen
@@ -149,9 +199,21 @@
     Proceedings
   date: 2024-7-25
   link: https://doi.org/10.1007/978-981-97-3076-6_15
-- id: unsupervised large language model alignment for information retrieval via contrastive
-    feedback
-  title: Unsupervised Large Language Model Alignment for Information Retrieval via
+- id: query augmentation with brain signals
+  title: Query Augmentation with Brain Signals
+  authors:
+  - Ziyi Ye
+  - Jingtao Zhan
+  - Qingyao Ai
+  - Yiqun Liu
+  - Maarten de Rijke
+  - Christina Lioma
+  - Tuukka Ruotsalo
+  publisher: Proceedings of the 32nd ACM International Conference on Multimedia, MM
+    2024, Melbourne, VIC, Australia, 28 October 2024 - 1 November 2024
+  date: 2024-9-26
+  link: https://doi.org/10.1145/3664647.3681658
+- title: Unsupervised Large Language Model Alignment for Information Retrieval via
     Contrastive Feedback
   authors:
   - Qian Dong
@@ -168,8 +230,7 @@
     14-18, 2024
   date: 2024-7-24
   link: https://doi.org/10.1145/3626772.3657689
-- id: sequential recommendation with latent relations based on large language model
-  title: Sequential Recommendation with Latent Relations based on Large Language Model
+- title: Sequential Recommendation with Latent Relations based on Large Language Model
   authors:
   - Shenghao Yang
   - Weizhi Ma
@@ -183,9 +244,7 @@
     14-18, 2024
   date: 2024-7-23
   link: https://doi.org/10.1145/3626772.3657762
-- id: 'eeg-svrec: an eeg dataset with user multidimensional affective engagement labels
-    in short video recommendation'
-  title: 'EEG-SVRec: An EEG Dataset with User Multidimensional Affective Engagement
+- title: 'EEG-SVRec: An EEG Dataset with User Multidimensional Affective Engagement
     Labels in Short Video Recommendation'
   authors:
   - Shaorun Zhang
@@ -200,8 +259,7 @@
     14-18, 2024
   date: 2024-7-22
   link: https://doi.org/10.1145/3626772.3657890
-- id: scaling laws for dense retrieval
-  title: Scaling Laws For Dense Retrieval
+- title: Scaling Laws For Dense Retrieval
   authors:
   - Yan Fang
   - Jingtao Zhan
@@ -215,8 +273,7 @@
     14-18, 2024
   date: 2024-7-21
   link: https://doi.org/10.1145/3626772.3657743
-- id: unbiased learning-to-rank needs unconfounded propensity estimation
-  title: Unbiased Learning-to-Rank Needs Unconfounded Propensity Estimation
+- title: Unbiased Learning-to-Rank Needs Unconfounded Propensity Estimation
   authors:
   - Dan Luo
   - Lixin Zou
@@ -230,8 +287,7 @@
     14-18, 2024
   date: 2024-7-20
   link: https://doi.org/10.1145/3626772.3657772
-- id: capability-aware prompt reformulation learning for text-to-image generation
-  title: Capability-aware Prompt Reformulation Learning for Text-to-Image Generation
+- title: Capability-aware Prompt Reformulation Learning for Text-to-Image Generation
   authors:
   - Jingtao Zhan
   - Qingyao Ai
@@ -322,8 +378,7 @@
   publisher: CoRR
   date: '2024-12-25'
   link: https://doi.org/10.48550/arXiv.2403.04184
-- id: evaluation ethics of llms in legal domain
-  title: Evaluation Ethics of LLMs in Legal Domain
+- title: Evaluation Ethics of LLMs in Legal Domain
   authors:
   - Ruizhe Zhang
   - Haitao Li
@@ -335,8 +390,7 @@
   publisher: CoRR
   date: 2024-7-11
   link: https://doi.org/10.48550/arXiv.2403.11152
-- id: improving legal case retrieval with brain signals
-  title: Improving Legal Case Retrieval with Brain Signals
+- title: Improving Legal Case Retrieval with Brain Signals
   authors:
   - Ruizhe Zhang
   - Qingyao Ai
@@ -347,8 +401,7 @@
   publisher: CoRR
   date: 2024-7-10
   link: https://doi.org/10.48550/arXiv.2403.13242
-- id: a situation-aware enhancer for personalized recommendation
-  title: A Situation-aware Enhancer for Personalized Recommendation
+- title: A Situation-aware Enhancer for Personalized Recommendation
   authors:
   - Jiayu Li
   - Peijie Sun
@@ -359,8 +412,7 @@
   publisher: CoRR
   date: 2024-7-9
   link: https://doi.org/10.48550/arXiv.2403.18317
-- id: common sense enhanced knowledge-based recommendation with large language model
-  title: Common Sense Enhanced Knowledge-based Recommendation with Large Language
+- title: Common Sense Enhanced Knowledge-based Recommendation with Large Language
     Model
   authors:
   - Shenghao Yang
@@ -373,9 +425,7 @@
   publisher: CoRR
   date: 2024-7-8
   link: https://doi.org/10.48550/arXiv.2403.18325
-- id: 'blade: enhancing black-box large language models with small domain-specific
-    models'
-  title: 'BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific
+- title: 'BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific
     Models'
   authors:
   - Haitao Li
@@ -389,9 +439,7 @@
   publisher: CoRR
   date: 2024-7-7
   link: https://doi.org/10.48550/arXiv.2403.18365
-- id: 'delta: pre-train a discriminative encoder for legal case retrieval via structural
-    word alignment'
-  title: 'DELTA: Pre-train a Discriminative Encoder for Legal Case Retrieval via Structural
+- title: 'DELTA: Pre-train a Discriminative Encoder for Legal Case Retrieval via Structural
     Word Alignment'
   authors:
   - Haitao Li
@@ -405,9 +453,7 @@
   publisher: CoRR
   date: 2024-7-6
   link: https://doi.org/10.48550/arXiv.2403.18435
-- id: 'investigating the robustness of counterfactual learning to rank models: a reproducibility
-    study'
-  title: 'Investigating the Robustness of Counterfactual Learning to Rank Models:
+- title: 'Investigating the Robustness of Counterfactual Learning to Rank Models:
     A Reproducibility Study'
   authors:
   - Zechun Niu
@@ -417,9 +463,7 @@
   publisher: CoRR
   date: 2024-7-5
   link: https://doi.org/10.48550/arXiv.2404.03707
-- id: 'eeg-imagenet: an electroencephalogram dataset and benchmarks with image visual
-    stimuli of multi-granularity labels'
-  title: 'EEG-ImageNet: An Electroencephalogram Dataset and Benchmarks with Image
+- title: 'EEG-ImageNet: An Electroencephalogram Dataset and Benchmarks with Image
     Visual Stimuli of Multi-Granularity Labels'
   authors:
   - Shuqi Zhu
@@ -429,8 +473,7 @@
   publisher: CoRR
   date: 2024-7-4
   link: https://doi.org/10.48550/arXiv.2406.07151
-- id: 'stard: a chinese statute retrieval dataset with real queries issued by non-professionals'
-  title: 'STARD: A Chinese Statute Retrieval Dataset with Real Queries Issued by Non-professionals'
+- title: 'STARD: A Chinese Statute Retrieval Dataset with Real Queries Issued by Non-professionals'
   authors:
   - Weihang Su
   - Yiran Hu
@@ -444,8 +487,7 @@
   publisher: CoRR
   date: 2024-7-3
   link: https://doi.org/10.48550/arXiv.2406.15313
-- id: mitigating entity-level hallucination in large language models
-  title: Mitigating Entity-Level Hallucination in Large Language Models
+- title: Mitigating Entity-Level Hallucination in Large Language Models
   authors:
   - Weihang Su
   - Yichen Tang
@@ -456,8 +498,7 @@
   publisher: CoRR
   date: 2024-7-2
   link: https://doi.org/10.48550/arXiv.2407.09417
-- id: 'lekube: a legal knowledge update benchmark'
-  title: 'LeKUBE: A Legal Knowledge Update BEnchmark'
+- title: 'LeKUBE: A Legal Knowledge Update BEnchmark'
   authors:
   - Changyue Wang
   - Weihang Su
@@ -471,6 +512,49 @@
   publisher: CoRR
   date: 2024-7-1
   link: https://doi.org/10.48550/arXiv.2407.14192
+- id: 'lexeval: a comprehensive chinese legal benchmark for evaluating large language
+    models'
+  title: 'LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language
+    Models'
+  authors:
+  - Haitao Li
+  - You Chen
+  - Qingyao Ai
+  - Yueyue Wu
+  - Ruizhe Zhang
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2024-9-10
+  link: https://doi.org/10.48550/arXiv.2409.20288
+- id: 'beyond scalar reward model: learning generative judge from preference data'
+  title: 'Beyond Scalar Reward Model: Learning Generative Judge from Preference Data'
+  authors:
+  - Ziyi Ye
+  - Xiangsheng Li
+  - Qiuchi Li
+  - Qingyao Ai
+  - Yujia Zhou
+  - Wei Shen
+  - Dong Yan
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2024-9-9
+  link: https://doi.org/10.48550/arXiv.2410.03742
+- id: 'calibraeval: calibrating prediction distribution to mitigate selection bias
+    in llms-as-judges'
+  title: 'CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias
+    in LLMs-as-Judges'
+  authors:
+  - Haitao Li
+  - Junjie Chen
+  - Qingyao Ai
+  - Zhumin Chu
+  - Yujia Zhou
+  - Qian Dong
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2024-9-8
+  link: https://doi.org/10.48550/arXiv.2410.15393
 - title: 'Information Retrieval Meets Large Language Models: A Strategic Report from
     Chinese IR Community'
   authors:
