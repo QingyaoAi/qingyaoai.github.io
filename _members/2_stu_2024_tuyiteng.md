@@ -1,6 +1,6 @@
 ---
 name: Yiteng Tu<br/>涂奕腾
-image: images/people/YitengTu.jpg
+image: http://www.thuir.cn/images/people/YitengTu.jpg
 description: Ph.D. 2024-  
 role: phd
 group: current

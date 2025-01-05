@@ -1,6 +1,6 @@
 --- 
 name: Junjie Chen<br/>陈俊杰 
-image: images/people/cjj.jpg  
+image: http://www.thuir.cn/images/people/cjj.jpg  
 description: M.D. 2024-  
 role: master  
 group: current

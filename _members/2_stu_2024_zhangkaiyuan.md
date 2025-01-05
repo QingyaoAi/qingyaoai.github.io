@@ -1,6 +1,6 @@
 ---
 name: Kaiyuan Zhang<br/>张开元
-image: images/people/zky.png
+image: http://www.thuir.cn/images/people/zky.png
 description: Ph.D. 2024-  
 role: phd
 group: current
