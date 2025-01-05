@@ -1,7 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM DBLP.
 
-- id: comparing point-wise and pair-wise relevance judgment with brain signals
-  title: Comparing point-wise and pair-wise relevance judgment with brain signals
+- title: Comparing point-wise and pair-wise relevance judgment with brain signals
   authors:
   - Shuqi Zhu
   - Xiaohui Xie
@@ -132,8 +131,7 @@
     Bangkok, Thailand and virtual meeting, August 11-16, 2024
   date: 2024-7-27
   link: https://aclanthology.org/2024.findings-acl.854
-- id: automatic large language model evaluation via peer review
-  title: Automatic Large Language Model Evaluation via Peer Review
+- title: Automatic Large Language Model Evaluation via Peer Review
   authors:
   - Zhumin Chu
   - Qingyao Ai
@@ -144,8 +142,7 @@
     Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25, 2024
   date: 2024-9-29
   link: https://doi.org/10.1145/3627673.3679677
-- id: 'ledqa: a chinese legal case document-based question answering dataset'
-  title: 'LeDQA: A Chinese Legal Case Document-based Question Answering Dataset'
+- title: 'LeDQA: A Chinese Legal Case Document-based Question Answering Dataset'
   authors:
   - Bulou Liu
   - Zhenhao Zhu
@@ -156,9 +153,21 @@
     Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25, 2024
   date: 2024-9-28
   link: https://doi.org/10.1145/3627673.3679154
-- id: 'stard: a chinese statute retrieval dataset derived from real-life queries by
-    non-professionals'
-  title: 'STARD: A Chinese Statute Retrieval Dataset Derived from Real-life Queries
+- title: Common Sense Enhanced Knowledge-based Recommendation with Large Language
+    Model
+  authors:
+  - Shenghao Yang
+  - Weizhi Ma
+  - Peijie Sun
+  - Min Zhang
+  - Qingyao Ai
+  - Yiqun Liu
+  - Mingchen Cai
+  publisher: Database Systems for Advanced Applications - 29th International Conference,
+    DASFAA 2024, Gifu, Japan, July 2-5, 2024, Proceedings, Part V
+  date: '2024-12-30'
+  link: https://doi.org/10.1007/978-981-97-5569-1_25
+- title: 'STARD: A Chinese Statute Retrieval Dataset Derived from Real-life Queries
     by Non-professionals'
   authors:
   - Weihang Su
@@ -199,8 +208,7 @@
     Proceedings
   date: 2024-7-25
   link: https://doi.org/10.1007/978-981-97-3076-6_15
-- id: query augmentation with brain signals
-  title: Query Augmentation with Brain Signals
+- title: Query Augmentation with Brain Signals
   authors:
   - Ziyi Ye
   - Jingtao Zhan
@@ -312,6 +320,36 @@
     14-18, 2024
   date: 2024-7-18
   link: https://doi.org/10.1145/3626772.3657887
+- title: Mitigating Entity-Level Hallucination in Large Language Models
+  authors:
+  - Weihang Su
+  - Yichen Tang
+  - Qingyao Ai
+  - Changyue Wang
+  - Zhijing Wu
+  - Yiqun Liu
+  publisher: Proceedings of the 2024 Annual International ACM SIGIR Conference on
+    Research and Development in Information Retrieval in the Asia Pacific Region,
+    SIGIR-AP 2024, Tokyo, Japan, December 9-12, 2024
+  date: '2024-12-29'
+  link: https://doi.org/10.1145/3673791.3698403
+- id: 'lekube: a knowledge update benchmark for legal domain'
+  title: 'LeKUBE: A Knowledge Update BEnchmark for Legal Domain'
+  authors:
+  - Changyue Wang
+  - Weihang Su
+  - Yiran Hu
+  - Qingyao Ai
+  - Yueyue Wu
+  - Cheng Luo
+  - Yiqun Liu
+  - Min Zhang
+  - Shaoping Ma
+  publisher: Proceedings of the 2024 Annual International ACM SIGIR Conference on
+    Research and Development in Information Retrieval in the Asia Pacific Region,
+    SIGIR-AP 2024, Tokyo, Japan, December 9-12, 2024
+  date: '2024-12-28'
+  link: https://doi.org/10.1145/3673791.3698407
 - title: An In-depth Investigation of User Response Simulation for Conversational
     Search
   authors:
@@ -412,19 +450,6 @@
   publisher: CoRR
   date: 2024-7-9
   link: https://doi.org/10.48550/arXiv.2403.18317
-- title: Common Sense Enhanced Knowledge-based Recommendation with Large Language
-    Model
-  authors:
-  - Shenghao Yang
-  - Weizhi Ma
-  - Peijie Sun
-  - Min Zhang
-  - Qingyao Ai
-  - Yiqun Liu
-  - Mingchen Cai
-  publisher: CoRR
-  date: 2024-7-8
-  link: https://doi.org/10.48550/arXiv.2403.18325
 - title: 'BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific
     Models'
   authors:
@@ -487,17 +512,6 @@
   publisher: CoRR
   date: 2024-7-3
   link: https://doi.org/10.48550/arXiv.2406.15313
-- title: Mitigating Entity-Level Hallucination in Large Language Models
-  authors:
-  - Weihang Su
-  - Yichen Tang
-  - Qingyao Ai
-  - Changyue Wang
-  - Zhijing Wu
-  - Yiqun Liu
-  publisher: CoRR
-  date: 2024-7-2
-  link: https://doi.org/10.48550/arXiv.2407.09417
 - title: 'LeKUBE: A Legal Knowledge Update BEnchmark'
   authors:
   - Changyue Wang
@@ -512,9 +526,7 @@
   publisher: CoRR
   date: 2024-7-1
   link: https://doi.org/10.48550/arXiv.2407.14192
-- id: 'lexeval: a comprehensive chinese legal benchmark for evaluating large language
-    models'
-  title: 'LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language
+- title: 'LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language
     Models'
   authors:
   - Haitao Li
@@ -526,8 +538,7 @@
   publisher: CoRR
   date: 2024-9-10
   link: https://doi.org/10.48550/arXiv.2409.20288
-- id: 'beyond scalar reward model: learning generative judge from preference data'
-  title: 'Beyond Scalar Reward Model: Learning Generative Judge from Preference Data'
+- title: 'Beyond Scalar Reward Model: Learning Generative Judge from Preference Data'
   authors:
   - Ziyi Ye
   - Xiangsheng Li
@@ -540,9 +551,7 @@
   publisher: CoRR
   date: 2024-9-9
   link: https://doi.org/10.48550/arXiv.2410.03742
-- id: 'calibraeval: calibrating prediction distribution to mitigate selection bias
-    in llms-as-judges'
-  title: 'CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias
+- title: 'CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias
     in LLMs-as-Judges'
   authors:
   - Haitao Li
