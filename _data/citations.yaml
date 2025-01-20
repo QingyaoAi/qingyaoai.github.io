@@ -333,8 +333,7 @@
     SIGIR-AP 2024, Tokyo, Japan, December 9-12, 2024
   date: '2024-12-29'
   link: https://doi.org/10.1145/3673791.3698403
-- id: 'lekube: a knowledge update benchmark for legal domain'
-  title: 'LeKUBE: A Knowledge Update BEnchmark for Legal Domain'
+- title: 'LeKUBE: A Knowledge Update BEnchmark for Legal Domain'
   authors:
   - Changyue Wang
   - Weihang Su
@@ -564,6 +563,20 @@
   publisher: CoRR
   date: 2024-9-8
   link: https://doi.org/10.48550/arXiv.2410.15393
+- id: 'llms-as-judges: a comprehensive survey on llm-based evaluation methods'
+  title: 'LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods'
+  authors:
+  - Haitao Li
+  - Qian Dong
+  - Junjie Chen
+  - Huixue Su
+  - Yujia Zhou
+  - Qingyao Ai
+  - Ziyi Ye
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2024-12-14'
+  link: https://doi.org/10.48550/arXiv.2412.05579
 - title: 'Information Retrieval Meets Large Language Models: A Strategic Report from
     Chinese IR Community'
   authors:
