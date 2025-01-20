@@ -563,8 +563,7 @@
   publisher: CoRR
   date: 2024-9-8
   link: https://doi.org/10.48550/arXiv.2410.15393
-- id: 'llms-as-judges: a comprehensive survey on llm-based evaluation methods'
-  title: 'LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods'
+- title: 'LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods'
   authors:
   - Haitao Li
   - Qian Dong
