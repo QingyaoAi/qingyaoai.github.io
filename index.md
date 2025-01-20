@@ -46,8 +46,8 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 **Experience**
-- Tsinghua University, Tenure-track Associate Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Dec. 2024 - Now
-- Tsinghua University, Tenure-track Assistant Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Aug. 2022 - Dec. 2024
+- Tsinghua University, Associate Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Dec. 2024 - Now
+- Tsinghua University, Assistant Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Aug. 2022 - Dec. 2024
 - University of Utah, Tenure-track Assistant Professor. Salt Lake City, UT, USA, Aug. 2019 - Jun. 2022
 - University of Massachusetts, Amherst, Research Assistant in [CIIR](http://ciir.cs.umass.edu/), advised by Prof. [W. Bruce Croft](http://ciir.cs.umass.edu/croft). Amherst, MA, USA, Sept. 2014 - Jul. 2019
 - Amazon Search, Data scientist Intern, mentored by [Danial Hill](http://www.danielnhill.com/) and [S. V. N. Vishwanathan](https://www.stat.purdue.edu/~vishy/main.html), Palo Alto, CA, USA, May 2018 - Aug. 2018
@@ -59,6 +59,7 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 **Achievements**
 - Qian Weichang Chinese Information Processing Science and Technology Youth Innovation Award - 2024
+- Qian Weichang Chinese Information Processing Science and Technology Nature and Science Award - First Prize - 2024
 - ACM SIGIR Early Career Researcher Award - 2024
 - ACM SIGIR 2024 Best Paper Award - 2024
 - Beijing Science and Technology Award - First Prize, 2023
@@ -80,7 +81,7 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 - CCIR Student Affairs Co-Chair
 - SIGIR-AP 2023 General Co-Chair
 - Area Chair/Senior PC Member
-  - SIGIR, CIKM, NAACL-HLT, EMNLP, LREC-COLING 
+  - SIGIR, WWW, CIKM, NAACL-HLT, EMNLP, LREC-COLING 
 - Guest Editor
   - [TOIS Special Issue on Pre-trained Models for Search and Recommendation](https://dl.acm.org/journal/tois/calls-for-papers)
 - PC Member: 
