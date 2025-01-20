@@ -15,7 +15,7 @@ nav:
 <p class="center">
 
 
-Assistant Professor<br/>
+Associate Professor<br/>
 Dept. of CS&T<br/>
 Tsinghua University<br/>
 Beijing, 100084<br/>
@@ -37,17 +37,17 @@ Lab: FIT-1-506<br/>
 {% capture main_panel %}
 
 
-**Qingyao Ai**, Assistant Professor at Department of Computer Science and Technology, Tsinghua University
+**Qingyao Ai**, Associate Professor at Department of Computer Science and Technology, Tsinghua University
 
-My research mainly focuses on Information Retrieval and Machine Learning related topics. Currently I'm working on applying machine learning techniques on IR problems including ranking optimization, document retrieval, conversational search, and more. 
+My research mainly focuses on Information Retrieval and related topics. Currently I'm working on integrating retrieval and generative AI techniques to build better information access systems and agents, including retrieval/ranking optimization, retrieval augmented generation, automatic prompt refinement, continue learning for agents, and more. 
 
 I got my MS/Ph.D degree from College of Information and Computer Sciences, University of Massachusetts Amherst, advised by Prof. [W. Bruce Croft](http://ciir.cs.umass.edu/croft) in the [Center for Intelligent Information Retrieval (CIIR)](http://ciir.cs.umass.edu/). And I got my bachelor degree from Dept. Computer Science & Technology, Tsinghua University. 
 
 
 
 **Experience**
-
-- Tsinghua University, Tenure-track Assistant Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Aug. 2022 - now
+- Tsinghua University, Tenure-track Associate Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Dec. 2024 - Now
+- Tsinghua University, Tenure-track Assistant Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Aug. 2022 - Dec. 2024
 - University of Utah, Tenure-track Assistant Professor. Salt Lake City, UT, USA, Aug. 2019 - Jun. 2022
 - University of Massachusetts, Amherst, Research Assistant in [CIIR](http://ciir.cs.umass.edu/), advised by Prof. [W. Bruce Croft](http://ciir.cs.umass.edu/croft). Amherst, MA, USA, Sept. 2014 - Jul. 2019
 - Amazon Search, Data scientist Intern, mentored by [Danial Hill](http://www.danielnhill.com/) and [S. V. N. Vishwanathan](https://www.stat.purdue.edu/~vishy/main.html), Palo Alto, CA, USA, May 2018 - Aug. 2018

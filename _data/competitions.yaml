@@ -6,6 +6,14 @@
   tags:
     - NTCIR
 
+- title: "CAIL 2024: Challenge of Al in Law"
+  group: former
+  image: images/project/CAIL.jpg
+  link: http://cail.cipsc.org.cn/index.html
+  description: CAIL 2024一共设置了八个任务，分别为：裁判文书事实生成、裁判文书说理生成、法律要素和争议焦点识别、二审改判类案检索与原因预测、法律咨询对话生成、司法客观题考试、多人多罪判决预测、司法主观题考试，同时将提供海量司法文书数据作为数据集。
+  tags:
+    - CAIL
+
 - title: "CAIL 2023: 司法大模型 Legal Large Language Model Evaluation"
   group: former
   image: images/project/CAIL.jpg
