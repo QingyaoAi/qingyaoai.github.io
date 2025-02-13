@@ -579,8 +579,7 @@
   publisher: CoRR
   date: '2024-12-14'
   link: https://doi.org/10.48550/arXiv.2412.05579
-- id: 'legalagentbench: evaluating llm agents in legal domain'
-  title: 'LegalAgentBench: Evaluating LLM Agents in Legal Domain'
+- title: 'LegalAgentBench: Evaluating LLM Agents in Legal Domain'
   authors:
   - Haitao Li
   - Junjie Chen
@@ -598,8 +597,7 @@
   publisher: CoRR
   date: '2024-12-13'
   link: https://doi.org/10.48550/arXiv.2412.17259
-- id: knowledge editing through chain-of-thought
-  title: Knowledge Editing through Chain-of-Thought
+- title: Knowledge Editing through Chain-of-Thought
   authors:
   - Changyue Wang
   - Weihang Su
@@ -608,8 +606,7 @@
   publisher: CoRR
   date: '2024-12-12'
   link: https://doi.org/10.48550/arXiv.2412.17727
-- id: unsupervised dense retrieval with conterfactual contrastive learning
-  title: Unsupervised dense retrieval with conterfactual contrastive learning
+- title: Unsupervised dense retrieval with conterfactual contrastive learning
   authors:
   - Haitian Chen
   - Qingyao Ai
