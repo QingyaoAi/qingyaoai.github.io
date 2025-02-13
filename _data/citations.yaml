@@ -153,6 +153,18 @@
     Knowledge Management, CIKM 2024, Boise, ID, USA, October 21-25, 2024
   date: 2024-9-28
   link: https://doi.org/10.1145/3627673.3679154
+- title: A Situation-aware Enhancer for Personalized Recommendation
+  authors:
+  - Jiayu Li
+  - Peijie Sun
+  - Chumeng Jiang
+  - Weizhi Ma
+  - Qingyao Ai
+  - Min Zhang
+  publisher: Database Systems for Advanced Applications - 29th International Conference,
+    DASFAA 2024, Gifu, Japan, July 2-5, 2024, Proceedings, Part III
+  date: '2024-12-30'
+  link: https://doi.org/10.1007/978-981-97-5555-4_7
 - title: Common Sense Enhanced Knowledge-based Recommendation with Large Language
     Model
   authors:
@@ -221,6 +233,20 @@
     2024, Melbourne, VIC, Australia, 28 October 2024 - 1 November 2024
   date: 2024-9-26
   link: https://doi.org/10.1145/3664647.3681658
+- title: 'LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language
+    Models'
+  authors:
+  - Haitao Li
+  - You Chen
+  - Qingyao Ai
+  - Yueyue Wu
+  - Ruizhe Zhang
+  - Yiqun Liu
+  publisher: 'Advances in Neural Information Processing Systems 38: Annual Conference
+    on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada,
+    December 10 - 15, 2024.'
+  date: '2024-12-29'
+  link: http://papers.nips.cc/paper_files/paper/2024/hash/2cb40fc022ca7bdc1a9a78b793661284-Abstract-Datasets_and_Benchmarks_Track.html
 - title: Unsupervised Large Language Model Alignment for Information Retrieval via
     Contrastive Feedback
   authors:
@@ -438,17 +464,6 @@
   publisher: CoRR
   date: 2024-7-10
   link: https://doi.org/10.48550/arXiv.2403.13242
-- title: A Situation-aware Enhancer for Personalized Recommendation
-  authors:
-  - Jiayu Li
-  - Peijie Sun
-  - Chumeng Jiang
-  - Weizhi Ma
-  - Qingyao Ai
-  - Min Zhang
-  publisher: CoRR
-  date: 2024-7-9
-  link: https://doi.org/10.48550/arXiv.2403.18317
 - title: 'BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific
     Models'
   authors:
@@ -525,18 +540,6 @@
   publisher: CoRR
   date: 2024-7-1
   link: https://doi.org/10.48550/arXiv.2407.14192
-- title: 'LexEval: A Comprehensive Chinese Legal Benchmark for Evaluating Large Language
-    Models'
-  authors:
-  - Haitao Li
-  - You Chen
-  - Qingyao Ai
-  - Yueyue Wu
-  - Ruizhe Zhang
-  - Yiqun Liu
-  publisher: CoRR
-  date: 2024-9-10
-  link: https://doi.org/10.48550/arXiv.2409.20288
 - title: 'Beyond Scalar Reward Model: Learning Generative Judge from Preference Data'
   authors:
   - Ziyi Ye
@@ -576,6 +579,47 @@
   publisher: CoRR
   date: '2024-12-14'
   link: https://doi.org/10.48550/arXiv.2412.05579
+- id: 'legalagentbench: evaluating llm agents in legal domain'
+  title: 'LegalAgentBench: Evaluating LLM Agents in Legal Domain'
+  authors:
+  - Haitao Li
+  - Junjie Chen
+  - Jingli Yang
+  - Qingyao Ai
+  - Wei Jia
+  - Youfeng Liu
+  - Kai Lin
+  - Yueyue Wu
+  - Guozhi Yuan
+  - Yiran Hu
+  - Wuyue Wang
+  - Yiqun Liu
+  - Minlie Huang
+  publisher: CoRR
+  date: '2024-12-13'
+  link: https://doi.org/10.48550/arXiv.2412.17259
+- id: knowledge editing through chain-of-thought
+  title: Knowledge Editing through Chain-of-Thought
+  authors:
+  - Changyue Wang
+  - Weihang Su
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2024-12-12'
+  link: https://doi.org/10.48550/arXiv.2412.17727
+- id: unsupervised dense retrieval with conterfactual contrastive learning
+  title: Unsupervised dense retrieval with conterfactual contrastive learning
+  authors:
+  - Haitian Chen
+  - Qingyao Ai
+  - Xiao Wang
+  - Yiqun Liu
+  - Fen Lin
+  - Qin Liu
+  publisher: CoRR
+  date: '2024-12-11'
+  link: https://doi.org/10.48550/arXiv.2412.20756
 - title: 'Information Retrieval Meets Large Language Models: A Strategic Report from
     Chinese IR Community'
   authors:
