@@ -6,7 +6,7 @@ description: Assistant Professor at Department of Computer Science and Technolog
 logo: images/logo.png
 header: images/background.jpg
 footer: images/background.jpg
-baseurl: "/group/~aiqy"
+baseurl: "/"
 
 # site social media and other links
 links:
