@@ -80,6 +80,8 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 - SIGIR Student Affairs Co-Chair
 - CCIR Student Affairs Co-Chair
 - SIGIR-AP 2023 General Co-Chair
+- Associate Editor
+  - [ACM Transactions on Information Systems (TOIS)](https://dl.acm.org/journal/tois/editorial-board)
 - Area Chair/Senior PC Member
   - SIGIR, WWW, CIKM, NAACL-HLT, EMNLP, LREC-COLING 
 - Guest Editor
