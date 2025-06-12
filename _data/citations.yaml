@@ -1,5 +1,236 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM DBLP.
 
+- id: 'pre-trained models for search and recommendation: introduction to the special
+    issue - part 1'
+  title: 'Pre-Trained Models for Search and Recommendation: Introduction to the Special
+    Issue - Part 1'
+  authors:
+  - Wenjie Wang
+  - Zheng Liu
+  - Fuli Feng
+  - Zhicheng Dou
+  - Qingyao Ai
+  - Grace Hui Yang
+  - Defu Lian
+  - Lu Hou
+  - Aixin Sun
+  - Hamed Zamani
+  - Donald Metzler
+  - Maarten de Rijke
+  publisher: ACM Trans. Inf. Syst.
+  date: 2025-3-30
+  link: https://doi.org/10.1145/3709134
+- title: 'BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific
+    Models'
+  authors:
+  - Haitao Li
+  - Qingyao Ai
+  - Jia Chen
+  - Qian Dong
+  - Zhijing Wu
+  - Yiqun Liu
+  publisher: AAAI-25, Sponsored by the Association for the Advancement of Artificial
+    Intelligence, February 25 - March 4, 2025, Philadelphia, PA, USA
+  date: 2025-3-29
+  link: https://doi.org/10.1609/aaai.v39i23.34620
+- title: 'DELTA: Pre-train a Discriminative Encoder for Legal Case Retrieval via Structural
+    Word Alignment'
+  authors:
+  - Haitao Li
+  - Qingyao Ai
+  - Xinyan Han
+  - Jia Chen
+  - Qian Dong
+  - Yiqun Liu
+  publisher: AAAI-25, Sponsored by the Association for the Advancement of Artificial
+    Intelligence, February 25 - March 4, 2025, Philadelphia, PA, USA
+  date: 2025-3-28
+  link: https://doi.org/10.1609/aaai.v39i25.34914
+- id: learning llm-as-a-judge for preference alignment
+  title: Learning LLM-as-a-Judge for Preference Alignment
+  authors:
+  - Ziyi Ye
+  - Xiangsheng Li
+  - Qiuchi Li
+  - Qingyao Ai
+  - Yujia Zhou
+  - Wei Shen
+  - Dong Yan
+  - Yiqun Liu
+  publisher: The Thirteenth International Conference on Learning Representations,
+    ICLR 2025, Singapore, April 24-28, 2025
+  date: 2025-3-27
+  link: https://openreview.net/forum?id=HZVIQE1MsJ
+- id: 'decoupling knowledge and context: an efficient and effective retrieval augmented
+    generation framework via cross attention'
+  title: 'Decoupling Knowledge and Context: An Efficient and Effective Retrieval Augmented
+    Generation Framework via Cross Attention'
+  authors:
+  - Qian Dong
+  - Qingyao Ai
+  - Hongning Wang
+  - Yiding Liu
+  - Haitao Li
+  - Weihang Su
+  - Yiqun Liu
+  - Tat-Seng Chua
+  - Shaoping Ma
+  publisher: Proceedings of the ACM on Web Conference 2025, WWW 2025, Sydney, NSW,
+    Australia, 28 April 2025- 2 May 2025
+  date: 2025-3-26
+  link: https://doi.org/10.1145/3696410.3714608
+- id: improving genir systems based on user feedback
+  title: Improving GenIR Systems Based on User Feedback
+  authors:
+  - Qingyao Ai
+  - Zhicheng Dou
+  - Min Zhang
+  publisher: CoRR
+  date: 2025-1-25
+  link: https://doi.org/10.48550/arXiv.2501.02838
+- id: foundations of genir
+  title: Foundations of GenIR
+  authors:
+  - Qingyao Ai
+  - Jingtao Zhan
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-1-24
+  link: https://doi.org/10.48550/arXiv.2501.02842
+- id: parametric retrieval augmented generation
+  title: Parametric Retrieval Augmented Generation
+  authors:
+  - Weihang Su
+  - Yichen Tang
+  - Qingyao Ai
+  - Junxi Yan
+  - Changyue Wang
+  - Hongning Wang
+  - Ziyi Ye
+  - Yujia Zhou
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-1-23
+  link: https://doi.org/10.48550/arXiv.2501.15915
+- id: 'rbft: robust fine-tuning for retrieval-augmented generation against retrieval
+    defects'
+  title: 'RbFT: Robust Fine-tuning for Retrieval-Augmented Generation against Retrieval
+    Defects'
+  authors:
+  - Yiteng Tu
+  - Weihang Su
+  - Yujia Zhou
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: 2025-1-22
+  link: https://doi.org/10.48550/arXiv.2501.18365
+- id: 'casegen: a benchmark for multi-stage legal case documents generation'
+  title: 'CaseGen: A Benchmark for Multi-Stage Legal Case Documents Generation'
+  authors:
+  - Haitao Li
+  - Jiaying Ye
+  - Yiran Hu
+  - Jia Chen
+  - Qingyao Ai
+  - Yueyue Wu
+  - Junjie Chen
+  - Yifan Chen
+  - Cheng Luo
+  - Quan Zhou
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-2-21
+  link: https://doi.org/10.48550/arXiv.2502.17943
+- id: evaluating intelligence via trial and error
+  title: Evaluating Intelligence via Trial and Error
+  authors:
+  - Jingtao Zhan
+  - Jiahao Zhao
+  - Jiayu Li
+  - Yiqun Liu
+  - Bo Zhang
+  - Qingyao Ai
+  - Jiaxin Mao
+  - Hongning Wang
+  - Min Zhang
+  - Shaoping Ma
+  publisher: CoRR
+  date: 2025-2-20
+  link: https://doi.org/10.48550/arXiv.2502.18858
+- id: 'lexrag: benchmarking retrieval-augmented generation in multi-turn legal consultation
+    conversation'
+  title: 'LexRAG: Benchmarking Retrieval-Augmented Generation in Multi-Turn Legal
+    Consultation Conversation'
+  authors:
+  - Haitao Li
+  - Yifan Chen
+  - Yiran Hu
+  - Qingyao Ai
+  - Junjie Chen
+  - Xiaoyu Yang
+  - Jianhui Yang
+  - Yueyue Wu
+  - Zeyang Liu
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-2-19
+  link: https://doi.org/10.48550/arXiv.2502.20640
+- id: 'qilin: a multimodal information retrieval dataset with app-level user sessions'
+  title: 'Qilin: A Multimodal Information Retrieval Dataset with APP-level User Sessions'
+  authors:
+  - Jia Chen
+  - Qian Dong
+  - Haitao Li
+  - Xiaohui He
+  - Yan Gao
+  - Shaosheng Cao
+  - Yi Wu
+  - Ping Yang
+  - Chen Xu
+  - Yao Hu
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-3-18
+  link: https://doi.org/10.48550/arXiv.2503.00501
+- id: overview of the ntcir-18 automatic evaluation of llms (aeollm) task
+  title: Overview of the NTCIR-18 Automatic Evaluation of LLMs (AEOLLM) Task
+  authors:
+  - Junjie Chen
+  - Haitao Li
+  - Zhumin Chu
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: 2025-3-17
+  link: https://doi.org/10.48550/arXiv.2503.13038
+- id: 'judge: benchmarking judgment document generation for chinese legal system'
+  title: 'JuDGE: Benchmarking Judgment Document Generation for Chinese Legal System'
+  authors:
+  - Weihang Su
+  - Baoqing Yue
+  - Qingyao Ai
+  - Yiran Hu
+  - Jiaqi Li
+  - Changyue Wang
+  - Kaiyuan Zhang
+  - Yueyue Wu
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-3-16
+  link: https://doi.org/10.48550/arXiv.2503.14258
+- id: enhancing llm-based agents via global planning and hierarchical execution
+  title: Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution
+  authors:
+  - Junjie Chen
+  - Haitao Li
+  - Jingli Yang
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: 2025-4-15
+  link: https://doi.org/10.48550/arXiv.2504.16563
 - title: Comparing point-wise and pair-wise relevance judgment with brain signals
   authors:
   - Shuqi Zhu
@@ -464,34 +695,6 @@
   publisher: CoRR
   date: 2024-7-10
   link: https://doi.org/10.48550/arXiv.2403.13242
-- title: 'BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific
-    Models'
-  authors:
-  - Haitao Li
-  - Qingyao Ai
-  - Jia Chen
-  - Qian Dong
-  - Zhijing Wu
-  - Yiqun Liu
-  - Chong Chen
-  - Qi Tian
-  publisher: CoRR
-  date: 2024-7-7
-  link: https://doi.org/10.48550/arXiv.2403.18365
-- title: 'DELTA: Pre-train a Discriminative Encoder for Legal Case Retrieval via Structural
-    Word Alignment'
-  authors:
-  - Haitao Li
-  - Qingyao Ai
-  - Xinyan Han
-  - Jia Chen
-  - Qian Dong
-  - Yiqun Liu
-  - Chong Chen
-  - Qi Tian
-  publisher: CoRR
-  date: 2024-7-6
-  link: https://doi.org/10.48550/arXiv.2403.18435
 - title: 'Investigating the Robustness of Counterfactual Learning to Rank Models:
     A Reproducibility Study'
   authors:
