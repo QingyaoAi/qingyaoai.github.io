@@ -1,7 +1,7 @@
 ---
 title: Students
-nav:
-  order: 10
+#nav:
+#  order: 10
   # tooltip: 团队成员
 ---
 # <i class="fas fa-users"></i>Students
