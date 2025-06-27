@@ -1,3 +1,18 @@
+- title: "SIGIR'25 - Tutorial on Dynamic and Parametric Retrieval-Augmented Generation"
+  group: tutorial
+  image: images/tutorial/sigir25.png
+  authors:
+  - Weihang Su
+  - Qingyao Ai
+  - Jingtao Zhan
+  - Qian Dong
+  - Yiqun Liu
+  link: https://sites.google.com/view/sigir2025-tutorial-dprag/home-page
+  venue: "In the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2025)"
+  location: Padova, Italy
+  date: '2025-07-13'
+  extra-links:
+
 - title: "SIGIR'21 - Tutorial on Beyond Probability Ranking Principle: Modeling the Dependencies among Documents"
   group: tutorial
   image: images/tutorial/sigir21.jpg
