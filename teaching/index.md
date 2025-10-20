@@ -8,6 +8,7 @@ nav:
 # <i class="fas fa-book"></i>Teaching
 
 * 人工智能（研究生）
+  * 2025年秋季
   * 2024年秋季
 
 * 人工智能导论（本科）

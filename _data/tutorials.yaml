@@ -12,6 +12,8 @@
   location: Padova, Italy
   date: '2025-07-13'
   extra-links:
+    - type: pdf
+      link: https://drive.google.com/file/d/1BIYQM-4a_eTycBOG-PfZYSZCo47LG3Ms
 
 - title: "SIGIR'21 - Tutorial on Beyond Probability Ranking Principle: Modeling the Dependencies among Documents"
   group: tutorial
