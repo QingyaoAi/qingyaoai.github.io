@@ -18,6 +18,73 @@
   publisher: ACM Trans. Inf. Syst.
   date: 2025-3-30
   link: https://doi.org/10.1145/3709134
+- id: structure-aware conversational legal case retrieval
+  title: Structure-Aware Conversational Legal Case Retrieval
+  authors:
+  - Bulou Liu
+  - Yiran Hu
+  - Qingyao Ai
+  - Yueyue Wu
+  - Yiqun Liu
+  - Chenliang Li
+  - Fan Zhang
+  - Weixing Shen
+  - Chong Chen
+  - Qi Tian
+  publisher: ACM Trans. Inf. Syst.
+  date: 2025-5-30
+  link: https://doi.org/10.1145/3711854
+- id: generating clarifying questions for conversational legal case retrieval without
+    external knowledge
+  title: Generating Clarifying Questions for Conversational Legal Case Retrieval without
+    External Knowledge
+  authors:
+  - Bulou Liu
+  - Yiran Hu
+  - Qingyao Ai
+  - Yiqun Liu
+  - Yueyue Wu
+  - Chenliang Li
+  - Weixing Shen
+  publisher: ACM Trans. Inf. Syst.
+  date: 2025-7-29
+  link: https://doi.org/10.1145/3736161
+- id: 'pre-trained models for search and recommendation: introduction to the special
+    issue - part 2'
+  title: 'Pre-Trained Models for Search and Recommendation: Introduction to the Special
+    Issue - Part 2'
+  authors:
+  - Wenjie Wang
+  - Zheng Liu
+  - Fuli Feng
+  - Zhicheng Dou
+  - Qingyao Ai
+  - Grace Hui Yang
+  - Defu Lian
+  - Lu Hou
+  - Aixin Sun
+  - Hamed Zamani
+  - Donald Metzler
+  - Maarten de Rijke
+  publisher: ACM Trans. Inf. Syst.
+  date: 2025-9-28
+  link: https://doi.org/10.1145/3736540
+- id: pre-training for legal case retrieval based on inter-case distinctions
+  title: Pre-training for Legal Case Retrieval Based on Inter-Case Distinctions
+  authors:
+  - Weihang Su
+  - Qingyao Ai
+  - Yueyue Wu
+  - Anzhe Xie
+  - Changyue Wang
+  - Yixiao Ma
+  - Haitao Li
+  - Zhijing Wu
+  - Yiqun Liu
+  - Min Zhang
+  publisher: ACM Trans. Inf. Syst.
+  date: 2025-9-27
+  link: https://doi.org/10.1145/3735127
 - title: 'BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific
     Models'
   authors:
@@ -44,6 +111,53 @@
     Intelligence, February 25 - March 4, 2025, Philadelphia, PA, USA
   date: 2025-3-28
   link: https://doi.org/10.1609/aaai.v39i25.34914
+- title: 'LegalAgentBench: Evaluating LLM Agents in Legal Domain'
+  authors:
+  - Haitao Li
+  - Junjie Chen
+  - Jingli Yang
+  - Qingyao Ai
+  - Wei Jia
+  - Youfeng Liu
+  - Kai Lin
+  - Yueyue Wu
+  - Guozhi Yuan
+  - Yiran Hu
+  - Wuyue Wang
+  - Yiqun Liu
+  - Minlie Huang
+  publisher: 'Proceedings of the 63rd Annual Meeting of the Association for Computational
+    Linguistics (Volume 1: Long Papers), ACL 2025, Vienna, Austria, July 27 - August
+    1, 2025'
+  date: 2025-9-26
+  link: https://aclanthology.org/2025.acl-long.116/
+- title: 'CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias
+    in LLMs-as-Judges'
+  authors:
+  - Haitao Li
+  - Junjie Chen
+  - Qingyao Ai
+  - Zhumin Chu
+  - Yujia Zhou
+  - Qian Dong
+  - Yiqun Liu
+  publisher: 'Proceedings of the 63rd Annual Meeting of the Association for Computational
+    Linguistics (Volume 1: Long Papers), ACL 2025, Vienna, Austria, July 27 - August
+    1, 2025'
+  date: 2025-9-25
+  link: https://aclanthology.org/2025.acl-long.808/
+- id: decoupling reasoning and knowledge injection for in-context knowledge editing
+  title: Decoupling Reasoning and Knowledge Injection for In-Context Knowledge Editing
+  authors:
+  - Changyue Wang
+  - Weihang Su
+  - Qingyao Ai
+  - Yujia Zhou
+  - Yiqun Liu
+  publisher: Findings of the Association for Computational Linguistics, ACL 2025,
+    Vienna, Austria, July 27 - August 1, 2025
+  date: 2025-9-24
+  link: https://aclanthology.org/2025.findings-acl.1260/
 - title: Learning LLM-as-a-Judge for Preference Alignment
   authors:
   - Ziyi Ye
@@ -58,6 +172,192 @@
     ICLR 2025, Singapore, April 24-28, 2025
   date: 2025-3-27
   link: https://openreview.net/forum?id=HZVIQE1MsJ
+- id: overview of ntcir-18
+  title: Overview of NTCIR-18
+  authors:
+  - Chung-Chi Chen
+  - Qingyao Ai
+  - Shoko Wakamiya
+  publisher: Proceedings of the 18th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2025, Tokyo, Japan, June 10-13, 2025
+  date: 2025-9-23
+  link: https://doi.org/10.20736/0002002025
+- id: overview of the ntcir-18 automatic evaluation of llms(aeollm) task
+  title: Overview of the NTCIR-18 Automatic Evaluation of LLMs(AEOLLM) Task
+  authors:
+  - Junjie Chen
+  - Haitao Li
+  - Zhumin Chu
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: Proceedings of the 18th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2025, Tokyo, Japan, June 10-13, 2025
+  date: 2025-9-22
+  link: https://doi.org/10.20736/0002002024
+- id: thuir at the ntcir-18 fairweb-2 task
+  title: THUIR at the NTCIR-18 FairWeb-2 Task
+  authors:
+  - Huixue Su
+  - Haitao Li
+  - Yiteng Tu
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: Proceedings of the 18th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2025, Tokyo, Japan, June 10-13, 2025
+  date: 2025-9-21
+  link: https://doi.org/10.20736/0002002035
+- id: brain image reconstruction with retrieval-augmented diffusion
+  title: Brain Image Reconstruction with Retrieval-Augmented Diffusion
+  authors:
+  - Shuqi Zhu
+  - Ziyi Ye
+  - Yi Zhong
+  - Qingyao Ai
+  - Yujia Zhou
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-20
+  link: https://doi.org/10.1145/3726302.3729909
+- id: understanding the effect of opinion polarization in short video browsing
+  title: Understanding the Effect of Opinion Polarization in Short Video Browsing
+  authors:
+  - Bangde Du
+  - Ziyi Ye
+  - Zhijing Wu
+  - Monika Jankowska
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-19
+  link: https://doi.org/10.1145/3726302.3730107
+- title: Parametric Retrieval Augmented Generation
+  authors:
+  - Weihang Su
+  - Yichen Tang
+  - Qingyao Ai
+  - Junxi Yan
+  - Changyue Wang
+  - Hongning Wang
+  - Ziyi Ye
+  - Yujia Zhou
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-18
+  link: https://doi.org/10.1145/3726302.3729957
+- id: robust fine-tuning for retrieval augmented generation against retrieval defects
+  title: Robust Fine-tuning for Retrieval Augmented Generation against Retrieval Defects
+  authors:
+  - Yiteng Tu
+  - Weihang Su
+  - Yujia Zhou
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-17
+  link: https://doi.org/10.1145/3726302.3730078
+- title: 'Investigating the Robustness of Counterfactual Learning to Rank Models:
+    A Reproducibility Study'
+  authors:
+  - Zechun Niu
+  - Zhilin Zhang
+  - Jiaxin Mao
+  - Qingyao Ai
+  - Ji-Rong Wen
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-16
+  link: https://doi.org/10.1145/3726302.3730310
+- title: 'JuDGE: Benchmarking Judgment Document Generation for Chinese Legal System'
+  authors:
+  - Weihang Su
+  - Baoqing Yue
+  - Qingyao Ai
+  - Yiran Hu
+  - Jiaqi Li
+  - Changyue Wang
+  - Kaiyuan Zhang
+  - Yueyue Wu
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-15
+  link: https://doi.org/10.1145/3726302.3730295
+- title: 'LexRAG: Benchmarking Retrieval-Augmented Generation in Multi-Turn Legal
+    Consultation Conversation'
+  authors:
+  - Haitao Li
+  - Yifan Chen
+  - Hu YiRan
+  - Qingyao Ai
+  - Junjie Chen
+  - Xiaoyu Yang
+  - Jianhui Yang
+  - Yueyue Wu
+  - Zeyang Liu
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-14
+  link: https://doi.org/10.1145/3726302.3730340
+- title: 'Qilin: A Multimodal Information Retrieval Dataset with APP-level User Sessions'
+  authors:
+  - Jia Chen
+  - Qian Dong
+  - Haitao Li
+  - Xiaohui He
+  - Yan Gao
+  - Shaosheng Cao
+  - Yi Wu
+  - Ping Yang
+  - Chen Xu
+  - Yao Hu
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-13
+  link: https://doi.org/10.1145/3726302.3730279
+- id: dynamic and parametric retrieval-augmented generation
+  title: Dynamic and Parametric Retrieval-Augmented Generation
+  authors:
+  - Weihang Su
+  - Qingyao Ai
+  - Jingtao Zhan
+  - Qian Dong
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-12
+  link: https://doi.org/10.1145/3726302.3731692
+- id: the 1<sup>st</sup> nip@ir workshop on new interaction paradigms for information
+    retrieval in the era of generative ai
+  title: The 1<sup>st</sup> NIP@IR Workshop on New Interaction Paradigms for Information
+    Retrieval in the Era of Generative AI
+  authors:
+  - Yujia Zhou
+  - Wei Ji
+  - Xuri Ge
+  - Qingyao Ai
+  - Joemon M. Jose
+  - Yiqun Liu
+  publisher: Proceedings of the 48th International ACM SIGIR Conference on Research
+    and Development in Information Retrieval, SIGIR 2025, Padua, Italy, July 13-18,
+    2025
+  date: 2025-9-11
+  link: https://doi.org/10.1145/3726302.3730364
 - title: 'Decoupling Knowledge and Context: An Efficient and Effective Retrieval Augmented
     Generation Framework via Cross Attention'
   authors:
@@ -90,20 +390,6 @@
   publisher: CoRR
   date: 2025-1-24
   link: https://doi.org/10.48550/arXiv.2501.02842
-- title: Parametric Retrieval Augmented Generation
-  authors:
-  - Weihang Su
-  - Yichen Tang
-  - Qingyao Ai
-  - Junxi Yan
-  - Changyue Wang
-  - Hongning Wang
-  - Ziyi Ye
-  - Yujia Zhou
-  - Yiqun Liu
-  publisher: CoRR
-  date: 2025-1-23
-  link: https://doi.org/10.48550/arXiv.2501.15915
 - title: 'RbFT: Robust Fine-tuning for Retrieval-Augmented Generation against Retrieval
     Defects'
   authors:
@@ -146,39 +432,6 @@
   publisher: CoRR
   date: 2025-2-20
   link: https://doi.org/10.48550/arXiv.2502.18858
-- title: 'LexRAG: Benchmarking Retrieval-Augmented Generation in Multi-Turn Legal
-    Consultation Conversation'
-  authors:
-  - Haitao Li
-  - Yifan Chen
-  - Yiran Hu
-  - Qingyao Ai
-  - Junjie Chen
-  - Xiaoyu Yang
-  - Jianhui Yang
-  - Yueyue Wu
-  - Zeyang Liu
-  - Yiqun Liu
-  publisher: CoRR
-  date: 2025-2-19
-  link: https://doi.org/10.48550/arXiv.2502.20640
-- title: 'Qilin: A Multimodal Information Retrieval Dataset with APP-level User Sessions'
-  authors:
-  - Jia Chen
-  - Qian Dong
-  - Haitao Li
-  - Xiaohui He
-  - Yan Gao
-  - Shaosheng Cao
-  - Yi Wu
-  - Ping Yang
-  - Chen Xu
-  - Yao Hu
-  - Qingyao Ai
-  - Yiqun Liu
-  publisher: CoRR
-  date: 2025-3-18
-  link: https://doi.org/10.48550/arXiv.2503.00501
 - title: Overview of the NTCIR-18 Automatic Evaluation of LLMs (AEOLLM) Task
   authors:
   - Junjie Chen
@@ -189,20 +442,6 @@
   publisher: CoRR
   date: 2025-3-17
   link: https://doi.org/10.48550/arXiv.2503.13038
-- title: 'JuDGE: Benchmarking Judgment Document Generation for Chinese Legal System'
-  authors:
-  - Weihang Su
-  - Baoqing Yue
-  - Qingyao Ai
-  - Yiran Hu
-  - Jiaqi Li
-  - Changyue Wang
-  - Kaiyuan Zhang
-  - Yueyue Wu
-  - Yiqun Liu
-  publisher: CoRR
-  date: 2025-3-16
-  link: https://doi.org/10.48550/arXiv.2503.14258
 - title: Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution
   authors:
   - Junjie Chen
@@ -213,9 +452,7 @@
   publisher: CoRR
   date: 2025-4-15
   link: https://doi.org/10.48550/arXiv.2504.16563
-- id: simulating prosocial behavior and social contagion in llm agents under institutional
-    interventions
-  title: Simulating Prosocial Behavior and Social Contagion in LLM Agents under Institutional
+- title: Simulating Prosocial Behavior and Social Contagion in LLM Agents under Institutional
     Interventions
   authors:
   - Yujia Zhou
@@ -226,6 +463,155 @@
   publisher: CoRR
   date: 2025-5-19
   link: https://doi.org/10.48550/arXiv.2505.15857
+- id: 'valuesim: generating backstories to model individual value systems'
+  title: 'ValueSim: Generating Backstories to Model Individual Value Systems'
+  authors:
+  - Bangde Du
+  - Ziyi Ye
+  - Zhijing Wu
+  - Monika Jankowska
+  - Shuqi Zhu
+  - Qingyao Ai
+  - Yujia Zhou
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-5-2
+  link: https://doi.org/10.48550/arXiv.2505.23827
+- id: joint evaluation of answer and reasoning consistency for hallucination detection
+    in large reasoning models
+  title: Joint Evaluation of Answer and Reasoning Consistency for Hallucination Detection
+    in Large Reasoning Models
+  authors:
+  - Changyue Wang
+  - Weihang Su
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-6-1
+  link: https://doi.org/10.48550/arXiv.2506.04832
+- id: augmenting multi-agent communication with state delta trajectory
+  title: Augmenting Multi-Agent Communication with State Delta Trajectory
+  authors:
+  - Yichen Tang
+  - Weihang Su
+  - Yujia Zhou
+  - Yiqun Liu
+  - Min Zhang
+  - Shaoping Ma
+  - Qingyao Ai
+  publisher: CoRR
+  date: 2025-5-31
+  link: https://doi.org/10.48550/arXiv.2506.19209
+- id: 'llms on trial: evaluating judicial fairness for large language models'
+  title: 'LLMs on Trial: Evaluating Judicial Fairness for Large Language Models'
+  authors:
+  - Yiran Hu
+  - Zongyue Xue
+  - Haitao Li
+  - Siyuan Zheng
+  - Qingjing Chen
+  - Shaochun Wang
+  - Xihan Zhang
+  - Ning Zheng
+  - Yun Liu
+  - Qingyao Ai
+  - Yiqun Liu
+  - Charles L. A. Clarke
+  - Weixing Shen
+  publisher: CoRR
+  date: 2025-7-30
+  link: https://doi.org/10.48550/arXiv.2507.10852
+- id: 'selfracg: enabling llms to self-express and retrieve for code generation'
+  title: 'SelfRACG: Enabling LLMs to Self-Express and Retrieve for Code Generation'
+  authors:
+  - Qian Dong
+  - Jia Chen
+  - Qingyao Ai
+  - Hongning Wang
+  - Haitao Li
+  - Yi Wu
+  - Yao Hu
+  - Yiqun Liu
+  - Shaoping Ma
+  publisher: CoRR
+  date: 2025-7-29
+  link: https://doi.org/10.48550/arXiv.2507.19033
+- id: are recommenders self-aware? label-free recommendation performance estimation
+    via model uncertainty
+  title: Are Recommenders Self-Aware? Label-Free Recommendation Performance Estimation
+    via Model Uncertainty
+  authors:
+  - Jiayu Li
+  - Ziyi Ye
+  - Guohao Jian
+  - Zhiqiang Guo
+  - Weizhi Ma
+  - Qingyao Ai
+  - Min Zhang
+  publisher: CoRR
+  date: 2025-7-28
+  link: https://doi.org/10.48550/arXiv.2507.23208
+- id: benchmarking computer science survey generation
+  title: Benchmarking Computer Science Survey Generation
+  authors:
+  - Weihang Su
+  - Anzhe Xie
+  - Qingyao Ai
+  - Jianming Long
+  - Jiaxin Mao
+  - Ziyi Ye
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-8-27
+  link: https://doi.org/10.48550/arXiv.2508.15658
+- id: chinese court simulation with llm-based agent system
+  title: Chinese Court Simulation with LLM-Based Agent System
+  authors:
+  - Kaiyuan Zhang
+  - Jiaqi Li
+  - Yueyue Wu
+  - Haitao Li
+  - Cheng Luo
+  - Shaokun Zou
+  - Yujia Zhou
+  - Weihang Su
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-8-26
+  link: https://doi.org/10.48550/arXiv.2508.17322
+- id: simulating dispute mediation with llm-based agents for legal research
+  title: Simulating Dispute Mediation with LLM-Based Agents for Legal Research
+  authors:
+  - Junjie Chen
+  - Haitao Li
+  - Minghao Qin
+  - Yujia Zhou
+  - Yanxue Ren
+  - Wuyue Wang
+  - Yiqun Liu
+  - Yueyue Wu
+  - Qingyao Ai
+  publisher: CoRR
+  date: 2025-9-25
+  link: https://doi.org/10.48550/arXiv.2509.06586
+- id: 'justeva: a toolkit to evaluate llm fairness in legal knowledge inference'
+  title: 'JustEva: A Toolkit to Evaluate LLM Fairness in Legal Knowledge Inference'
+  authors:
+  - Zongyue Xue
+  - Siyuan Zheng
+  - Shaochun Wang
+  - Yiran Hu
+  - Shenran Wang
+  - Yuxin Yao
+  - Haitao Li
+  - Qingyao Ai
+  - Yiqun Liu
+  - Yun Liu
+  - Weixing Shen
+  publisher: CoRR
+  date: 2025-9-24
+  link: https://doi.org/10.48550/arXiv.2509.12104
 - title: Comparing point-wise and pair-wise relevance judgment with brain signals
   authors:
   - Shuqi Zhu
@@ -690,16 +1076,6 @@
   publisher: CoRR
   date: 2024-7-10
   link: https://doi.org/10.48550/arXiv.2403.13242
-- title: 'Investigating the Robustness of Counterfactual Learning to Rank Models:
-    A Reproducibility Study'
-  authors:
-  - Zechun Niu
-  - Jiaxin Mao
-  - Qingyao Ai
-  - Ji-Rong Wen
-  publisher: CoRR
-  date: 2024-7-5
-  link: https://doi.org/10.48550/arXiv.2404.03707
 - title: 'EEG-ImageNet: An Electroencephalogram Dataset and Benchmarks with Image
     Visual Stimuli of Multi-Granularity Labels'
   authors:
@@ -751,19 +1127,6 @@
   publisher: CoRR
   date: 2024-9-9
   link: https://doi.org/10.48550/arXiv.2410.03742
-- title: 'CalibraEval: Calibrating Prediction Distribution to Mitigate Selection Bias
-    in LLMs-as-Judges'
-  authors:
-  - Haitao Li
-  - Junjie Chen
-  - Qingyao Ai
-  - Zhumin Chu
-  - Yujia Zhou
-  - Qian Dong
-  - Yiqun Liu
-  publisher: CoRR
-  date: 2024-9-8
-  link: https://doi.org/10.48550/arXiv.2410.15393
 - title: 'LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods'
   authors:
   - Haitao Li
@@ -777,24 +1140,6 @@
   publisher: CoRR
   date: '2024-12-14'
   link: https://doi.org/10.48550/arXiv.2412.05579
-- title: 'LegalAgentBench: Evaluating LLM Agents in Legal Domain'
-  authors:
-  - Haitao Li
-  - Junjie Chen
-  - Jingli Yang
-  - Qingyao Ai
-  - Wei Jia
-  - Youfeng Liu
-  - Kai Lin
-  - Yueyue Wu
-  - Guozhi Yuan
-  - Yiran Hu
-  - Wuyue Wang
-  - Yiqun Liu
-  - Minlie Huang
-  publisher: CoRR
-  date: '2024-12-13'
-  link: https://doi.org/10.48550/arXiv.2412.17259
 - title: Knowledge Editing through Chain-of-Thought
   authors:
   - Changyue Wang
@@ -904,6 +1249,71 @@
     Processing, EMNLP 2023, Singapore, December 6-10, 2023
   date: '2023-01-01'
   link: https://aclanthology.org/2023.emnlp-main.441
+- id: evia 2023 preface
+  title: EVIA 2023 Preface
+  authors:
+  - Qingyao Ai
+  - Douglas W. Oard
+  publisher: Proceedings of the Tenth International Workshop on Evaluating Information
+    Access, EVIA 2023, a Satellite Workshop of the NTCIR-17 Conference, Tokyo, Japan,
+    December 12, 2023
+  date: 2023-9-10
+  link: https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings17/pdf/evia/01-EVIA2023-PREFACE-AiQ.pdf
+- id: overview of the ntcir-17 session search (ss-2) task
+  title: Overview of the NTCIR-17 Session Search (SS-2) Task
+  authors:
+  - Haitao Li
+  - Jia Chen
+  - Jiannan Wang
+  - Weihang Su
+  - Qingyao Ai
+  - Xinyan Han
+  - Beining Wang
+  - Yiqun Liu
+  publisher: Proceedings of the 17th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2023, Tokyo, Japan, December 12-15, 2023
+  date: 2023-9-9
+  link: https://doi.org/10.20736/0002001324
+- id: thuir_ss at the ntcir-17 session search (ss) task
+  title: THUIR_SS at the NTCIR-17 Session Search (SS) Task
+  authors:
+  - Xinyan Han
+  - Yiteng Tu
+  - Haitao Li
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: Proceedings of the 17th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2023, Tokyo, Japan, December 12-15, 2023
+  date: 2023-9-8
+  link: https://doi.org/10.20736/0002001325
+- id: overview of the ntcir-17 unbiased learning to rank evaluation 2 (ultre-2) task
+  title: Overview of the NTCIR-17 Unbiased Learning to Rank Evaluation 2 (ULTRE-2)
+    Task
+  authors:
+  - Zechun Niu
+  - Jiaxin Mao
+  - Qingyao Ai
+  - Lixin Zou
+  - Shuaiqiang Wang
+  - Dawei Yin
+  publisher: Proceedings of the 17th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2023, Tokyo, Japan, December 12-15, 2023
+  date: 2023-9-7
+  link: https://doi.org/10.20736/0002001320
+- id: 'thuir at the ntcir-17 fairweb-1 task: an initial exploration of the relationship
+    between relevance and fairness'
+  title: 'THUIR at the NTCIR-17 FairWeb-1 Task: An Initial Exploration of the Relationship
+    Between Relevance and Fairness'
+  authors:
+  - Yiteng Tu
+  - Haitao Li
+  - Zhumin Chu
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: Proceedings of the 17th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2023, Tokyo, Japan, December 12-15, 2023
+  date: 2023-9-6
+  link: https://doi.org/10.20736/0002001317
 - title: Constructing Tree-based Index for Efficient and Effective Dense Retrieval
   authors:
   - Haitao Li
@@ -1208,6 +1618,31 @@
     Knowledge Management, Atlanta, GA, USA, October 17-21, 2022
   date: '2022-01-01'
   link: https://doi.org/10.1145/3511808.3557343
+- id: utirl at the ntcir-16 ultre task
+  title: UTIRL at the NTCIR-16 ULTRE Task
+  authors:
+  - Anh Tran
+  - Tao Yang
+  - Qingyao Ai
+  publisher: Proceedings of the 16th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2022, Tokyo, Japan, June 14-17, 2022
+  date: 2022-8-23
+  link: https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings16/pdf/ntcir/03-NTCIR16-ULTRE-TranA.pdf
+- id: overview of the ntcir-16 unbiased learning to rank evaluation (ultre) task
+  title: Overview of the NTCIR-16 Unbiased Learning to Rank Evaluation (ULTRE) Task
+  authors:
+  - Yurou Zhao
+  - Zechun Niu
+  - Feng Wang
+  - Jiaxin Mao
+  - Qingyao Ai
+  - Tao Yang
+  - Junqi Zhang
+  - Yiqun Liu
+  publisher: Proceedings of the 16th NTCIR Conference on Evaluation of Information
+    Access Technologies, NTCIR 2022, Tokyo, Japan, June 14-17, 2022
+  date: 2022-8-22
+  link: https://research.nii.ac.jp/ntcir/workshop/OnlineProceedings16/pdf/ntcir/01-NTCIR16-OV-ULTRE-ZhaoY.pdf
 - title: 'Can Clicks Be Both Labels and Features?: Unbiased Behavior Feature Collection
     and Uncertainty-aware Learning to Rank'
   authors:
