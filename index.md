@@ -10,26 +10,25 @@ nav:
 
 {%- assign image = "/images/profile.jpg" | default: "" -%}
 ![Qingyao Ai]({{ image | relative_url }})
-# Qingyao Ai<br/>艾清遥
-
+# Qingyao Ai 艾清遥
 <p class="center">
-
-
 Associate Professor<br/>
-Dept. of CS&T<br/>
-Tsinghua University<br/>
-Beijing, 100084<br/>
+Dept. of CS&T, Tsinghua University<br/>
+Lab & Office: FIT-1-506<br/>
 
-Office: FIT-1-506<br/>
-Lab: FIT-1-506<br/>
-
-<br/>
+{%- include link.html type="google-scholar" icon="" text="Google Scholar" tooltip="" link="UKqaI5IAAAAJ" -%}
+{%- include link.html type="github" icon="" text="" tooltip="" link="QingyaoAi" -%}
+{%- include link.html type="twitter" icon="" text="" tooltip="" link="QingyaoAi" -%}
+{%- include link.html type="email" icon="" text="Email" tooltip="" link="aiqy@tsinghua.edu.cn" -%}
+{%- include linkedin_timeline.html -%}
+<!--
 {%- include link.html type="google-scholar" icon="" text="Google Scholar" tooltip="" link="UKqaI5IAAAAJ" -%}<br/>
 {%- include link.html type="github" icon="" text="Github" tooltip="" link="QingyaoAi" -%}<br/>
 {%- include link.html type="twitter" icon="" text="Twitter" tooltip="" link="QingyaoAi" -%}<br/>
 {%- include link.html type="linkedin" icon="" text="Linkedin" tooltip="" link="qingyao-ai-4ab8306a" -%}<br/>
 {%- include link.html type="email" icon="" text="Email" tooltip="" link="aiqy@tsinghua.edu.cn" -%}<br/>
-{%- include twitter_timeline.html -%}
+{%- include linkedin_timeline.html -%}
+-->
 </p>
 
 {% endcapture %}
@@ -61,12 +60,12 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 **Achievements**
 - Qian Weichang Chinese Information Processing Science and Technology Youth Innovation Award - 2024
 - Qian Weichang Chinese Information Processing Science and Technology Nature and Science Award - First Prize - 2024
-- ACM SIGIR Early Career Researcher Award - 2024
-- ACM SIGIR 2024 Best Paper Award - 2024
+- [ACM SIGIR Early Career Researcher Award](https://sigir.org/awards/sigir-ecr-awards/) - 2024
+- [ACM SIGIR 2024 Best Paper Award](https://sigir.org/awards/best-paper-awards/) - 2024
 - Beijing Science and Technology Award - First Prize, 2023
-- ACM SIGIR-AP 2023 Best Paper Honorable Mention, 2023
+- [ACM SIGIR-AP 2023 Best Paper Honorable Mention](https://www.sigir-ap.org/sigir-ap-2023/bestpaper-award/), 2023
 - [Google Research Scholar Award](https://ai.googleblog.com/2021/04/announcing-2021-research-scholar.html), 2021
-- UMass CICS Accomplishments in Search & Mining Awards, 2017
+- [UMass CICS Accomplishments in Search & Mining Awards](https://ciir.cs.umass.edu/2017SearchMiningAward#:~:text=The%20Accomplishments%20in%20Search%20%26%20Mining,reputation%20in%20these%20two%20areas.), 2017
 - Ph.D. Qualifying Exam (Portfolio) passed with distinction, 2016
 - Outstanding Bachelor Graduate of Beijing (top 1%), 2014
 - Outstanding Bachelor Graduate of Tsinghua (top 10%), 2014
