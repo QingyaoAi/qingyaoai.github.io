@@ -151,6 +151,23 @@
     Vienna, Austria, July 27 - August 1, 2025
   date: 2025-9-24
   link: https://aclanthology.org/2025.findings-acl.1260/
+- title: 'JustEva: A Toolkit to Evaluate LLM Fairness in Legal Knowledge Inference'
+  authors:
+  - Zongyue Xue
+  - Siyuan Zheng
+  - Shaochun Wang
+  - Yiran Hu
+  - Yuxin Yao
+  - Shengran Wang
+  - Haitao Li
+  - Qingyao Ai
+  - Yiqun Liu
+  - Yun Liu
+  - Weixing Shen
+  publisher: Proceedings of the 34th ACM International Conference on Information and
+    Knowledge Management, CIKM 2025, Seoul, Republic of Korea, November 10-14, 2025
+  date: '2025-12-30'
+  link: https://doi.org/10.1145/3746252.3761491
 - title: Learning LLM-as-a-Judge for Preference Alignment
   authors:
   - Ziyi Ye
@@ -568,22 +585,87 @@
   publisher: CoRR
   date: 2025-9-25
   link: https://doi.org/10.48550/arXiv.2509.06586
-- title: 'JustEva: A Toolkit to Evaluate LLM Fairness in Legal Knowledge Inference'
+- id: what scales in cross-entropy scaling law?
+  title: What Scales in Cross-Entropy Scaling Law?
   authors:
-  - Zongyue Xue
-  - Siyuan Zheng
-  - Shaochun Wang
-  - Yiran Hu
-  - Shenran Wang
-  - Yuxin Yao
-  - Haitao Li
+  - Junxi Yan
+  - Zixi Wei
+  - Jingtao Zhan
   - Qingyao Ai
   - Yiqun Liu
-  - Yun Liu
-  - Weixing Shen
   publisher: CoRR
-  date: 2025-9-24
-  link: https://doi.org/10.48550/arXiv.2509.12104
+  date: '2025-10-12'
+  link: https://doi.org/10.48550/arXiv.2510.04067
+- id: 'from to : multidimensional supervision of reasoning process for llm optimization'
+  title: 'From to : Multidimensional Supervision of Reasoning Process for LLM Optimization'
+  authors:
+  - Beining Wang
+  - Weihang Su
+  - Hongtao Tian
+  - Tao Yang
+  - Yujia Zhou
+  - Ting Yao
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2025-10-11'
+  link: https://doi.org/10.48550/arXiv.2510.11457
+- id: 'memorybench: a benchmark for memory and continual learning in llm systems'
+  title: 'MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems'
+  authors:
+  - Qingyao Ai
+  - Yichen Tang
+  - Changyue Wang
+  - Jianming Long
+  - Weihang Su
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2025-10-10'
+  link: https://doi.org/10.48550/arXiv.2510.17281
+- id: relative-based scaling law for neural language models
+  title: Relative-Based Scaling Law for Neural Language Models
+  authors:
+  - Baoqing Yue
+  - Jinyuan Zhou
+  - Zixi Wei
+  - Jingtao Zhan
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-10-9
+  link: https://doi.org/10.48550/arXiv.2510.20387
+- id: generalized pseudo-relevance feedback
+  title: Generalized Pseudo-Relevance Feedback
+  authors:
+  - Yiteng Tu
+  - Weihang Su
+  - Yujia Zhou
+  - Yiqun Liu
+  - Fen Lin
+  - Qin Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: 2025-10-8
+  link: https://doi.org/10.48550/arXiv.2510.25488
+- id: 'twinvoice: a multi-dimensional benchmark towards digital twins via llm persona
+    simulation'
+  title: 'TwinVoice: A Multi-dimensional Benchmark Towards Digital Twins via LLM Persona
+    Simulation'
+  authors:
+  - Bangde Du
+  - Minghao Guo
+  - Songming He
+  - Ziyi Ye
+  - Xi Zhu
+  - Weihang Su
+  - Shuqi Zhu
+  - Yujia Zhou
+  - Yongfeng Zhang
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: 2025-10-7
+  link: https://doi.org/10.48550/arXiv.2510.25536
 - title: Comparing point-wise and pair-wise relevance judgment with brain signals
   authors:
   - Shuqi Zhu
@@ -1111,7 +1193,9 @@
   - Yiqun Liu
   publisher: CoRR
   date: '2024-12-14'
-  link: https://doi.org/10.48550/arXiv.2412.05579
+  link:
+  - https://doi.org/10.48550/arXiv.2412.05579
+  - https://www.wikidata.org/entity/Q134468819
 - title: Knowledge Editing through Chain-of-Thought
   authors:
   - Changyue Wang
@@ -1745,6 +1829,20 @@
     Data Mining, Virtual Event, Singapore, August 14-18, 2021'
   date: '2021-01-01'
   link: https://doi.org/10.1145/3447548.3469444
+- id: 'ultre framework: a framework for unbiased learning to rank evaluation based
+    on simulation of user behavior'
+  title: 'ULTRE Framework: a Framework for Unbiased Learning to Rank Evaluation based
+    on Simulation of User Behavior'
+  authors:
+  - Yurou Zhao
+  - Jiaxin Mao
+  - Qingyao Ai
+  publisher: Joint Proceedings of the Causality in Search and Recommendation (CSR)
+    and Simulation of Information Retrieval Evaluation (Sim4IR) Workshops 2021. Co-located
+    with the 44th International ACM SIGIR Conference on Research and Development in
+    Information Retrieval (ACM-SIGIR 2021), Online, July 15, 2021
+  date: 2021-9-7
+  link: http://ceur-ws.org/Vol-2911/paper7.pdf
 - title: Learning a Fine-Grained Review-based Transformer Model for Personalized Product
     Search
   authors:
