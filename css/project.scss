@@ -5,7 +5,7 @@
 @import "theme";
 @import "mixins";
 
-.citation {
+.project {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -22,7 +22,6 @@
   border: 1px solid rgba(0, 0, 0, 0.06);
   text-align: left;
   transition: all $fast;
-  position: relative;
 
   &:hover {
     transform: translateY(-2px);
@@ -35,31 +34,7 @@
     border: 1px solid rgba(0, 0, 0, 0.06);
   }
 
-  // Hide images for citation component (publications page)
-  &[data-style="rich"] .citation_image {
-    display: none;
-  }
-
-  // Award-winning papers special styling
-  &[data-award="true"] {
-    border: 2px solid rgba(99, 102, 241, 0.3);
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(255, 255, 255, 0.5) 100%);
-
-    &::before {
-      content: "🏆";
-      position: absolute;
-      top: 16px;
-      right: 16px;
-      font-size: 1.2rem;
-      opacity: 0.8;
-    }
-
-    .citation_title a {
-      color: $accent;
-    }
-  }
-
-  .citation_image {
+  .project_image {
     width: 120px;
     height: 120px;
     max-width: 100%;
@@ -67,6 +42,7 @@
     overflow: hidden;
     box-shadow: $shadow;
     border-radius: $rounded;
+    transition: all $fast;
 
     img {
       object-fit: cover;
@@ -75,33 +51,13 @@
       transition: transform $slow;
     }
 
-    &:hover img {
+    &:hover {
       transform: scale(1.05);
+      box-shadow: $shadow;
     }
   }
 
-  .citation_image_small {
-    width: 80px;
-    height: 80px;
-    max-width: 100%;
-    flex-shrink: 0;
-    overflow: hidden;
-    box-shadow: $shadow;
-    border-radius: $rounded;
-
-    img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      transition: transform $slow;
-    }
-
-    &:hover img {
-      transform: scale(1.05);
-    }
-  }
-
-  .citation_text {
+  .project_text {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -110,13 +66,12 @@
     width: 100%;
     flex-grow: 1;
 
-    .citation_title {
+    .project_title {
       font-weight: 600;
       font-size: 1.1rem;
       line-height: 1.4;
       color: inherit;
       opacity: 0.95;
-      padding-right: 30px; // Space for award badge
 
       a {
         color: inherit;
@@ -128,7 +83,7 @@
       }
     }
 
-    .citation_authors {
+    .project_authors {
       font-size: 0.95rem;
       opacity: 0.85;
       line-height: 1.5;
@@ -141,7 +96,7 @@
       }
     }
 
-    .citation_details {
+    .project_details {
       font-size: 0.9rem;
       opacity: 0.7;
       font-style: italic;
@@ -153,7 +108,7 @@
       flex-wrap: wrap;
     }
 
-    .citation_links {
+    .project_links {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
@@ -170,36 +125,24 @@
     padding: 20px;
     gap: 16px;
 
-    &[data-award="true"]::before {
-      top: 12px;
-      right: 12px;
-      font-size: 1rem;
+    .project_image {
+      width: 80px;
+      height: 80px;
     }
 
-    .citation_image {
-      width: 0px;
-      height: 0px;
-    }
-
-    .citation_image_small {
-      width: 0px;
-      height: 0px;
-    }
-
-    .citation_text {
+    .project_text {
       width: 100%;
       gap: 10px;
 
-      .citation_title {
+      .project_title {
         font-size: 1rem;
-        padding-right: 25px;
       }
 
-      .citation_authors {
+      .project_authors {
         font-size: 0.9rem;
       }
 
-      .citation_details {
+      .project_details {
         font-size: 0.85rem;
       }
     }
