@@ -585,8 +585,7 @@
   publisher: CoRR
   date: 2025-9-25
   link: https://doi.org/10.48550/arXiv.2509.06586
-- id: what scales in cross-entropy scaling law?
-  title: What Scales in Cross-Entropy Scaling Law?
+- title: What Scales in Cross-Entropy Scaling Law?
   authors:
   - Junxi Yan
   - Zixi Wei
@@ -596,8 +595,7 @@
   publisher: CoRR
   date: '2025-10-12'
   link: https://doi.org/10.48550/arXiv.2510.04067
-- id: 'from to : multidimensional supervision of reasoning process for llm optimization'
-  title: 'From to : Multidimensional Supervision of Reasoning Process for LLM Optimization'
+- title: 'From to : Multidimensional Supervision of Reasoning Process for LLM Optimization'
   authors:
   - Beining Wang
   - Weihang Su
@@ -610,8 +608,7 @@
   publisher: CoRR
   date: '2025-10-11'
   link: https://doi.org/10.48550/arXiv.2510.11457
-- id: 'memorybench: a benchmark for memory and continual learning in llm systems'
-  title: 'MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems'
+- title: 'MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems'
   authors:
   - Qingyao Ai
   - Yichen Tang
@@ -622,8 +619,7 @@
   publisher: CoRR
   date: '2025-10-10'
   link: https://doi.org/10.48550/arXiv.2510.17281
-- id: relative-based scaling law for neural language models
-  title: Relative-Based Scaling Law for Neural Language Models
+- title: Relative-Based Scaling Law for Neural Language Models
   authors:
   - Baoqing Yue
   - Jinyuan Zhou
@@ -634,8 +630,7 @@
   publisher: CoRR
   date: 2025-10-9
   link: https://doi.org/10.48550/arXiv.2510.20387
-- id: generalized pseudo-relevance feedback
-  title: Generalized Pseudo-Relevance Feedback
+- title: Generalized Pseudo-Relevance Feedback
   authors:
   - Yiteng Tu
   - Weihang Su
@@ -647,9 +642,7 @@
   publisher: CoRR
   date: 2025-10-8
   link: https://doi.org/10.48550/arXiv.2510.25488
-- id: 'twinvoice: a multi-dimensional benchmark towards digital twins via llm persona
-    simulation'
-  title: 'TwinVoice: A Multi-dimensional Benchmark Towards Digital Twins via LLM Persona
+- title: 'TwinVoice: A Multi-dimensional Benchmark Towards Digital Twins via LLM Persona
     Simulation'
   authors:
   - Bangde Du
@@ -1829,9 +1822,7 @@
     Data Mining, Virtual Event, Singapore, August 14-18, 2021'
   date: '2021-01-01'
   link: https://doi.org/10.1145/3447548.3469444
-- id: 'ultre framework: a framework for unbiased learning to rank evaluation based
-    on simulation of user behavior'
-  title: 'ULTRE Framework: a Framework for Unbiased Learning to Rank Evaluation based
+- title: 'ULTRE Framework: a Framework for Unbiased Learning to Rank Evaluation based
     on Simulation of User Behavior'
   authors:
   - Yurou Zhao
