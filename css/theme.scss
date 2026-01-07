@@ -4,19 +4,6 @@ $accent: $indigo-800;      // Deep Academic Blue
 $light-accent: $indigo-100; // Soft backing
 $dark-accent: $indigo-900;
 $highlight: #C5A059;       // Muted Gold for awards/calls to action
-$highlight-light: #E6CFA0; // Lighter gold for backgrounds
-$highlight-dark: #8E7035;  // Darker gold for text/borders
-
-// Semantic Colors
-$info: $blue-700;
-$success: $green-700;
-$warning: $amber-800;
-$error: $red-800;
-
-// Glassmorphism
-$glass-surface: rgba(255, 255, 255, 0.7);
-$glass-border: rgba(255, 255, 255, 0.4);
-$glass-blur: 12px;
 
 // font types
 // also see /_includes/fonts.html to change fonts
@@ -24,38 +11,17 @@ $serif: "Lora", serif;
 $sans: "Poppins", sans-serif;
 $mono: "Cousine", monospace;
 
-// Modular Scale (Major Third - 1.25)
-$text-xs: 0.8rem;
-$text-sm: 0.9rem;   // Small body text
-$text-base: 1rem;   // Body text (16px)
-$text-lg: 1.25rem;  // h4
-$text-xl: 1.563rem; // h3
-$text-2xl: 1.953rem; // h2
-$text-3xl: 2.441rem; // h1
-$text-4xl: 3.052rem; // Display
-
 // line spacing
 $spacing: 1.6; // Improved readability
-$leading-tight: 1.2;
-$leading-snug: 1.375;
-$leading-normal: 1.6;
-$leading-relaxed: 1.8;
 
 // transitions
 $fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 $slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-$bounce: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 // effects
-$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 $shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); // Soft modern shadow
-$shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-$shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-
-$hover-shadow: $shadow-md;
+$hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 $rounded: 8px;
-$rounded-lg: 12px;
-$rounded-xl: 16px;
 
 // screen widths
 // used by various components

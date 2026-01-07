@@ -6,11 +6,8 @@
 @import "mixins";
 
 p {
-  margin: 1.5rem 0;
+  margin: 20px 0;
   @include trim-v-margins;
   text-align: justify;
-  line-height: $leading-relaxed;
-  font-family: $serif; // Explicitly ensure serif
-  font-size: $text-base;
-  color: $gray-800; // Softer black for reading comfort
+  line-height: $spacing + 0.3;
 }

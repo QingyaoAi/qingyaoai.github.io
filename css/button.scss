@@ -12,27 +12,16 @@ button {
   max-width: calc(100% - 10px - 10px);
   min-height: 40px;
   margin: 0;
-  padding: 8px 20px;
+  padding: 7.5px 15px;
   border: none;
   border-radius: $rounded;
   background: $accent;
   color: $white;
-  font-family: $sans;
-  font-weight: 500;
-  font-size: 0.95rem;
-  letter-spacing: 0.02em;
+  font-size: 1rem;
   cursor: pointer;
-  transition: all $fast;
-  box-shadow: $shadow;
-  
+  transition: background $fast;
+
   &:hover {
-    background: $dark-accent;
-    transform: translateY(-1px);
-    box-shadow: $shadow-md;
-  }
-  
-  &:active {
-    transform: translateY(1px);
-    box-shadow: $shadow-sm;
+    background: $gray-500;
   }
 }
