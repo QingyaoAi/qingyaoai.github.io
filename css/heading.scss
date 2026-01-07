@@ -10,36 +10,57 @@ h2,
 h3,
 h4 {
   font-family: $sans;
-  font-weight: $medium;
-  line-height: $spacing - 0.3;
-  margin: 40px 0 20px 0;
+  font-weight: $semi-bold; // Slightly bolder for better definition
+  line-height: $leading-tight;
+  margin: 3rem 0 1.5rem 0;
+  color: $gray-900;
   @include trim-v-margins;
   padding: 10px 0;
 }
 
 h1 {
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-size: $text-3xl;
+  letter-spacing: -0.02em; // Tighter tracking for large text
+  text-transform: none; // Remove uppercase for a more academic/modern look
+  font-weight: $bold;
   text-align: center;
+  color: $accent; // Use accent color for main title
 
   & + p {
-    margin-top: 40px;
+    margin-top: 2.5rem;
+    font-size: $text-lg; // Lead paragraph size
+    color: $gray-600;
   }
 }
 
 h2 {
-  font-size: 1.3rem;
-  letter-spacing: 1px;
+  font-size: $text-2xl;
+  letter-spacing: -0.01em;
   text-align: center;
+  position: relative;
+  
+  // Optional: subtle underline indicator
+  &:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: $highlight;
+    margin: 12px auto 0;
+    border-radius: 2px;
+  }
 }
 
 h3 {
-  font-size: 1.2rem;
-  text-align: center;
+  font-size: $text-xl;
+  font-weight: $medium;
+  text-align: left; // Better for section headers
+  color: $gray-800;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: $text-lg;
+  font-weight: $medium;
   text-align: left;
+  color: $gray-700;
 }
