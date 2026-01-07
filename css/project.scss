@@ -63,8 +63,9 @@
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
-    width: 100%;
+    width: calc(100% - 140px); // Subtract image width and gap
     flex-grow: 1;
+    min-width: 0; // Fix for flexbox overflow issues
 
     .project_title {
       font-weight: 600;
@@ -136,6 +137,7 @@
 
       .project_title {
         font-size: 1rem;
+        word-break: break-word; // Ensure long titles wrap on small screens
       }
 
       .project_authors {

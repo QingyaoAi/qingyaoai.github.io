@@ -15,6 +15,13 @@
   text-align: right;
 }
 
+.recruitment-message {
+  color: $red-800; // Strong but professional red
+  font-weight: $bold;
+  font-size: 1.25rem;
+  font-family: $sans;
+  display: inline-block;
+}
 
 .truncate:not(:focus) {
   max-width: 100%;

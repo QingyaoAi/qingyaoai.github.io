@@ -1,25 +1,27 @@
 // colors for links, tags, etc.
 // see palettes.scss for available colors
-$accent: $light-blue-500;
-$light-accent: $light-blue-200;
-$dark-accent: $light-blue-900;
+$accent: $indigo-800;      // Deep Academic Blue
+$light-accent: $indigo-100; // Soft backing
+$dark-accent: $indigo-900;
+$highlight: #C5A059;       // Muted Gold for awards/calls to action
 
 // font types
 // also see /_includes/fonts.html to change fonts
-$serif: "Lora", serif; // font name, fallback font type
+$serif: "Lora", serif; 
 $sans: "Poppins", sans-serif;
 $mono: "Cousine", monospace;
 
 // line spacing
-$spacing: 1.5;
+$spacing: 1.6; // Improved readability
 
 // transitions
-$fast: 0.25s ease;
-$slow: 0.5s ease;
+$fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+$slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 
 // effects
-$shadow: 0 0 5px 0 #00000030;
-$rounded: 5px;
+$shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); // Soft modern shadow
+$hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$rounded: 8px;
 
 // screen widths
 // used by various components

@@ -36,7 +36,7 @@ Lab & Office: FIT-1-506<br/>
 {% capture main_panel %}
 
 
-<span style="color:red; font-weight:bold; font-size:20px">I'm actively recruiting PostDocs and Ph.D. candidates! </span>
+<span class="recruitment-message">I'm actively recruiting PostDocs and Ph.D. candidates! </span>
 If you are interested, please send me an email or check about the links [here](https://ai.thuir.cn/opportunities/).
 
 My research mainly focuses on Information Retrieval and related topics. Currently I'm working on integrating retrieval and generative AI techniques to build better information access systems and agents, including retrieval/ranking optimization, retrieval augmented generation, automatic prompt refinement, continue learning for agents, and more. 

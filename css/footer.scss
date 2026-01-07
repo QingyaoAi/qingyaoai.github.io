@@ -11,11 +11,11 @@ footer {
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding: 40px;
-  color: $white;
-  background: $gray-800;
+  padding: 60px 20px;
+  color: $gray-400; // Softer text
+  background: $gray-900;
   text-align: center;
-  box-shadow: $shadow;
+  border-top: 4px solid $accent; // Theme accent
   position: relative;
 
   & * {
@@ -27,23 +27,31 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
-    line-height: $spacing + 0.3;
+    gap: 15px;
+    line-height: $spacing;
 
     .link {
       margin: 0;
+      color: $white;
+      transition: opacity $fast;
     }
 
     &:hover .link {
-      opacity: 0.25;
+      opacity: 0.5; // Less aggressive fading
     }
 
     .link:hover {
       opacity: 1;
+      color: $highlight; // Gold highlight on hover
     }
   }
 
   a {
     color: currentColor;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
   }
 }
