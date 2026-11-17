@@ -13,12 +13,6 @@ const createAnchors = () => {
     link.setAttribute("aria-label", "Link to this section");
     heading.append(link);
 
-    // if first heading in the section, move id from heading to parent section
-    const parent = heading.parentElement;
-    if (parent.matches("section")) {
-      parent.id = heading.id;
-      heading.removeAttribute("id");
-    }
   }
 };
 
@@ -27,6 +21,8 @@ const onHashChange = () => {
   const id = window.location.hash.replace("#", "");
   let element = document.getElementById(id);
   if (!element) return;
+  const group = element.closest("details");
+  if (group) group.open = true;
   element.dataset.glow = true;
   window.setTimeout(() => (element.dataset.glow = false), 2000);
 };
@@ -35,3 +31,10 @@ const onHashChange = () => {
 window.addEventListener("load", createAnchors);
 window.addEventListener("load", onHashChange);
 window.addEventListener("hashchange", onHashChange);
+
+document.addEventListener("click", (event) => {
+  const link = event.target.closest(".year-nav a");
+  if (!link) return;
+  const group = document.getElementById(link.hash.slice(1));
+  if (group) group.open = true;
+});

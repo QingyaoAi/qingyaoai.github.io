@@ -123,12 +123,17 @@
   }
 
   @media (max-width: $phone) {
-    padding: 20px;
+    flex-direction: column;
+    padding: 16px;
     gap: 16px;
 
+    &[data-style="rich"] {
+      padding: 16px;
+    }
+
     .project_image {
-      width: 80px;
-      height: 80px;
+      width: 72px;
+      height: 72px;
     }
 
     .project_text {

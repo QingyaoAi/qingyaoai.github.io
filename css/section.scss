@@ -18,9 +18,7 @@ body {
   font-family: $serif;
 
   main {
-    // display: flex;
-    // flex-direction: column;
-    // flex-grow: 1;
+    flex-grow: 1;
   }
 
   section {
@@ -44,5 +42,17 @@ body {
 
   section:last-of-type {
     flex-grow: 1;
+  }
+
+  @media (max-width: $tablet) {
+    section {
+      padding: 36px 24px;
+    }
+  }
+
+  @media (max-width: $phone) {
+    section {
+      padding: 28px 20px;
+    }
   }
 }

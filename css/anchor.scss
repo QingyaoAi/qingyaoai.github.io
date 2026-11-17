@@ -5,6 +5,10 @@
 @import "theme";
 @import "mixins";
 
+[id] {
+  scroll-margin-top: 110px;
+}
+
 h1,
 h2,
 h3,

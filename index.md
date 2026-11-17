@@ -8,36 +8,33 @@ nav:
 
 {% capture left_panel %}
 
-{%- assign image = "/images/profile.jpg" | default: "" -%}
-![Qingyao Ai]({{ image | relative_url }})
+<div class="profile-visual">
+  <img class="profile-photo" src="{{ '/images/profile.jpg' | relative_url }}" alt="Qingyao Ai" width="255" height="225" />
+</div>
+
 # Qingyao Ai
-<p class="center">
+<p class="profile-info">
 Associate Professor<br/>
 Dept. of CS&T, Tsinghua University<br/>
 Lab & Office: FIT-1-506<br/>
+</p>
 
+<div class="profile-links">
 {%- include link.html type="google-scholar" icon="" text="Google Scholar" tooltip="" link="UKqaI5IAAAAJ" -%}
 {%- include link.html type="github" icon="" text="" tooltip="" link="QingyaoAi" -%}
 {%- include link.html type="twitter" icon="" text="" tooltip="" link="QingyaoAi" -%}
 {%- include link.html type="email" icon="" text="Email" tooltip="" link="aiqy@tsinghua.edu.cn" -%}
-{%- include linkedin_timeline.html -%}
-<!--
-{%- include link.html type="google-scholar" icon="" text="Google Scholar" tooltip="" link="UKqaI5IAAAAJ" -%}<br/>
-{%- include link.html type="github" icon="" text="Github" tooltip="" link="QingyaoAi" -%}<br/>
-{%- include link.html type="twitter" icon="" text="Twitter" tooltip="" link="QingyaoAi" -%}<br/>
-{%- include link.html type="linkedin" icon="" text="Linkedin" tooltip="" link="qingyao-ai-4ab8306a" -%}<br/>
-{%- include link.html type="email" icon="" text="Email" tooltip="" link="aiqy@tsinghua.edu.cn" -%}<br/>
-{%- include linkedin_timeline.html -%}
--->
-</p>
+</div>
 
 {% endcapture %}
 
 {% capture main_panel %}
 
 
-<span class="recruitment-message">I'm actively recruiting PostDocs and Ph.D. candidates! </span>
-If you are interested, please send me an email or check about the links [here](https://ai.thuir.cn/opportunities/).
+<div class="recruitment-callout">
+  <strong>I'm actively recruiting PostDocs and Ph.D. candidates!</strong>
+  <span>If you are interested, please <a href="mailto:aiqy@tsinghua.edu.cn">send me an email</a> or explore <a href="https://ai.thuir.cn/opportunities/">open positions &rarr;</a></span>
+</div>
 
 My research mainly focuses on Information Retrieval and related topics. Currently I'm working on integrating retrieval and generative AI techniques to build better information access systems and agents, including retrieval/ranking optimization, retrieval augmented generation, automatic prompt refinement, continue learning for agents, and more. 
 
@@ -45,7 +42,7 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 
-**Experience**
+## Experience
 - Tsinghua University, Associate Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Dec. 2024 - Now
 - Tsinghua University, Assistant Professor at [THUIR](http://ai.thuir.cn/). Beijing, China, Aug. 2022 - Dec. 2024
 - University of Utah, Tenure-track Assistant Professor. Salt Lake City, UT, USA, Aug. 2019 - Jun. 2022
@@ -57,7 +54,7 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 
-**Achievements**
+## Achievements
 - [ACM CIKM 2026 Test of Time Award](http://www.cikmconference.org/cikmToTA.html) - 2026
 - [WLF Prize for Young Scientists Finalist](https://www.thewlaprize.org.cn/) - 2026
 - [Ant InTech Award - Future](https://www.antresearch.com/cooperation/InTech) - 2026
@@ -78,7 +75,7 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 
-**Services**
+## Services
 - NTCIR-18/19 Program Co-Chair
 - SIGIR 2027 Doctoral Colloquium Co-Chair
 - SIGIR Student Affairs Co-Chair
@@ -97,4 +94,11 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 {% endcapture %}
 
-{% include two-col.html leftcol=left_panel rightcol=main_panel left=3 right=9 %}
+<div class="home-layout">
+  <aside class="home-profile">{{ left_panel | markdownify }}</aside>
+  <div class="home-content">{{ main_panel | markdownify }}</div>
+  <details class="home-updates">
+    <summary>Updates on LinkedIn</summary>
+    {% include linkedin_timeline.html %}
+  </details>
+</div>

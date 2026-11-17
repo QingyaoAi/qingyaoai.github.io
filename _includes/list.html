@@ -26,14 +26,29 @@
 {%- endfor -%}
 
 {%- assign years = data | group_by_exp: "d", "d.date | date: '%Y'" | sort: "name" | reverse -%}
+{%- assign split_by_year = include.split_by_year | default: "true" -%}
+
+{%- if include.collapsible -%}
+  <nav class="year-nav" aria-label="Publication years">
+    {%- for year in years -%}
+      <a href="#{{ year.name }}">{{ year.name }}</a>
+    {%- endfor -%}
+  </nav>
+{%- endif -%}
 
 {%- for year in years -%}
 
 {%- assign items = year.items -%}
 
-{%- assign split_by_year = include.split_by_year | default: "true" -%}
 {%- if years.size > 1 and split_by_year == "true" -%}
-  <h3 id="{{ year.name }}">{{ year.name }}</h3>
+  {%- if include.collapsible -%}
+    <details class="publication-year search-group" id="{{ year.name }}" {% if forloop.first %}open{% endif %}>
+      <summary><span>{{ year.name }}</span><span class="year-count">{{ year.items.size }} papers</span></summary>
+      <div class="year-items">
+  {%- else -%}
+    <div class="search-group">
+      <h3 id="{{ year.name }}">{{ year.name }}</h3>
+  {%- endif -%}
   {%- assign sort_by_date = include.sort_by_date | default: "true" -%}
   {%- if sort_by_date -%}
     {%- assign items = items | sort: "date" | reverse -%}
@@ -80,5 +95,14 @@
   -%}
 
 {%- endfor -%}
+
+{%- if years.size > 1 and split_by_year == "true" -%}
+  {%- if include.collapsible -%}
+      </div>
+    </details>
+  {%- else -%}
+    </div>
+  {%- endif -%}
+{%- endif -%}
 
 {%- endfor -%}

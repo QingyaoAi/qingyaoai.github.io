@@ -3,7 +3,7 @@
 // syntax: term1 term2 "full phrase 1" "full phrase 2" "tag: tag 1"
 
 // components to filter
-const componentSelector = ".card, .citation, .post_excerpt";
+const componentSelector = ".card, .mycard, .citation, .project, .post_excerpt";
 // search box element
 const boxSelector = ".search_box";
 // results info element
@@ -42,7 +42,7 @@ const componentMatches = (component, { terms, phrases, tags }) => {
 
   // check if text content exists in component
   const hasText = (string) =>
-    normalizeString(component.innerText).includes(string);
+    normalizeString(component.textContent).includes(string);
   // check if text matches a tag in component
   const hasTag = (string) =>
     componentTags.some((tag) => normalizeString(tag.innerText) === string);
@@ -155,6 +155,29 @@ const searchComponents = (query = "") => {
   resetHighlights();
   const parts = splitQuery(query);
   const [x, n] = filterComponents(parts);
+  document.querySelectorAll(".search-group").forEach((group) => {
+    const items = [...group.querySelectorAll(componentSelector)];
+    const visibleCount = items.filter((item) => item.dataset.hide !== "true").length;
+    const matches = visibleCount > 0;
+    group.dataset.hide = !matches;
+    if (group.tagName !== "DETAILS") return;
+    const count = group.querySelector(".year-count");
+    const paperCount = query.trim() ? visibleCount : items.length;
+    count.textContent = `${paperCount} ${paperCount === 1 ? "paper" : "papers"}`;
+    if (query.trim()) {
+      if (!("beforeSearch" in group.dataset)) {
+        group.dataset.beforeSearch = String(group.open);
+      }
+      group.open = matches;
+    } else if ("beforeSearch" in group.dataset) {
+      group.open = group.dataset.beforeSearch === "true";
+      delete group.dataset.beforeSearch;
+    }
+  });
+  document.querySelectorAll(".year-nav a").forEach((link) => {
+    const group = document.getElementById(link.hash.slice(1));
+    link.dataset.hide = group && group.dataset.hide === "true";
+  });
   updateBox(query);
   updateInfo(query, x, n);
   updateTags(query);

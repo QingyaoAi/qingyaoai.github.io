@@ -1,5 +1,6 @@
 ---
 title: Teaching
+body-class: teaching-page
 nav:
   order: 8
 
@@ -32,4 +33,4 @@ nav:
   * Fall 2020
   * Spring 2020
   
-   
+

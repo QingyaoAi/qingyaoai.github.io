@@ -50,12 +50,12 @@
     </div>
 
     {%- assign authors = citation.authors | default: emptyarray -%}
-    <div
-      class="citation_authors truncate"
-      tabindex="0"
-    >
-      {{ authors | join: ", " }}
-    </div>
+    {%- capture own_name -%}<strong>{{ site.title }}</strong>{%- endcapture -%}
+    {%- assign author_list = authors | join: ", " | replace: site.title, own_name -%}
+    <details class="citation_authors">
+      <summary><span class="authors-preview">{{ author_list }}</span><span class="authors-toggle">Authors</span></summary>
+      <div class="authors-full">{{ author_list }}</div>
+    </details>
 
     {%- assign publisher = citation.publisher | default: "[no publisher info]" -%}
     {%- assign date = citation.date | default: "[no date info]" -%}
@@ -67,7 +67,10 @@
       {%- assign repo = citation.repo | default: "" -%}
       {%- assign extra-links = citation.extra-links | default: emptyarray -%}
 
-      {%- include tags.html tags=tags repo=repo -%}
+      {%- if tags.size > 0 or repo != "" -%}
+        {%- include tags.html tags=tags repo=repo -%}
+      {%- endif -%}
+      {%- if extra-links.size > 0 -%}
       <div class="citation_links">
         {%- for extra in extra-links -%}
           {%- assign type = extra.type | default: "" -%}
@@ -77,6 +80,7 @@
           {%- include link.html type=type icon=icon text=text link=link -%}
         {%- endfor -%}
       </div>
+      {%- endif -%}
     {%- endif -%}
     
   </div>

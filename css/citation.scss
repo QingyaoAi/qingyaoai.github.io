@@ -12,13 +12,12 @@
   gap: 20px;
   width: 100%;
   max-width: 100%;
-  margin: 20px 0;
+  margin: 12px 0;
   @include trim-v-margins;
-  padding: 24px;
+  padding: 18px 20px;
   border-radius: $rounded;
   background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-  box-shadow: $shadow;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.06);
   text-align: left;
   transition: all $fast;
@@ -31,7 +30,7 @@
   }
 
   &[data-style="rich"] {
-    padding: 24px;
+    padding: 18px 20px;
     border: 1px solid rgba(0, 0, 0, 0.06);
   }
 
@@ -106,17 +105,17 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    gap: 12px;
+    gap: 6px;
     width: 100%;
+    min-width: 0;
     flex-grow: 1;
 
     .citation_title {
       font-weight: 600;
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       line-height: 1.4;
       color: inherit;
       opacity: 0.95;
-      padding-right: 30px; // Space for award badge
 
       a {
         color: inherit;
@@ -129,22 +128,53 @@
     }
 
     .citation_authors {
-      font-size: 0.95rem;
-      opacity: 0.85;
+      width: 100%;
+      min-width: 0;
+      font-size: 0.9rem;
+      color: $gray-700;
       line-height: 1.5;
 
-      &.truncate {
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
+      summary {
+        display: flex;
+        gap: 12px;
+        align-items: baseline;
+        cursor: pointer;
+        list-style: none;
+      }
+
+      summary::-webkit-details-marker { display: none; }
+
+      .authors-preview {
+        min-width: 0;
         overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .authors-toggle {
+        flex-shrink: 0;
+        color: $accent;
+        font-family: $sans;
+        font-size: 0.75rem;
+
+        &::before { content: "+ "; }
+      }
+
+      &[open] {
+        .authors-preview { display: none; }
+        .authors-toggle::before { content: "− "; }
+      }
+
+      .authors-full {
+        padding-top: 6px;
       }
     }
 
     .citation_details {
       font-size: 0.9rem;
-      opacity: 0.7;
-      font-style: italic;
+      color: $gray-600;
+      line-height: 1.6;
+      font-style: normal;
     }
 
     .tags {
@@ -167,8 +197,10 @@
   }
 
   @media (max-width: $phone) {
-    padding: 20px;
+    padding: 16px;
     gap: 16px;
+
+    &[data-style="rich"] { padding: 16px; }
 
     &[data-award="true"]::before {
       top: 12px;
@@ -188,11 +220,10 @@
 
     .citation_text {
       width: 100%;
-      gap: 10px;
+      gap: 8px;
 
       .citation_title {
         font-size: 1rem;
-        padding-right: 25px;
       }
 
       .citation_authors {
@@ -203,5 +234,64 @@
         font-size: 0.85rem;
       }
     }
+  }
+
+  &[data-award="true"] .citation_title { padding-right: 24px; }
+}
+
+.year-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 24px 0 32px;
+  font-family: $sans;
+
+  a {
+    padding: 7px 12px;
+    border: 1px solid $gray-200;
+    border-radius: 6px;
+    font-size: 0.85rem;
+
+    &:hover { background: $light-accent; text-decoration: none; }
+  }
+}
+
+.publication-year {
+  text-align: left;
+  margin: 12px 0;
+  border-top: 1px solid $gray-200;
+
+  > summary {
+    cursor: pointer;
+    padding: 18px 4px;
+    font-family: $sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    .year-count {
+      float: right;
+      color: $gray-600;
+      font-size: 0.85rem;
+      font-weight: 400;
+      line-height: 1.8;
+    }
+  }
+
+  .year-items { padding-bottom: 12px; }
+}
+
+.search-group + .search-group { margin-top: 32px; }
+.publication-year + .publication-year { margin-top: 12px; }
+
+@media (max-width: $phone) {
+  .year-nav {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    margin: 20px 0;
+    padding-bottom: 8px;
+
+    a { flex-shrink: 0; }
   }
 }
