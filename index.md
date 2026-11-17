@@ -10,7 +10,7 @@ nav:
 
 {%- assign image = "/images/profile.jpg" | default: "" -%}
 ![Qingyao Ai]({{ image | relative_url }})
-# Qingyao Ai 艾清遥
+# Qingyao Ai
 <p class="center">
 Associate Professor<br/>
 Dept. of CS&T, Tsinghua University<br/>
@@ -58,6 +58,9 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 **Achievements**
+- [ACM CIKM 2026 Test of Time Award](http://www.cikmconference.org/cikmToTA.html) - 2026
+- [WLF Prize for Young Scientists Finalist](https://www.thewlaprize.org.cn/) - 2026
+- [Ant InTech Award - Future](https://www.antresearch.com/cooperation/InTech) - 2026
 - Qian Weichang Chinese Information Processing Science and Technology Youth Innovation Award - 2024
 - Qian Weichang Chinese Information Processing Science and Technology Nature and Science Award - First Prize - 2024
 - [ACM SIGIR Early Career Researcher Award](https://sigir.org/awards/sigir-ecr-awards/) - 2024
@@ -76,7 +79,8 @@ I got my MS/Ph.D degree from College of Information and Computer Sciences, Unive
 
 
 **Services**
-- NTCIR-18 Program Co-Chair
+- NTCIR-18/19 Program Co-Chair
+- SIGIR 2027 Doctoral Colloquium Co-Chair
 - SIGIR Student Affairs Co-Chair
 - CCIR Student Affairs Co-Chair
 - SIGIR-AP 2023 General Co-Chair
