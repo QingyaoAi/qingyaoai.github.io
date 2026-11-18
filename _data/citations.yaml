@@ -1,5 +1,637 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM DBLP.
 
+- title: Report on the Search Futures Workshop at ECIR 2026
+  authors:
+  - Leif Azzopardi
+  - Charles L. A. Clarke
+  - Claudia Hauff
+  - Yubin Kim
+  - Adam Roegiest
+  - Johanne R. Trippas
+  - Zhaochun Ren
+  - Saber Zerhoudi
+  - Qingyao Ai
+  - Shakiba Amirshahi
+  - Marcel Gohsen
+  - Jaap Kamps
+  - Jussi Karlgren
+  - Yiqun Liu
+  - Shuo Miao
+  - Behnaz Nojavanasghari
+  - Jingfen Qiao
+  - Naren Ramakrishnan
+  - Eunice Son
+  - Yiteng Tu
+  - Suzan Verberne
+  - Yumeng Wang
+  - Chen Xu
+  - Raquib Bin Yousuf
+  - Jujia Zhao
+  publisher: SIGIR Forum
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3841298.3841307
+- title: User Immersion-aware Short Video Recommendation
+  authors:
+  - Zhiyu He
+  - Shaorun Zhang
+  - Weizhi Ma
+  - Jiayu Li
+  - Peijie Sun
+  - Qingyao Ai
+  - Yiqun Liu
+  - Min Zhang
+  publisher: ACM Trans. Inf. Syst.
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3748303
+- title: 'Auto-PRE: An Automatic and Cost-Efficient Peer-Review Framework for Language
+    Generation Evaluation'
+  authors:
+  - Junjie Chen
+  - Weihang Su
+  - Zhumin Chu
+  - Haitao Li
+  - Yujia Zhou
+  - Dingbo Yuan
+  - Xudong Wang
+  - Jun Zhou
+  - Yiqun Liu
+  - Min Zhang
+  - Shaoping Ma
+  - Qingyao Ai
+  publisher: AAAI
+  date: '2026-01-01'
+  link: https://doi.org/10.1609/AAAI.V40I36.40274
+- title: Investigating Prosocial Behavior Theory in LLM Agents Under Policy-Induced
+    Inequities
+  authors:
+  - Yujia Zhou
+  - Hexi Wang
+  - Qingyao Ai
+  - Zhen Wu
+  - Yiqun Liu
+  publisher: AAAI
+  date: '2026-01-01'
+  link: https://doi.org/10.1609/AAAI.V40I3.37209
+- title: 'Beyond Experience Retrieval: Learning to Generate Utility-Optimized Structured
+    Experience for Frozen LLMs'
+  authors:
+  - Xuancheng Li
+  - Haitao Li
+  - Yujia Zhou
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: ACL (1)
+  date: '2026-01-01'
+  link: https://doi.org/10.18653/V1/2026.ACL-LONG.1831
+- title: Chinese Court Simulation with LLM-Based Agents System
+  authors:
+  - Kaiyuan Zhang
+  - Jiaqi Li
+  - Yueyue Wu
+  - Haitao Li
+  - Cheng Luo
+  - Shaokun Zou
+  - Yujia Zhou
+  - Weihang Su
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: ACL (Findings)
+  date: '2026-01-01'
+  link: https://doi.org/10.18653/V1/2026.FINDINGS-ACL.411
+- title: Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation
+  authors:
+  - Junjie Chen
+  - Yuxi Dong
+  - Haitao Li
+  - Weihang Su
+  - Yujia Zhou
+  - Min Zhang
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: EMNLP
+  date: '2026-01-01'
+  link: https://aclanthology.org/2026.emnlp-main.473/
+- title: Multi-Source Retrieval and Reasoning for Legal Sentencing Prediction
+  authors:
+  - Junjie Chen
+  - Haitao Li
+  - Qilei Zhang
+  - Zhenghua Li
+  - Ya Zhang
+  - Quan Zhou
+  - Cheng Luo
+  - Yiqun Liu
+  - Min Zhang
+  - Yueyue Wu
+  - Dongsheng Guo
+  - Qingyao Ai
+  publisher: EMNLP
+  date: '2026-01-01'
+  link: https://aclanthology.org/2026.emnlp-main.481/
+- title: Parametric Social Identity Injection and Diversification in Public Opinion
+    Simulation
+  authors:
+  - Hexi Wang
+  - Yujia Zhou
+  - Bangde Du
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: KDD (2)
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3770855.3817926
+- title: Enhancing Judgment Document Generation via Agentic Legal Information Collection
+    and Rubric-Guided Optimization
+  authors:
+  - Weihang Su
+  - Xuanyi Chen
+  - Yueyue Wu
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: SIGIR
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3805712.3809928
+- title: 'SurGE: A Benchmark and Evaluation Framework for Scientific Survey Generation'
+  authors:
+  - Weihang Su
+  - Anzhe Xie
+  - Qingyao Ai
+  - Jianming Long
+  - Xuanyi Chen
+  - Jiaxin Mao
+  - Ziyi Ye
+  - Yiqun Liu
+  publisher: SIGIR
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3805712.3808598
+- title: Analytical Search
+  authors:
+  - Yiteng Tu
+  - Shuo Miao
+  - Weihang Su
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: SIGIR
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3805712.3808536
+- title: 'Equity vs. Equality: Optimizing Ranking Fairness for Tailored Provider Needs'
+  authors:
+  - Yiteng Tu
+  - Weihang Su
+  - Shuguang Han
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: SIGIR
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3805712.3809647
+- title: 'TEC: A Collection of Human Trial-and-error Trajectories for Problem Solving'
+  authors:
+  - Xinkai Zhang
+  - Jingtao Zhan
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: SIGIR
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3805712.3808611
+- title: 'LegalKit: A Modular Toolkit for Efficient Legal AI Evaluation'
+  authors:
+  - Shuo Miao
+  - Haitao Li
+  - Yueyue Wu
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: WWW (Companion Volume)
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3774905.3793126
+- title: A Causal Information-Flow Framework for Unbiased Learning-to-Rank
+  authors:
+  - Haoming Gong
+  - Qingyao Ai
+  - Zhihao Tao
+  - Yongfeng Zhang
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2601.05590
+- title: 'Evaluation of Large Language Models in Legal Applications: Challenges, Methods,
+    and Future Directions'
+  authors:
+  - Yiran Hu
+  - Huanghai Liu
+  - Chong Wang
+  - Kunran Li
+  - Tien-Hsuan Wu
+  - Haitao Li
+  - Xinran Xu
+  - Siqing Huo
+  - Weihang Su
+  - Ning Zheng
+  - Siyuan Zheng
+  - Qingyao Ai
+  - Yun Liu
+  - Renjun Bian
+  - Yiqun Liu
+  - Charles L. A. Clarke
+  - Weixing Shen
+  - Ben Kao
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2601.15267
+- title: 'MulFeRL: Enhancing Reinforcement Learning with Verbal Feedback in a Multi-turn
+    Loop'
+  authors:
+  - Xuancheng Li
+  - Haitao Li
+  - Yujia Zhou
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2601.22900
+- title: 'LegalOne: A Family of Foundation Models for Reliable Legal Reasoning'
+  authors:
+  - Haitao Li
+  - Yifan Chen
+  - Shuo Miao
+  - Qian Dong
+  - Jia Chen
+  - Yiran Hu
+  - Junjie Chen
+  - Minghao Qin
+  - Yueyue Wu
+  - Yujia Zhou
+  - Qingyao Ai
+  - Yiqun Liu
+  - Cheng Luo
+  - Quan Zhou
+  - Ya Zhang
+  - Jikun Hu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2602.00642
+- title: 'ATACompressor: Adaptive Task-Aware Compression for Efficient Long-Context
+    Processing in LLMs'
+  authors:
+  - Xuancheng Li
+  - Haitao Li
+  - Yujia Zhou
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: SIGIR-AP
+  date: '2025-01-01'
+  link: https://doi.org/10.1145/3767695.3769499
+- title: 'Beyond Exposure: Optimizing Ranking Fairness with Non-linear Time-Income
+    Functions'
+  authors:
+  - Xuancheng Li
+  - Tao Yang
+  - Yujia Zhou
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2602.03345
+- title: Multi-Field Tool Retrieval
+  authors:
+  - Yichen Tang
+  - Weihang Su
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2602.05366
+- title: Improve Large Language Model Systems with User Logs
+  authors:
+  - Changyue Wang
+  - Weihang Su
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2602.06470
+- title: Skill Retrieval Augmentation for Agentic AI
+  authors:
+  - Weihang Su
+  - Jianming Long
+  - Qingyao Ai
+  - Yichen Tang
+  - Changyue Wang
+  - Yiteng Tu
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2604.24594
+- title: Decoupling Knowledge and Task Subspaces for Composable Parametric Retrieval
+    Augmented Generation
+  authors:
+  - Weihang Su
+  - Hanwen Zhang
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2604.26768
+- title: 'How do Humans Process AI-generated Hallucination Contents: a Neuroimaging
+    Study'
+  authors:
+  - Shuqi Zhu
+  - Yi Zhong
+  - Ziyi Ye
+  - Bangde Du
+  - Yujia Zhou
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2605.16953
+- title: 'LexRubric: A Rubric-Guided Diagnostic Benchmark for Open-Ended Legal Tasks'
+  authors:
+  - Yifan Chen
+  - Haitao Li
+  - Yiran Hu
+  - Kaisong Song
+  - Jun Lin
+  - Yueyue Wu
+  - Qingyao Ai
+  - Min Zhang
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2606.09389
+- title: Civil Court Simulation with Large Language Models
+  authors:
+  - Yifan Chen
+  - Haitao Li
+  - Kaiyuan Zhang
+  - Yueyue Wu
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2606.09632
+- title: Adaptive Multi-Resolution Procedural Knowledge Compression for Large Language
+    Models
+  authors:
+  - Changyue Wang
+  - Weihang Su
+  - Qingyao Ai
+  - Yichen Tang
+  - Runzhong Qiao
+  - Xuancheng Li
+  - Min Zhang
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2606.12203
+- title: Decoupled Mixture-of-Experts for Parametric Knowledge Injection
+  authors:
+  - Baoqing Yue
+  - Weihang Su
+  - Qingyao Ai
+  - Yichen Tang
+  - Changyue Wang
+  - Jiacheng Kang
+  - Jingtao Zhan
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2606.14243
+- title: 'Retrievable Gradients: Continual Post-Training Without Cumulative Weight
+    Drift'
+  authors:
+  - Weihang Su
+  - Jiacheng Kang
+  - Jingyan Xu
+  - Qingyao Ai
+  - Jianming Long
+  - Hanwen Zhang
+  - Bangde Du
+  - Xinyuan Cao
+  - Min Zhang
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2606.15734
+- title: Benchmarking LLM Agents on Meta-Analysis Articles from Nature Portfolio
+  authors:
+  - Anzhe Xie
+  - Weihang Su
+  - Yujia Zhou
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2606.17041
+- title: 'RWGBench: Evaluating Scholarly Positioning in Related Work Generation'
+  authors:
+  - Anzhe Xie
+  - Weihang Su
+  - Jiaxin Mao
+  - Yiqun Liu
+  - Shaoping Ma
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2606.24894
+- title: Generative Chinese Statute Retrieval
+  authors:
+  - Yiteng Tu
+  - Zitao Su
+  - Weihang Su
+  - Xuanyi Chen
+  - Yueyue Wu
+  - Yiqun Liu
+  - Min Zhang
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2607.11109
+- title: Co-Evolving LLM Evaluators and Policies via DynamicRubric
+  authors:
+  - Beining Wang
+  - Weihang Su
+  - Hongtao Tian
+  - Hao Kong
+  - Tao Yang
+  - Ting Yao
+  - Qingyi Pan
+  - Yueyue Wu
+  - Qingyao Ai
+  - Min Zhang
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2607.20083
+- title: Structure-aware Relative Policy Optimization for Ranking
+  authors:
+  - Yiteng Tu
+  - Weihang Su
+  - Zitao Su
+  - Yiqun Liu
+  - Min Zhang
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2607.25268
+- title: 'Different Feedback, Different Updates: Selective Self-Learning from User
+    Interactions for Large Language Models'
+  authors:
+  - Xuanchen Li
+  - Haitao Li
+  - Yujia Zhou
+  - Qingyi Pan
+  - Heng Wang
+  - Yiqun Liu
+  - Min Zhang
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2608.09109
+- title: Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories
+  authors:
+  - Hexi Wang
+  - Yujia Zhou
+  - Bangde Du
+  - Weihang Su
+  - Xinyuan Cao
+  - Qingyi Pan
+  - Qingyao Ai
+  - Yueyue Wu
+  - Min Zhang
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2608.19621
+- title: 'GenRubric: Self-Evolving Rubric Generation for Scalable LLM Evaluation'
+  authors:
+  - Yifan Chen
+  - Haitao Li
+  - Qingyao Ai
+  - Fengbin Zhu
+  - Tat-Seng Chua
+  - Min Zhang
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2608.29856
+- title: 'EnGRICH: Enhancing Generative Reward Modeling with Critiques from Humans'
+  authors:
+  - Xuancheng Li
+  - Beining Wang
+  - Haitao Li
+  - Heng Wang
+  - Yujia Zhou
+  - Qingyi Pan
+  - Blaze Chen
+  - Yiqun Liu
+  - Min Zhang
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2610.05370
+- title: Overview of the NTCIR-19 Automatic Evaluation of LLMs 2 (AEOLLM-2) Task
+  authors:
+  - Junjie Chen
+  - Yuxi Dong
+  - Haitao Li
+  - Yiqun Liu
+  - Qingyao Ai
+  publisher: CoRR
+  date: '2026-01-01'
+  link: https://doi.org/10.48550/ARXIV.2610.11598
+- title: Report on the 18th Round of NII Testbeds and Community for Information Access
+    Research (NTCIR-18)
+  authors:
+  - Chung-Chi Chen
+  - Qingyao Ai
+  - Shoko Wakamiya
+  - Makoto P. Kato
+  - Yiqun Liu
+  - Charles L. A. Clarke
+  - Noriko Kando
+  publisher: SIGIR Forum
+  date: '2025-01-01'
+  link: https://doi.org/10.1145/3799914.3799924
+- title: 'SimVBG: Simulating Individual Values by Backstory Generation'
+  authors:
+  - Bangde Du
+  - Ziyi Ye
+  - Zhijing Wu
+  - Monika Jankowska
+  - Shuqi Zhu
+  - Qingyao Ai
+  - Yujia Zhou
+  - Yiqun Liu
+  publisher: EMNLP
+  date: '2025-01-01'
+  link: https://doi.org/10.18653/V1/2025.EMNLP-MAIN.662
+- title: 'PEPE: Long-context Extension for Large Language Models via Periodic Extrapolation
+    Positional Encodings'
+  authors:
+  - Jikun Hu
+  - Dongsheng Guo
+  - Yuli Liu
+  - Qingyao Ai
+  - Lixuan Wang
+  - Xuebing Sun
+  - Qilei Zhang
+  - Quan Zhou
+  - Cheng Luo
+  publisher: EMNLP (Findings)
+  date: '2025-01-01'
+  link: https://doi.org/10.18653/V1/2025.FINDINGS-EMNLP.1149
+- title: Dynamic and Parametric Retrieval Augmented Generation
+  authors:
+  - Weihang Su
+  - Qian Dong
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: SIGIR-AP
+  date: '2025-01-01'
+  link: https://doi.org/10.1145/3767695.3769672
+- title: 'Deep Research: A Systematic Survey'
+  authors:
+  - Zhengliang Shi
+  - Yiqun Chen
+  - Haitao Li
+  - Weiwei Sun
+  - Shiyu Ni
+  - Yougang Lyu
+  - Run-Ze Fan
+  - Bowen Jin
+  - Yixuan Weng
+  - Minjun Zhu
+  - Qiujie Xie
+  - Xinyu Guo
+  - Qu Yang
+  - Jiayi Wu
+  - Jujia Zhao
+  - Xiaqiang Tang
+  - Xinbei Ma
+  - Cunxiang Wang
+  - Jiaxin Mao
+  - Qingyao Ai
+  - Jen-tse Huang
+  - Wenxuan Wang
+  - Yue Zhang
+  - Yiming Yang
+  - Zhaopeng Tu
+  - Zhaochun Ren
+  publisher: CoRR
+  date: '2025-01-01'
+  link: https://doi.org/10.48550/ARXIV.2512.02038
+- title: Towards Unification of Hallucination Detection and Fact Verification for
+    Large Language Models
+  authors:
+  - Weihang Su
+  - Jianming Long
+  - Changyue Wang
+  - Shiyu Lin
+  - Jingyan Xu
+  - Ziyi Ye
+  - Qingyao Ai
+  - Yiqun Liu
+  publisher: CoRR
+  date: '2025-01-01'
+  link: https://doi.org/10.48550/ARXIV.2512.02772
 - title: 'Pre-Trained Models for Search and Recommendation: Introduction to the Special
     Issue - Part 1'
   authors:
@@ -484,9 +1116,9 @@
   - Weihang Su
   - Qingyao Ai
   - Yiqun Liu
-  publisher: CoRR
-  date: 2025-6-1
-  link: https://doi.org/10.48550/arXiv.2506.04832
+  publisher: AAAI
+  date: '2026-01-01'
+  link: https://doi.org/10.1609/AAAI.V40I39.40624
 - title: Augmenting Multi-Agent Communication with State Delta Trajectory
   authors:
   - Yichen Tang
@@ -496,9 +1128,9 @@
   - Min Zhang
   - Shaoping Ma
   - Qingyao Ai
-  publisher: CoRR
-  date: 2025-5-31
-  link: https://doi.org/10.48550/arXiv.2506.19209
+  publisher: EMNLP
+  date: '2025-01-01'
+  link: https://doi.org/10.18653/V1/2025.EMNLP-MAIN.518
 - title: 'LLMs on Trial: Evaluating Judicial Fairness for Large Language Models'
   authors:
   - Yiran Hu
@@ -514,9 +1146,9 @@
   - Yiqun Liu
   - Charles L. A. Clarke
   - Weixing Shen
-  publisher: CoRR
-  date: 2025-7-30
-  link: https://doi.org/10.48550/arXiv.2507.10852
+  publisher: ICLR
+  date: '2026-01-01'
+  link: https://proceedings.iclr.cc/paper_files/paper/2026/hash/28ba12956bcffefac28a31b4a0ce82cb-Abstract-Conference.html
 - title: 'SelfRACG: Enabling LLMs to Self-Express and Retrieve for Code Generation'
   authors:
   - Qian Dong
@@ -528,9 +1160,9 @@
   - Yao Hu
   - Yiqun Liu
   - Shaoping Ma
-  publisher: CoRR
-  date: 2025-7-29
-  link: https://doi.org/10.48550/arXiv.2507.19033
+  publisher: EMNLP
+  date: '2025-01-01'
+  link: https://doi.org/10.18653/V1/2025.EMNLP-MAIN.541
 - title: Are Recommenders Self-Aware? Label-Free Recommendation Performance Estimation
     via Model Uncertainty
   authors:
@@ -582,19 +1214,19 @@
   - Yiqun Liu
   - Yueyue Wu
   - Qingyao Ai
-  publisher: CoRR
-  date: 2025-9-25
-  link: https://doi.org/10.48550/arXiv.2509.06586
+  publisher: AAAI
+  date: '2026-01-01'
+  link: https://doi.org/10.1609/AAAI.V40I35.40177
 - title: What Scales in Cross-Entropy Scaling Law?
   authors:
   - Junxi Yan
   - Zixi Wei
-  - Jingtao Zhan
   - Qingyao Ai
   - Yiqun Liu
-  publisher: CoRR
-  date: '2025-10-12'
-  link: https://doi.org/10.48550/arXiv.2510.04067
+  - Jingtao Zhan
+  publisher: ICLR
+  date: '2026-01-01'
+  link: https://proceedings.iclr.cc/paper_files/paper/2026/hash/80f48ffa8022773973a4a5cec7cce19c-Abstract-Conference.html
 - title: 'From to : Multidimensional Supervision of Reasoning Process for LLM Optimization'
   authors:
   - Beining Wang
@@ -639,9 +1271,9 @@
   - Fen Lin
   - Qin Liu
   - Qingyao Ai
-  publisher: CoRR
-  date: 2025-10-8
-  link: https://doi.org/10.48550/arXiv.2510.25488
+  publisher: WWW
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3774904.3792078
 - title: 'TwinVoice: A Multi-dimensional Benchmark Towards Digital Twins via LLM Persona
     Simulation'
   authors:
@@ -656,9 +1288,9 @@
   - Yongfeng Zhang
   - Qingyao Ai
   - Yiqun Liu
-  publisher: CoRR
-  date: 2025-10-7
-  link: https://doi.org/10.48550/arXiv.2510.25536
+  publisher: ACL (Findings)
+  date: '2026-01-01'
+  link: https://doi.org/10.18653/V1/2026.FINDINGS-ACL.981
 - title: Comparing point-wise and pair-wise relevance judgment with brain signals
   authors:
   - Shuqi Zhu
@@ -1194,21 +1826,23 @@
   - Changyue Wang
   - Weihang Su
   - Qingyao Ai
+  - Yichen Tang
   - Yiqun Liu
-  publisher: CoRR
-  date: '2024-12-12'
-  link: https://doi.org/10.48550/arXiv.2412.17727
+  publisher: EMNLP
+  date: '2025-01-01'
+  link: https://doi.org/10.18653/V1/2025.EMNLP-MAIN.540
 - title: Unsupervised dense retrieval with conterfactual contrastive learning
   authors:
   - Haitian Chen
   - Qingyao Ai
+  - Yujia Zhou
   - Xiao Wang
   - Yiqun Liu
   - Fen Lin
   - Qin Liu
-  publisher: CoRR
-  date: '2024-12-11'
-  link: https://doi.org/10.48550/arXiv.2412.20756
+  publisher: WSDM
+  date: '2026-01-01'
+  link: https://doi.org/10.1145/3773966.3778015
 - title: 'Information Retrieval Meets Large Language Models: A Strategic Report from
     Chinese IR Community'
   authors:
@@ -1601,9 +2235,9 @@
   - Qingyao Ai
   - Xiaohui Xie
   - Yiqun Liu
-  publisher: CoRR
-  date: '2023-01-01'
-  link: https://doi.org/10.48550/arXiv.2309.15515
+  publisher: UbiComp Companion
+  date: '2024-01-01'
+  link: https://doi.org/10.1145/3675094.3678475
 - title: Aligning the Capabilities of Large Language Models with the Context of Information
     Retrieval via Contrastive Feedback
   authors:
