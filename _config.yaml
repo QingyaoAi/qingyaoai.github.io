@@ -23,7 +23,7 @@ auto-cite:
     - name: sources
       input:
         - ../_data/sources.yaml
-  dblp-link: https://dblp.uni-trier.de/pid/169/1808.ris
+  dblp-author: https://dblp.org/pid/169/1808
   output: ../_data/citations.yaml
   depth: 100
 
