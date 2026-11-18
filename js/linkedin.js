@@ -1,4 +1,4 @@
-// Load the social feed only when the visitor expands it.
+// Load the social feed the first time the panel opens.
 document.querySelectorAll(".home-updates").forEach((details) => {
   details.addEventListener("toggle", () => {
     if (!details.open || details.dataset.loaded) return;
@@ -8,4 +8,9 @@ document.querySelectorAll(".home-updates").forEach((details) => {
     script.async = true;
     details.append(script);
   });
+
+  // Match the single-column breakpoint in css/home.scss.
+  if (!window.matchMedia("(max-width: 991px)").matches) {
+    details.open = true;
+  }
 });
